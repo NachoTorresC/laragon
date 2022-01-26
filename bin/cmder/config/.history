@@ -1,0 +1,57 @@
+composer
+git
+php artisan -h
+cd proyecto
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm install
+npm audit fix
+npm audit fix --force
+npm run dev
+php artisan migrate
+php artisan db:seed
+npm audit fix
+npm audit fix --force
+npm run dev
+php artisan make:model Project -m
+php artisan migrate
+php artisan make:factory ProjectFactory --model=Project
+php artisan db:seed
+php artisan migrate
+php artisan db:seed
+npm audit fix
+npm audit fix --force
+npm run dev
+php artisan make:model Project -m
+php artisan make:factory ProjectFactory --model=Project
+php artisan db:seed
+php artisan make:factory ProjectFactory
+php artisan make:factory add_user_id_to_projects_table
+php artisan migrate:reset
+php artisan make:migation add_user_id_to_projects_table
+php artisan make:migration add_user_id_to_projects_table
+php artisan migrate
+php artisan migrate:status
+php artisan make:refresh --seed
+php artisan migration:refresh --seed
+php artisan migrate:refresh --seed
+php artisan make:factory ProjectFactory
+php artisan make:factory add_user_id_to_projects_table
+php artisan migrate:reset
+php artisan make:migation add_user_id_to_projects_table
+php artisan make:migration add_user_id_to_projects_table
+php artisan migrate
+php artisan make:refresh --seed
+php artisan migration:refresh --seed
+php artisan make:controller ProjectController --resource
+php artisan make:migration create_roles_table
+php artisan make:migration create_roles_user_table
+php artisan migrate:rollback
+php artisan make:migration delete_roles_user_table
+php artisan make:migration create_role_user_table
+php artisan migrate:refresh --seed
+php artisan migrate:status
+php artisan cache:clear
+npm run watch
+npm run watch
+npm run watch
