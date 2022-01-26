@@ -55,3 +55,4 @@ php artisan cache:clear
 npm run watch
 npm run watch
 npm run watch
+npm run watch
