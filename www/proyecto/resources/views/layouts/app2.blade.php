@@ -17,7 +17,7 @@
 </head>
 <body class="bg-red-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-teal-400 py-6">
+        <header class="bg-teal-400 py-6"> 
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-red-500 no-underline">
@@ -26,6 +26,14 @@
                     @auth
                         <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Proyectos") }}
+                        </a>
+                        @if(Auth::user()->hasRoles('Admin'))
+                        <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
+                            {{ __("Usuarios") }}
+                        </a>
+                        @endif
+                        <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
+                            {{ __("Contacta") }}
                         </a>
                     @endauth    
                 </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Project;  
 
 class ProjectController extends Controller
@@ -17,8 +18,16 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $projects = Project::with('user')->paginate(10);
-        return view("projects.index",compact("projects"));
+        if(Auth::user()->hasRoles('Admin')){
+
+            $projects = Project::with('user')->paginate(10);
+            return view("projects.index",compact("projects"));
+
+        }else{
+
+            $projects = Auth::user()->projects()->paginate(10);
+            return view("projects.index",compact("projects"));
+        }
     }
 
     /**

@@ -56,3 +56,5 @@ npm run watch
 npm run watch
 npm run watch
 npm run watch
+php artisan make:controller UsuariosController --resource
+php artisan make:controller UserController --resource
