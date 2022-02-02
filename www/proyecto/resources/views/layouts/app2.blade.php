@@ -32,7 +32,7 @@
                             {{ __("Usuarios") }}
                         </a>
                         @endif
-                        <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
+                        <a href="{{ route('contacta.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Contacta") }}
                         </a>
                     @endauth    

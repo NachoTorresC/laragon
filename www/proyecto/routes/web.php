@@ -2,6 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use \App\http\controllers\ProjectController;
+use \App\http\controllers\HomeController; // si nos da error quitar ese use( solo se puso por seguir el video).
+
+
+use \App\Mail\ContactaMail;
+use Illuminate\Support\Facades\Mail;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -34,4 +41,14 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+/*
+Route::get('contacta',function(){
+$correo=n
+Mail::to('vyd15559@educastur.es')->send($correo);
+return("mensaje enviado");
+});*/
+
+Route::get('contacta', [\App\Http\Controllers\ContactaController::class, 'index'])->name('contacta.index');
+//Route::post('/contacta', [\App\Http\Controllers\HomeController::class, 'store'])->name('contacta.store');
 
