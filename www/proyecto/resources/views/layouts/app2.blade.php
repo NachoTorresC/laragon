@@ -20,9 +20,9 @@
         <header class="bg-teal-400 py-6"> 
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-red-500 no-underline">
+                <!--  <a href="{{ url('/') }}" class="text-lg font-semibold text-red-500 no-underline">
                         {{ config('app.name', 'Laravel') }}
-                    </a>
+                    </a>-->
                     @auth
                         <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Proyectos") }}

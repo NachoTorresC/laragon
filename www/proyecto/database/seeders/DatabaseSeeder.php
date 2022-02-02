@@ -13,10 +13,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        //\App\Models\User::factory(10)->create();
-        //\App\Models\Project::factory(10)->create();
+       // \App\Models\User::factory(10)->create();
+       // \App\Models\Project::factory(10)->create();
 
-          \App\Models\Role::create([
+/*            \App\Models\Role::create([
             'name' => 'Admin',
             'display_name' => 'Administrador',
             'description' => null
@@ -30,6 +30,6 @@ class DatabaseSeeder extends Seeder
             'name' => 'Ge',
             'display_name' => 'Guest',
             'description' => null
-        ]);  
+        ]);  */  
     }
 }
