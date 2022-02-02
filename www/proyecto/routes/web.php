@@ -50,5 +50,5 @@ return("mensaje enviado");
 });*/
 
 Route::get('contacta', [\App\Http\Controllers\ContactaController::class, 'index'])->name('contacta.index');
-//Route::post('/contacta', [\App\Http\Controllers\HomeController::class, 'store'])->name('contacta.store');
+Route::post('/contacta', [\App\Http\Controllers\HomeController::class, 'store'])->name('contacta.store');
 
