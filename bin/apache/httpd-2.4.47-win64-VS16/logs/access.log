@@ -2097,3 +2097,38 @@
 127.0.0.1 - - [02/Feb/2022:12:53:53 +0100] "GET /home HTTP/1.1" 200 2679
 127.0.0.1 - - [02/Feb/2022:12:53:54 +0100] "GET /projects HTTP/1.1" 200 5673
 127.0.0.1 - - [02/Feb/2022:12:53:56 +0100] "GET /contacta HTTP/1.1" 200 464
+127.0.0.1 - - [02/Feb/2022:12:54:48 +0100] "-" 408 -
+127.0.0.1 - - [02/Feb/2022:13:07:59 +0100] "GET /contacta HTTP/1.1" 200 4209
+127.0.0.1 - - [02/Feb/2022:13:08:59 +0100] "-" 408 -
+::1 - - [03/Feb/2022:12:24:16 +0100] "GET / HTTP/1.1" 200 1765
+::1 - - [03/Feb/2022:12:24:16 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [03/Feb/2022:12:24:21 +0100] "GET / HTTP/1.1" 200 3242
+127.0.0.1 - - [03/Feb/2022:12:24:25 +0100] "GET / HTTP/1.1" 200 3242
+127.0.0.1 - - [03/Feb/2022:12:24:30 +0100] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Feb/2022:12:24:33 +0100] "GET /login HTTP/1.1" 200 4580
+127.0.0.1 - - [03/Feb/2022:12:24:38 +0100] "POST /login HTTP/1.1" 302 350
+127.0.0.1 - - [03/Feb/2022:12:24:39 +0100] "GET /login HTTP/1.1" 200 4809
+::1 - - [03/Feb/2022:12:24:44 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4759
+::1 - - [03/Feb/2022:12:24:48 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [03/Feb/2022:12:24:56 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [03/Feb/2022:12:24:56 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 15706
+::1 - - [03/Feb/2022:12:24:57 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=1454671148ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [03/Feb/2022:12:24:57 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1607
+::1 - - [03/Feb/2022:12:24:57 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2332
+::1 - - [03/Feb/2022:12:24:57 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1697
+::1 - - [03/Feb/2022:12:24:57 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [03/Feb/2022:12:24:58 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1597
+127.0.0.1 - - [03/Feb/2022:12:25:33 +0100] "-" 408 -
+::1 - - [03/Feb/2022:12:27:59 +0100] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=proyecto&ajax_request=true&ajax_page_request=true&_nocache=1643887679403628088&token=78797375436c2f6e4d63786a7b216973 HTTP/1.1" 200 6860
+::1 - - [03/Feb/2022:12:28:00 +0100] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.cHJveWVjdG8%3D&vPath=cm9vdA%3D%3D.cHJveWVjdG8%3D&pos=0&searchClause=&searchClause2=&_nocache=1643887680802914387&token=78797375436c2f6e4d63786a7b216973 HTTP/1.1" 200 2286
+::1 - - [03/Feb/2022:12:28:10 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=proyecto&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1643887690717738635&token=78797375436c2f6e4d63786a7b216973 HTTP/1.1" 200 10328
+::1 - - [03/Feb/2022:12:28:11 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1643887691489550803&token=78797375436c2f6e4d63786a7b216973 HTTP/1.1" 200 1660
+127.0.0.1 - - [03/Feb/2022:12:28:26 +0100] "POST /login HTTP/1.1" 302 346
+127.0.0.1 - - [03/Feb/2022:12:28:27 +0100] "GET /home HTTP/1.1" 200 2893
+127.0.0.1 - - [03/Feb/2022:12:28:36 +0100] "GET /projects HTTP/1.1" 200 20257
+127.0.0.1 - - [03/Feb/2022:12:28:39 +0100] "GET /projects?page=2 HTTP/1.1" 200 20236
+127.0.0.1 - - [03/Feb/2022:12:28:42 +0100] "GET /projects?page=1 HTTP/1.1" 200 20257
+127.0.0.1 - - [03/Feb/2022:12:28:44 +0100] "GET /contacta HTTP/1.1" 200 4217
+127.0.0.1 - - [03/Feb/2022:12:29:36 +0100] "-" 408 -
+127.0.0.1 - - [03/Feb/2022:12:40:36 +0100] "GET /contacta HTTP/1.1" 200 4217
+127.0.0.1 - - [03/Feb/2022:12:40:37 +0100] "GET /contacta HTTP/1.1" 200 4217

@@ -2192,3 +2192,152 @@ Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-02-02T09:37:47.917029Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
 Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-02-02T09:37:47.936693Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220202 10:37:47
+2022-02-02T12:14:50.566341Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-02-02T12:14:50.567712Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-02-02T12:14:50.568418Z 0 [Note] Shutting down slave threads
+2022-02-02T12:14:50.568912Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-02-02T12:14:50.569534Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-02-02T12:14:50.570654Z 0 [Note] Binlog end
+2022-02-02T12:14:50.575668Z 0 [Note] Shutting down plugin 'ngram'
+2022-02-02T12:14:50.576178Z 0 [Note] Shutting down plugin 'partition'
+2022-02-02T12:14:50.576696Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-02-02T12:14:50.577211Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-02-02T12:14:50.577711Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-02-02T12:14:50.578319Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-02-02T12:14:50.578847Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-02-02T12:14:50.579397Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-02-02T12:14:50.579984Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-02-02T12:14:50.580578Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-02-02T12:14:50.581187Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-02-02T12:14:50.581801Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-02-02T12:14:50.582379Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-02-02T12:14:50.582949Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-02-02T12:14:50.583526Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-02-02T12:14:50.584104Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-02-02T12:14:50.584702Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-02-02T12:14:50.585271Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-02-02T12:14:50.585871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-02-02T12:14:50.586470Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-02-02T12:14:50.587034Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-02-02T12:14:50.587648Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-02-02T12:14:50.588320Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-02-02T12:14:50.588957Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-02-02T12:14:50.589505Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-02-02T12:14:50.590111Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-02-02T12:14:50.590733Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-02-02T12:14:50.591339Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-02-02T12:14:50.591917Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-02-02T12:14:50.592551Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-02-02T12:14:50.593143Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-02-02T12:14:50.593739Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-02-02T12:14:50.594315Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-02-02T12:14:50.594903Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-02-02T12:14:50.595423Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-02-02T12:14:50.595999Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-02-02T12:14:50.596535Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-02-02T12:14:50.597054Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-02-02T12:14:50.597639Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-02-02T12:14:50.598336Z 0 [Note] InnoDB: Starting shutdown...
+2022-02-02T12:14:50.702945Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\laragon\data\mysql\ib_buffer_pool
+2022-02-02T12:14:50.706412Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220202 13:14:50
+2022-02-02T12:14:52.514490Z 0 [Note] InnoDB: Shutdown completed; log sequence number 3825692
+2022-02-02T12:14:52.516374Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-02T12:14:52.517699Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-02-02T12:14:52.518519Z 0 [Note] Shutting down plugin 'CSV'
+2022-02-02T12:14:52.519264Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-02-02T12:14:52.520155Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-02-02T12:14:52.521223Z 0 [Note] Shutting down plugin 'binlog'
+2022-02-02T12:14:52.524183Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+2022-02-03T11:23:54.535799Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-02-03T11:23:54.536254Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 15084 ...
+2022-02-03T11:23:54.889093Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-03T11:23:54.890776Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-03T11:23:54.891836Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-02-03T11:23:54.892949Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-03T11:23:54.893962Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-03T11:23:54.894673Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-03T11:23:54.897661Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-03T11:23:54.903687Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-03T11:23:55.676216Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-03T11:24:01.768379Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-03T11:24:01.769605Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-03T11:24:01.990805Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-02-03T11:24:02.006316Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-03T11:24:02.008128Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-03T11:24:02.009906Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-03T11:24:02.074824Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7168ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-03T11:24:02.202145Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 3825692
+2022-02-03T11:24:02.203496Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-03T11:24:02.203834Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\laragon\data\mysql\ib_buffer_pool
+2022-02-03T11:24:02.517547Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-03T11:24:02.518972Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-03T11:24:02.613051Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-03T11:24:02.613905Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-03T11:24:02.621020Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-03T11:24:02.621987Z 0 [Note] IPv6 is available.
+2022-02-03T11:24:02.622494Z 0 [Note]   - '::' resolves to '::';
+2022-02-03T11:24:02.623078Z 0 [Note] Server socket created on IP: '::'.
+2022-02-03T11:24:02.635794Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220203 12:24:02
+2022-02-03T11:24:05.011495Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-02-03T11:24:05.012273Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-03T11:41:20.538441Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-02-03T11:41:20.539613Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-02-03T11:41:20.540275Z 0 [Note] Shutting down slave threads
+2022-02-03T11:41:20.540768Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-02-03T11:41:20.541376Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-02-03T11:41:20.542244Z 0 [Note] Binlog end
+2022-02-03T11:41:20.546274Z 0 [Note] Shutting down plugin 'ngram'
+2022-02-03T11:41:20.546790Z 0 [Note] Shutting down plugin 'partition'
+2022-02-03T11:41:20.547304Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-02-03T11:41:20.547816Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-02-03T11:41:20.548312Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-02-03T11:41:20.548900Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-02-03T11:41:20.549435Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-02-03T11:41:20.549938Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-02-03T11:41:20.550519Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-02-03T11:41:20.551113Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-02-03T11:41:20.551722Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-02-03T11:41:20.552337Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-02-03T11:41:20.552915Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-02-03T11:41:20.553487Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-02-03T11:41:20.554065Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-02-03T11:41:20.554663Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-02-03T11:41:20.555319Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-02-03T11:41:20.555898Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-02-03T11:41:20.556513Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-02-03T11:41:20.557117Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-02-03T11:41:20.557685Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-02-03T11:41:20.558304Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-02-03T11:41:20.558881Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-02-03T11:41:20.559521Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-02-03T11:41:20.560074Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-02-03T11:41:20.560686Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-02-03T11:41:20.561312Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-02-03T11:41:20.561959Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-02-03T11:41:20.562540Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-02-03T11:41:20.563179Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-02-03T11:41:20.563775Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-02-03T11:41:20.564362Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-02-03T11:41:20.564906Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-02-03T11:41:20.565472Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-02-03T11:41:20.565994Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-02-03T11:41:20.566567Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-02-03T11:41:20.567104Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-02-03T11:41:20.567627Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-02-03T11:41:20.568169Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-02-03T11:41:20.568828Z 0 [Note] InnoDB: Starting shutdown...
+2022-02-03T11:41:20.670265Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\laragon\data\mysql\ib_buffer_pool
+2022-02-03T11:41:20.674223Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220203 12:41:20
+2022-02-03T11:41:21.672867Z 0 [Note] InnoDB: Shutdown completed; log sequence number 3825720
+2022-02-03T11:41:21.674078Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-03T11:41:21.674767Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-02-03T11:41:21.675250Z 0 [Note] Shutting down plugin 'CSV'
+2022-02-03T11:41:21.675709Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-02-03T11:41:21.676250Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-02-03T11:41:21.676912Z 0 [Note] Shutting down plugin 'binlog'
+2022-02-03T11:41:21.681857Z 0 [Note] D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+

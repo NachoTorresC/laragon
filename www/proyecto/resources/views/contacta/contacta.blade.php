@@ -12,7 +12,10 @@
 </head>
 <body>
     <h1>Correo electrónico</h1>
-    <p>este es el primer correo</p>
+    <p><strong>Nombre: </strong>{{$contacto['name'] }}</p>
+    <p><strong>Email: </strong>{{$contacto['email'] }}</p>
+    <p><strong>Mensaje: </strong>{{$contacto['mensaje'] }}</p>
+
     
 </body>
 </html>

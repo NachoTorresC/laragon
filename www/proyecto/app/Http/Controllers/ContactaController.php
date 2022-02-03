@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactaMail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactaController extends Controller
 {
@@ -39,6 +41,9 @@ class ContactaController extends Controller
             'email' =>'required|email',
             'mensaje'=>'required',
         ]);
+        $correo=new ContactaMail($request->all());
+        Mail::to('vyd15559@educastur.es')->send($correo);
+        return redirect(route('contacta.index'))->with('success','Email enviado');
     }
 
     /**
