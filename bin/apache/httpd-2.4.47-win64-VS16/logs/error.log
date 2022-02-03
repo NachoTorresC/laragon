@@ -229,4 +229,7 @@ Apache server interrupted...
 [Thu Feb 03 12:51:45.953838 2022] [mpm_winnt:notice] [pid 11096:tid 540] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
 [Thu Feb 03 12:51:45.953838 2022] [core:notice] [pid 11096:tid 540] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
 [Thu Feb 03 12:51:45.956860 2022] [mpm_winnt:notice] [pid 11096:tid 540] AH00418: Parent: Created child process 6264
-[Thu Feb 03 12:51:46.310281 2022] [mpm_winnt:notice] [pid 6264:tid 608] AH00354: Child: Starting 64 worker threads.
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 6264:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 03 13:58:40.165049 2022] [mpm_winnt:notice] [pid 11096:tid 540] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Feb 03 13:58:42.186083 2022] [mpm_winnt:notice] [pid 6264:tid 608] AH00364: Child: All worker threads have exited.

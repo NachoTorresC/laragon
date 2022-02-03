@@ -32,5 +32,5 @@ class ContactaMail extends Mailable
     public function build()
     {
         return $this->view('contacta.contacta'); 
-    }
+    } 
 }
