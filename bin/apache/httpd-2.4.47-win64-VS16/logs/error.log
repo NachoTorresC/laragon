@@ -264,3 +264,4 @@ Apache server interrupted...
 [Wed Feb 09 10:23:50.605090 2022] [mpm_winnt:notice] [pid 10848:tid 500] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
 [Wed Feb 09 10:23:50.605090 2022] [core:notice] [pid 10848:tid 500] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
 [Wed Feb 09 10:23:50.607057 2022] [mpm_winnt:notice] [pid 10848:tid 500] AH00418: Parent: Created child process 6760
+[Wed Feb 09 10:23:50.960739 2022] [mpm_winnt:notice] [pid 6760:tid 608] AH00354: Child: Starting 64 worker threads.
