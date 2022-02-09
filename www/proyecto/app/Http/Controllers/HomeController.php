@@ -22,7 +22,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
     public function index(){
+
+        return view('home');
+
+        /*
         if(Auth::user()->hasRoles('Admin')){
 
            
@@ -30,8 +36,8 @@ class HomeController extends Controller
 
         }else{
 
-            return view('home');
-        }
+            
+        }*/
     }
       
 }

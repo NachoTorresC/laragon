@@ -26,17 +26,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('/saludos', function () {
-    return view('saludos');
-});Auth::routes();
-
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource("projects",ProjectController::class);
 
-Auth::routes();
-
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes(); /// limpar código
 
 Auth::routes();
 

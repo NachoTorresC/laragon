@@ -27,11 +27,11 @@
                         <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Proyectos") }}
                         </a>
-                        @if(Auth::user()->hasRoles('Admin'))
+                       <!-- @if(Auth::user()->hasRoles('Admin'))
                         <a href="{{ route('projects.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Usuarios") }}
                         </a>
-                        @endif
+                        @endif-->
                         <a href="{{ route('contacta.index') }}" class="text-lg font-semibold text-red-500 no-underline">
                             {{ __("Contacta") }}
                         </a>

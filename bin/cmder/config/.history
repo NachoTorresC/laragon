@@ -78,3 +78,12 @@ php artisan migrate:refresh
 php artisan migrate
 php artisan db:seed
 php artisan make:controller ContactaController --resource
+php artisan migrate:refresh
+php artisan db:seed
+composer require jeroennoten/laravel-adminlte
+php artisan adminlte:install
+php artisan adminlte:install
+php artisan -h
+php artisan cache clear
+rout list
+php artisan cache:clear
