@@ -87,3 +87,4 @@ php artisan -h
 php artisan cache clear
 rout list
 php artisan cache:clear
+npm run watch

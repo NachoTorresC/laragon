@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app2.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -15,9 +15,9 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-red-100 h-screen antialiased leading-none font-sans">
+<body class="bg-yellow-400 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-teal-400 py-6"> 
+        <header class="bg-yellow-500 py-6"> 
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                 <!--  <a href="{{ url('/') }}" class="text-lg font-semibold text-red-500 no-underline">
@@ -37,7 +37,7 @@
                         </a>
                     @endauth    
                 </div>
-                <nav class="space-x-4 text-red-500 text-sm sm:text-base">
+                <nav class="space-x-4 font-bold text-blue-500 text-sm sm:text-base">
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
