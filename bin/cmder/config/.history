@@ -88,3 +88,5 @@ php artisan cache clear
 rout list
 php artisan cache:clear
 npm run watch
+npm run watch
+php artisan make:controller Admin\AdminController

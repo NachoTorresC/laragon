@@ -26,9 +26,7 @@ class HomeController extends Controller
 
     public function index(){
 
-        return view('home');
 
-        /*
         if(Auth::user()->hasRoles('Admin')){
 
            
@@ -37,7 +35,8 @@ class HomeController extends Controller
         }else{
 
             
-        }*/
+        return view('home');
+        }
     }
       
 }

@@ -1,1 +1,1 @@
-prueba
+@extends('adminlte::page')
