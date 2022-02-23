@@ -13,3 +13,24 @@
 [15-Feb-2022 16:48:02 Europe/Madrid] PHP Notice:  A non well formed numeric value encountered in D:\laragon\www\ex15_12entregaralumnos1\examen_diciembre\añadir.php on line 115
 [15-Feb-2022 16:48:12 Europe/Madrid] PHP Notice:  A non well formed numeric value encountered in D:\laragon\www\ex15_12entregaralumnos1\examen_diciembre\añadir.php on line 115
 [15-Feb-2022 16:49:42 Europe/Madrid] PHP Notice:  A non well formed numeric value encountered in D:\laragon\www\ex15_12entregaralumnos1\examen_diciembre\añadir.php on line 115
+[18-Feb-2022 11:52:04 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:258
+Stack trace:
+#0 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundatio in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 258
+[18-Feb-2022 11:56:34 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:258
+Stack trace:
+#0 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundatio in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 258
+[18-Feb-2022 11:56:39 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:258
+Stack trace:
+#0 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Foundatio in D:\laragon\www\proyecto\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 258
