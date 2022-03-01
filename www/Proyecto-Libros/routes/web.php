@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LibroController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,15 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-Route::get('libros', function () {
-    return 'Bienvenido a la pagina de libros';
-});
-Route::get('libros{libro}', function ($libro) {
-    return 'Este es el libro : $libro';
-});
+Route::get('libros', [LibroController::class,'index']);
+Route::get('libros/crear',[LibroController::class,'create']);
+Route::get('libros{libro}',[LibroController::class,'show']);
 
-Route::get('libros/crear', function () {
-    return " en esta pagina se podrá añadir un libro";
-});
+
