@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('libros', function () {
+    return 'Bienvenido a la pagina de libros';
+});
+Route::get('libros{libro}', function ($libro) {
+    return 'Este es el libro : $libro';
+});
+
+Route::get('libros/crear', function () {
+    return " en esta pagina se podrá añadir un libro";
+});

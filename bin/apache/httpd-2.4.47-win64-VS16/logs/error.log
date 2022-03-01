@@ -389,4 +389,46 @@ Apache server interrupted...
 [Wed Feb 23 10:28:12.056743 2022] [mpm_winnt:notice] [pid 5744:tid 532] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
 [Wed Feb 23 10:28:12.056743 2022] [core:notice] [pid 5744:tid 532] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
 [Wed Feb 23 10:28:12.058800 2022] [mpm_winnt:notice] [pid 5744:tid 532] AH00418: Parent: Created child process 15700
-[Wed Feb 23 10:28:12.416070 2022] [mpm_winnt:notice] [pid 15700:tid 624] AH00354: Child: Starting 64 worker threads.
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 15700:tid 624] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 23 13:20:25.129928 2022] [mpm_winnt:notice] [pid 5744:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 23 13:20:27.157404 2022] [mpm_winnt:notice] [pid 15700:tid 624] AH00364: Child: All worker threads have exited.
+[Thu Feb 24 12:24:55.051859 2022] [core:warn] [pid 10384:tid 532] AH00098: pid file D:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 24 12:24:56.957841 2022] [mpm_winnt:notice] [pid 10384:tid 532] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Thu Feb 24 12:24:56.957841 2022] [mpm_winnt:notice] [pid 10384:tid 532] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Thu Feb 24 12:24:56.957841 2022] [core:notice] [pid 10384:tid 532] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Thu Feb 24 12:24:56.973427 2022] [mpm_winnt:notice] [pid 10384:tid 532] AH00418: Parent: Created child process 8888
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 8888:tid 624] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 24 12:58:26.139364 2022] [mpm_winnt:notice] [pid 10384:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Feb 24 12:58:28.170147 2022] [mpm_winnt:notice] [pid 8888:tid 624] AH00364: Child: All worker threads have exited.
+[Mon Feb 28 13:20:05.970054 2022] [core:warn] [pid 5824:tid 480] AH00098: pid file D:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 28 13:20:08.870158 2022] [mpm_winnt:notice] [pid 5824:tid 480] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Mon Feb 28 13:20:08.870158 2022] [mpm_winnt:notice] [pid 5824:tid 480] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Mon Feb 28 13:20:08.870158 2022] [core:notice] [pid 5824:tid 480] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Mon Feb 28 13:20:08.877152 2022] [mpm_winnt:notice] [pid 5824:tid 480] AH00418: Parent: Created child process 15380
+[Mon Feb 28 13:20:09.391312 2022] [mpm_winnt:notice] [pid 15380:tid 624] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 28 13:21:05.608460 2022] [mpm_winnt:crit] [pid 15380:tid 624] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Feb 28 13:21:07.632575 2022] [mpm_winnt:notice] [pid 15380:tid 624] AH00364: Child: All worker threads have exited.
+[Mon Feb 28 13:21:09.983398 2022] [core:warn] [pid 12916:tid 544] AH00098: pid file D:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 28 13:21:10.019742 2022] [mpm_winnt:notice] [pid 12916:tid 544] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Mon Feb 28 13:21:10.019742 2022] [mpm_winnt:notice] [pid 12916:tid 544] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Mon Feb 28 13:21:10.019742 2022] [core:notice] [pid 12916:tid 544] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Mon Feb 28 13:21:10.022741 2022] [mpm_winnt:notice] [pid 12916:tid 544] AH00418: Parent: Created child process 16096
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 16096:tid 572] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 28 19:34:05.968289 2022] [mpm_winnt:notice] [pid 12916:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 28 19:34:07.999528 2022] [mpm_winnt:notice] [pid 16096:tid 572] AH00364: Child: All worker threads have exited.
+[Tue Mar 01 11:38:11.825585 2022] [core:warn] [pid 7480:tid 512] AH00098: pid file D:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 01 11:38:14.314113 2022] [mpm_winnt:notice] [pid 7480:tid 512] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Tue Mar 01 11:38:14.314113 2022] [mpm_winnt:notice] [pid 7480:tid 512] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Tue Mar 01 11:38:14.314113 2022] [core:notice] [pid 7480:tid 512] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Tue Mar 01 11:38:14.317111 2022] [mpm_winnt:notice] [pid 7480:tid 512] AH00418: Parent: Created child process 5804
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 5804:tid 532] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 01 11:39:13.279968 2022] [mpm_winnt:notice] [pid 7480:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 01 11:39:16.765014 2022] [core:warn] [pid 8492:tid 540] AH00098: pid file D:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 01 11:39:16.916986 2022] [mpm_winnt:notice] [pid 8492:tid 540] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Tue Mar 01 11:39:16.916986 2022] [mpm_winnt:notice] [pid 8492:tid 540] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Tue Mar 01 11:39:16.916986 2022] [core:notice] [pid 8492:tid 540] AH00094: Command line: 'D:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d D:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Tue Mar 01 11:39:16.919247 2022] [mpm_winnt:notice] [pid 8492:tid 540] AH00418: Parent: Created child process 32

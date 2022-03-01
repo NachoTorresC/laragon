@@ -1,7 +1,7 @@
 @extends('admin.index')
 @section('content')
 <h1 class="text-center text-info">{{ __("Listado de proyectos") }}</h1>
-<table class="table table-danger table-striped" style="width: 100%">
+<table class="table table-info table-striped" style="width: 100%">
     <thead>
     <tr>
         <th scope="col">{{ ("Nombre del proyecto") }}</th>

@@ -92,3 +92,12 @@ npm run watch
 php artisan make:controller Admin\AdminController
 npm run watch
 php artisan make:controller Admin\AdminController
+cd ..
+ls
+cd Proyecto-Libros
+php artisan make:migration create_libros_table
+php artisan migrate:refresh
+php artisan migrate
+php artisan migrate:refresh
+php artisan make:migration libros
+php artisan migrate
