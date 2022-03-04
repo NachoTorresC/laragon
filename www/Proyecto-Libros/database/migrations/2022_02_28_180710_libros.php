@@ -11,15 +11,16 @@ class Libros extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
-        Schema::create('libros', function(blueprint $table){
+        Schema::create('libros', function (Blueprint $table) {
             $table->id('codigo');
             $table->id('id_temática');
             $table->id('id_usuario');
             $table->string('titulo');
-            $table->timestamps(),// se almacena la hora y fecha de un nuevo registro y se actualiza la hora y fecha si se actualiza el registro
-        })
+            $table->timestamps();
+        });
     }
 
     /**

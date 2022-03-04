@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+
 use Spatie\Permission\Traits\HasRoles;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
