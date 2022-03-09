@@ -1,9 +1,9 @@
-@extends('admin.index')
+@extends('admin.users.index')
 
 @section("content")
 
     <h1 class="text-center text-info">{{ __("Listado de usuarios") }}</h1>
-     
+   
     
 
 

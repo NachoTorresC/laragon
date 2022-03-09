@@ -32,7 +32,7 @@
         <div class="flex flex-col justify-around h-full">
             <div>
                 <h1 class="mb-6 font-bold text-blue-700 text-center  tracking-wider text-4xl sm:mb-8 sm:text-6xl">
-                    {{ config('app2.name', 'Bienvenido') }}
+                    {{ config('app2.name', 'Proyecto') }}
                 </h1>
       
             </div>

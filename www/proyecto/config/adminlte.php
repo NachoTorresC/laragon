@@ -254,7 +254,7 @@ return [
 
         ],
         [
-            'text' => 'Usuarios',
+            'text' => 'listar usuarios',
             'url'  => 'admin/list-users',
             'icon' => 'fas fa-fw fa-user',
         ],

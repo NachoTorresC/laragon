@@ -21,9 +21,12 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'LIBROS') }}
                     </a>
                 </div>
+
+                <!-- para meter una imagen se tiene que poner src:   <img src="img/> {{asset}} -->
+             
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>

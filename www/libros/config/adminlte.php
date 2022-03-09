@@ -14,8 +14,8 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
-    'title_prefix' => '',
+    'title' => 'Libros de ensueño',
+    'title_prefix' => 'Libros ',
     'title_postfix' => '',
 
     /*
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Panel </b>administrador',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -65,9 +65,9 @@ return [
     */
 
     'usermenu_enabled' => true,
-    'usermenu_header' => false,
-    'usermenu_header_class' => 'bg-primary',
-    'usermenu_image' => false,
+    'usermenu_header' => true,
+    'usermenu_header_class' => 'bg-info',
+    'usermenu_image' => true,
     'usermenu_desc' => false,
     'usermenu_profile_url' => false,
 
@@ -237,25 +237,25 @@ return [
         ],
 
         // Sidebar items:
-        [
+        /*[
             'type' => 'sidebar-menu-search',
             'text' => 'search',
-        ],
+        ],*/
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
+      
+        ['header' => 'Herramientas de administrador'],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'text'        => 'Listar usuarios',
+            'url'         => 'admin/list-users',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
+            
         ],
-        ['header' => 'account_settings'],
         [
-            'text' => 'profile',
+            'text' => 'Listar libros',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
         ],
