@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Libros;
 
 class AdminController extends Controller
 {
@@ -21,6 +22,11 @@ class AdminController extends Controller
     public function list_users(){
         $users=User::all();
         return view ('admin.list-users', compact('users'));  
+    }
+    public function list_libros(){
+        $libros=Libros::all();
+       // dd($libros);
+        return view ('admin.list-libros', compact('libros'));  
     }
 
     /**

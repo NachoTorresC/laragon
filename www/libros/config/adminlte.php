@@ -256,7 +256,7 @@ return [
         ],
         [
             'text' => 'Listar libros',
-            'url'  => 'admin/settings',
+            'url'  => 'admin/list-libros',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
