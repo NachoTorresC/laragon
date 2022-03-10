@@ -25,7 +25,7 @@
                     </a>
                 </div>
 
-                <!-- para meter una imagen se tiene que poner src:   <img src="img/> {{asset}} -->
+                <!-- para meter una imagen se tiene que poner src:   <img src="img/> llaves dentro del  asset" -->
              
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
                     @guest

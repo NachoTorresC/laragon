@@ -15,7 +15,7 @@ return [
     */
 
     'title' => 'Libros de ensueño',
-    'title_prefix' => 'Libros ',
+    'title_prefix' => ' ',
     'title_postfix' => '',
 
     /*

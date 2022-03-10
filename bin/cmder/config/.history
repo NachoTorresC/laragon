@@ -103,3 +103,61 @@ php artisan make:migration libros
 php artisan migrate
 php artisan make:controller HomeController
 php artisan make:controller LibroController
+php artisan make:controller HomeController
+php artisan make:controller LibroController
+php artisan migrate
+php artisan migrate
+php artisan migrate:refresh
+php artisan migrate:refresh
+php artisan migrate:refresh
+cd ..
+ls
+cd libros
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm install
+npm run dev
+npm audit fix
+ls
+cd libros
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm install
+npm audit fix
+npm run dev
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider
+php artisan migrate 
+php artisan make:seeder RoleSeeder
+php artisan migrate:fresh --seed
+npm audit fix
+npm run dev
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider
+php artisan migrate 
+php artisan make:seeder RoleSeeder
+php artisan make:seeder UserSeeder
+Php artisan make:controller Admin\UserController
+Php artisan make:controller Admin\AdminController
+php artisan migrate:fresh --seed
+php artisan make:seeder UserSeeder
+Php artisan make:controller Admin\UserController
+Php artisan make:controller Admin\AdminController
+Php artisan make:controller Admin\AdminController --resource
+Php artisan make:controller Admin\UserController --resource
+composer require jeroennoten/laravel-adminlte
+php artisan adminlte:install
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+npm run watch
+npm run dev
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+npm run watch
+npm run dev
+php artisan migrate libros
+php artisan make:model Libros -m
+php artisan migrate:fresh --seed
