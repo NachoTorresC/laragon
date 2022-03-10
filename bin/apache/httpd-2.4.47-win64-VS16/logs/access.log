@@ -4968,3 +4968,38 @@
 ::1 - - [09/Mar/2022:13:52:02 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1602
 ::1 - - [09/Mar/2022:13:52:03 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=libros&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1646830323696367575&token=6c5b3252294b5679474b7e5948396f29 HTTP/1.1" 200 5228
 ::1 - - [09/Mar/2022:13:52:03 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1646830323957787252&token=6c5b3252294b5679474b7e5948396f29 HTTP/1.1" 200 1713
+::1 - - [10/Mar/2022:08:36:20 +0100] "GET / HTTP/1.1" 200 303
+::1 - - [10/Mar/2022:08:36:20 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [10/Mar/2022:08:36:32 +0100] "GET / HTTP/1.1" 200 1365
+127.0.0.1 - - [10/Mar/2022:08:36:36 +0100] "GET / HTTP/1.1" 200 1365
+127.0.0.1 - - [10/Mar/2022:08:36:43 +0100] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:36:44 +0100] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:36:51 +0100] "GET /login HTTP/1.1" 500 657681
+::1 - - [10/Mar/2022:08:37:20 +0100] "-" 408 -
+127.0.0.1 - - [10/Mar/2022:08:37:51 +0100] "-" 408 -
+127.0.0.1 - - [10/Mar/2022:08:38:15 +0100] "GET /login HTTP/1.1" 200 4588
+127.0.0.1 - - [10/Mar/2022:08:38:15 +0100] "GET /js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:39:01 +0100] "GET /login HTTP/1.1" 500 657716
+127.0.0.1 - - [10/Mar/2022:08:39:23 +0100] "GET /login HTTP/1.1" 200 4590
+127.0.0.1 - - [10/Mar/2022:08:39:46 +0100] "GET /login HTTP/1.1" 500 657724
+127.0.0.1 - - [10/Mar/2022:08:39:54 +0100] "GET /login HTTP/1.1" 200 4585
+127.0.0.1 - - [10/Mar/2022:08:40:54 +0100] "-" 408 -
+127.0.0.1 - - [10/Mar/2022:08:41:20 +0100] "GET /login HTTP/1.1" 200 4688
+127.0.0.1 - - [10/Mar/2022:08:41:21 +0100] "GET /login HTTP/1.1" 200 4688
+127.0.0.1 - - [10/Mar/2022:08:41:36 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [10/Mar/2022:08:41:38 +0100] "GET /home HTTP/1.1" 200 9302
+127.0.0.1 - - [10/Mar/2022:08:41:39 +0100] "GET /vendor/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:39 +0100] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:39 +0100] "GET /vendor/adminlte/dist/css/adminlte.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/adminlte/dist/img/AdminLTELogo.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/adminlte/dist/js/adminlte.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:39 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:40 +0100] "GET /vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [10/Mar/2022:08:41:44 +0100] "GET /admin/list-users HTTP/1.1" 200 12685
+127.0.0.1 - - [10/Mar/2022:08:41:44 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [10/Mar/2022:08:46:49 +0100] "GET /admin/list-users HTTP/1.1" 200 12679
+127.0.0.1 - - [10/Mar/2022:08:46:49 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609

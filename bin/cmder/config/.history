@@ -161,3 +161,11 @@ npm run dev
 php artisan migrate libros
 php artisan make:model Libros -m
 php artisan migrate:fresh --seed
+npm run dev
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+npm run watch
+npm run dev
+php artisan migrate libros
+php artisan make:model Libros -m
+php artisan migrate:fresh --seed
