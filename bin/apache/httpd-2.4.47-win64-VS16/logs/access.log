@@ -5003,3 +5003,44 @@
 127.0.0.1 - - [10/Mar/2022:08:41:44 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
 127.0.0.1 - - [10/Mar/2022:08:46:49 +0100] "GET /admin/list-users HTTP/1.1" 200 12679
 127.0.0.1 - - [10/Mar/2022:08:46:49 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [10/Mar/2022:08:47:49 +0100] "-" 408 -
+127.0.0.1 - - [10/Mar/2022:08:48:36 +0100] "GET /admin/settings HTTP/1.1" 404 6609
+127.0.0.1 - - [10/Mar/2022:08:49:36 +0100] "-" 408 -
+127.0.0.1 - - [10/Mar/2022:08:49:38 +0100] "-" 408 -
+::1 - - [10/Mar/2022:09:02:44 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4756
+::1 - - [10/Mar/2022:09:02:48 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [10/Mar/2022:09:02:49 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [10/Mar/2022:09:02:49 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 15860
+::1 - - [10/Mar/2022:09:02:51 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=989901042ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [10/Mar/2022:09:02:51 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1605
+::1 - - [10/Mar/2022:09:02:51 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2454
+::1 - - [10/Mar/2022:09:02:51 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1696
+::1 - - [10/Mar/2022:09:02:51 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [10/Mar/2022:09:02:51 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1596
+::1 - - [10/Mar/2022:09:02:52 +0100] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=libros&ajax_request=true&ajax_page_request=true&_nocache=1646899372789944584&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 7377
+::1 - - [10/Mar/2022:09:02:53 +0100] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.bGlicm9z&vPath=cm9vdA%3D%3D.bGlicm9z&pos=0&searchClause=&searchClause2=&_nocache=164689937365418733&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 2380
+::1 - - [10/Mar/2022:09:02:58 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=libros&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1646899378601413058&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 7399
+::1 - - [10/Mar/2022:09:02:59 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1646899379351531096&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 1652
+::1 - - [10/Mar/2022:09:07:29 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=libros&pos=0 HTTP/1.1" 200 14672
+::1 - - [10/Mar/2022:09:07:29 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=3664671839ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [10/Mar/2022:09:07:29 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [10/Mar/2022:09:07:29 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3113
+::1 - - [10/Mar/2022:09:07:29 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1698
+::1 - - [10/Mar/2022:09:07:29 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1646899649635455409&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 1652
+::1 - - [10/Mar/2022:09:07:29 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1598
+::1 - - [10/Mar/2022:09:25:41 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=libros&pos=0 HTTP/1.1" 200 15713
+::1 - - [10/Mar/2022:09:25:41 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=3923762293ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [10/Mar/2022:09:25:41 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [10/Mar/2022:09:25:41 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3113
+::1 - - [10/Mar/2022:09:25:41 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1698
+::1 - - [10/Mar/2022:09:25:41 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1646900741524598776&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 1652
+::1 - - [10/Mar/2022:09:25:41 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1598
+127.0.0.1 - - [10/Mar/2022:09:26:09 +0100] "GET / HTTP/1.1" 200 1179
+127.0.0.1 - - [10/Mar/2022:09:27:09 +0100] "-" 408 -
+::1 - - [10/Mar/2022:09:28:54 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=libros&pos=0 HTTP/1.1" 200 15896
+::1 - - [10/Mar/2022:09:28:54 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=756312850ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [10/Mar/2022:09:28:54 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [10/Mar/2022:09:28:54 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3113
+::1 - - [10/Mar/2022:09:28:54 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1698
+::1 - - [10/Mar/2022:09:28:54 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1646900934902842059&token=34364c302c3a2a6c3772403b34443b2b HTTP/1.1" 200 1652
+::1 - - [10/Mar/2022:09:28:55 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1598
