@@ -46,7 +46,7 @@ return [
     */
 
     'logo' => '<b>Panel </b>administrador',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/Logo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -251,20 +251,16 @@ return [
         [
             'text'        => 'Listar usuarios',
             'url'         => 'admin/list-users',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'far fa-fw fa-user',
             
         ],
         [
             'text' => 'Listar libros',
             'url'  => 'admin/list-libros',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-book',
         ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
+       
+        /*[
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
@@ -301,23 +297,8 @@ return [
                     'url'  => '#',
                 ],
             ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+        ],*/
+      
     ],
 
     /*
