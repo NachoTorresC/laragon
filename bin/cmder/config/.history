@@ -169,3 +169,16 @@ npm run dev
 php artisan migrate libros
 php artisan make:model Libros -m
 php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+npm run watch
+php artisan migrate libros
+php artisan make:model Libros -m
+npm audit fix
+npm audit fix --force
+php artisan cache:clear
+npm install
+npm run dev
+php artisan migrate:fresh --seed
+php -v
+npm run watch
