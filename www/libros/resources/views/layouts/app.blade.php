@@ -25,6 +25,9 @@
                     </a>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                         Catálogo de libros
+                    </a>
+                    <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
+                       Contacta con nosotros
                      </a>
                 </div>
 

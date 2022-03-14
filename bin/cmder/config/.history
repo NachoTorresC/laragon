@@ -182,3 +182,5 @@ npm run dev
 php artisan migrate:fresh --seed
 php -v
 npm run watch
+php artisan make:mail ContactaMail
+Php artisan make:controller Admin\librosController --resource
