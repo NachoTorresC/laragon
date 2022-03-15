@@ -184,3 +184,12 @@ php -v
 npm run watch
 php artisan make:mail ContactaMail
 Php artisan make:controller Admin\librosController --resource
+Php artisan make:controller Admin\librosController --resource
+Php artisan make:controller Admin\librosController --resource
+Php artisan make:migration add_user_to_libros_table
+Php artisan make:migration libros_user
+php artisan migrate:fresh --seed
+Php artisan make:migration add_user_to_libros_table
+Php artisan make:migration libros_user
+php artisan migrate:fresh --seed
+php artisan route:list

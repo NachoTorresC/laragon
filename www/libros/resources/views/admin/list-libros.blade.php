@@ -5,6 +5,7 @@
     <h1 class="text-center text-info">{{ __("Listado de libros") }}</h1>
    
     
+    <a href="{{route('libros.create')}}" class="btn btn-primary btn-sm mb-4 ">Crear</a> <!-- OJO route NO url-->
 
 
 <table class="table table-info table-striped" style="width: 100%">
@@ -24,7 +25,16 @@
                 <td>{{ $libro->temática }}</td>
                 <td>{{ $libro->sinopsis }}</td>
                 <td>{{ $libro->autor }}</td>
-
+                <td><a href="" class="btn btn-primary btn-sm">Editar</a></td>
+                <td>
+                    <form id="delete-libro-{{$libro->id }}-form" action="{{route('libros.destroy', $libro)}}" method="POST" class="hidden">
+                        @method('DELETE')
+                        @csrf
+                    </form>
+    
+                    <button class="btn btn-danger btn-sm" onclick="event.preventDefault() ; 
+                     document.getElementById('delete-libro-{{$libro->id }}-form').submit();">Eliminar</button>
+                </td>
                 
 
             </tr>

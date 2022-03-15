@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Libros;
 
 class librosController extends Controller
 {
@@ -14,17 +15,18 @@ class librosController extends Controller
      */
     public function index()
     {
-        //
+        $libros=Libros::all();
+         return view ('admin.list-libros', compact('libros'));  
     }
 
-    /**
+     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create() // abrir formulario para un nuevo registro
     {
-        //
+        return view('admin.create');
     }
 
     /**
@@ -33,9 +35,10 @@ class librosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request) // guardar en la base de datos el nuevo registro
     {
-        //
+        $libros= libros::create($request->all());
+        return redirect()->route('admin.edit',$libros);
     }
 
     /**
@@ -44,7 +47,7 @@ class librosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(libros $libros) // visualizar un solo registro
     {
         //
     }
@@ -55,9 +58,9 @@ class librosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(libros $libros)
     {
-        //
+        return view ('admin.edit');
     }
 
     /**
@@ -78,8 +81,11 @@ class librosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(libros $libro)// eliminar registro
     {
-        //
+         
+         $libro->delete();
+         return back()->with("success", __("libro eliminado!"));
     }
 }
+

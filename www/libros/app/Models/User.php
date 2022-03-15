@@ -47,4 +47,8 @@ class User extends Authenticatable
     public function adminlte_image(){
         return 'https://picsum.photos/300/300';
     }
+    public function libros()
+    {
+        return $this->belongsToMany(Libro::class)->withTimestamps();
+    }
 }

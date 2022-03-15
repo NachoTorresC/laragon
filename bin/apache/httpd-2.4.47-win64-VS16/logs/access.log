@@ -5731,3 +5731,296 @@
 127.0.0.1 - - [14/Mar/2022:08:20:04 +0100] "GET /home HTTP/1.1" 200 2710
 127.0.0.1 - - [14/Mar/2022:08:20:11 +0100] "GET / HTTP/1.1" 200 1289
 127.0.0.1 - - [14/Mar/2022:08:21:11 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:13:25:17 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:13:25:20 +0100] "GET /css/app.css HTTP/1.1" 304 -
+::1 - - [14/Mar/2022:13:25:36 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4758
+::1 - - [14/Mar/2022:13:25:38 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [14/Mar/2022:13:25:44 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [14/Mar/2022:13:25:44 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 15867
+::1 - - [14/Mar/2022:13:25:45 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=4115986662ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [14/Mar/2022:13:25:45 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [14/Mar/2022:13:25:45 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2456
+::1 - - [14/Mar/2022:13:25:45 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1697
+::1 - - [14/Mar/2022:13:25:45 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [14/Mar/2022:13:25:46 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1597
+::1 - - [14/Mar/2022:13:25:47 +0100] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=libros&ajax_request=true&ajax_page_request=true&_nocache=1647260747267885086&token=7f4d6e695c4b37572a404c395479587d HTTP/1.1" 200 7379
+::1 - - [14/Mar/2022:13:25:47 +0100] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.bGlicm9z&vPath=cm9vdA%3D%3D.bGlicm9z&pos=0&searchClause=&searchClause2=&_nocache=1647260747933476055&token=7f4d6e695c4b37572a404c395479587d HTTP/1.1" 200 2383
+::1 - - [14/Mar/2022:13:25:49 +0100] "GET /phpmyadmin/index.php?route=/sql&db=libros&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1647260749925374043&token=7f4d6e695c4b37572a404c395479587d HTTP/1.1" 200 10337
+::1 - - [14/Mar/2022:13:25:50 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1647260750309548469&token=7f4d6e695c4b37572a404c395479587d HTTP/1.1" 200 1659
+127.0.0.1 - - [14/Mar/2022:13:25:55 +0100] "GET /login HTTP/1.1" 200 5048
+127.0.0.1 - - [14/Mar/2022:13:25:59 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:13:26:00 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/adminlte/dist/img/Logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/adminlte/dist/css/adminlte.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/adminlte/dist/js/adminlte.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:01 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:13:26:02 +0100] "GET /vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:26:02 +0100] "GET /vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:13:28:36 +0100] "GET /admin/list-users HTTP/1.1" 200 9839
+127.0.0.1 - - [14/Mar/2022:13:28:37 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:13:28:38 +0100] "GET /admin/list-libros HTTP/1.1" 200 8125
+127.0.0.1 - - [14/Mar/2022:13:28:39 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:13:29:38 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:13:31:26 +0100] "POST /logout HTTP/1.1" 302 318
+127.0.0.1 - - [14/Mar/2022:13:31:26 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:13:31:28 +0100] "GET /login HTTP/1.1" 200 5048
+127.0.0.1 - - [14/Mar/2022:13:31:39 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:13:31:39 +0100] "GET /home HTTP/1.1" 200 2710
+127.0.0.1 - - [14/Mar/2022:13:31:42 +0100] "GET / HTTP/1.1" 200 1289
+127.0.0.1 - - [14/Mar/2022:13:32:24 +0100] "GET /home HTTP/1.1" 200 2719
+127.0.0.1 - - [14/Mar/2022:13:32:25 +0100] "GET /contacta HTTP/1.1" 500 637620
+127.0.0.1 - - [14/Mar/2022:13:33:24 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:13:34:46 +0100] "GET /contacta HTTP/1.1" 200 15
+127.0.0.1 - - [14/Mar/2022:13:35:46 +0100] "-" 408 -
+::1 - - [14/Mar/2022:13:36:58 +0100] "GET / HTTP/1.1" 200 303
+::1 - - [14/Mar/2022:17:33:31 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4757
+::1 - - [14/Mar/2022:17:33:37 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [14/Mar/2022:17:34:31 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:17:34:31 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:17:59:30 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:17:59:42 +0100] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:17:59:42 +0100] "GET /images/portadaLibro.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:17:59:43 +0100] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:17:59:50 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [14/Mar/2022:17:59:51 +0100] "GET /js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Mar/2022:18:00:50 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:18:00:51 +0100] "POST /login HTTP/1.1" 419 6615
+::1 - - [14/Mar/2022:18:01:08 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4759
+::1 - - [14/Mar/2022:18:01:10 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [14/Mar/2022:18:01:10 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 15860
+::1 - - [14/Mar/2022:18:01:12 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=1209797176ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [14/Mar/2022:18:01:12 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1606
+::1 - - [14/Mar/2022:18:01:12 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2455
+::1 - - [14/Mar/2022:18:01:12 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1698
+::1 - - [14/Mar/2022:18:01:12 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [14/Mar/2022:18:01:13 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1597
+::1 - - [14/Mar/2022:18:01:16 +0100] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=libros&ajax_request=true&ajax_page_request=true&_nocache=1647277276082811981&token=45314e5e2768604245622a2b6a6a7048 HTTP/1.1" 200 7377
+::1 - - [14/Mar/2022:18:01:17 +0100] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.bGlicm9z&vPath=cm9vdA%3D%3D.bGlicm9z&pos=0&searchClause=&searchClause2=&_nocache=1647277277458550172&token=45314e5e2768604245622a2b6a6a7048 HTTP/1.1" 200 2382
+::1 - - [14/Mar/2022:18:01:19 +0100] "GET /phpmyadmin/index.php?route=/sql&db=libros&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1647277279870102251&token=45314e5e2768604245622a2b6a6a7048 HTTP/1.1" 200 10337
+::1 - - [14/Mar/2022:18:01:21 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=164727728101684558&token=45314e5e2768604245622a2b6a6a7048 HTTP/1.1" 200 1659
+127.0.0.1 - - [14/Mar/2022:18:01:41 +0100] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [14/Mar/2022:18:02:00 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:18:03:52 +0100] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [14/Mar/2022:18:04:14 +0100] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [14/Mar/2022:18:04:49 +0100] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [14/Mar/2022:18:04:55 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:18:05:01 +0100] "GET /register HTTP/1.1" 200 5199
+127.0.0.1 - - [14/Mar/2022:18:05:39 +0100] "POST /register HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:18:05:40 +0100] "GET /home HTTP/1.1" 200 2711
+127.0.0.1 - - [14/Mar/2022:18:05:59 +0100] "POST /logout HTTP/1.1" 302 318
+127.0.0.1 - - [14/Mar/2022:18:06:00 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:18:06:02 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [14/Mar/2022:18:06:09 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:18:06:09 +0100] "GET /home HTTP/1.1" 200 2711
+127.0.0.1 - - [14/Mar/2022:18:06:15 +0100] "POST /logout HTTP/1.1" 302 318
+127.0.0.1 - - [14/Mar/2022:18:06:16 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [14/Mar/2022:18:06:17 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [14/Mar/2022:18:06:23 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [14/Mar/2022:18:06:24 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 20020
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59305
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42602
+127.0.0.1 - - [14/Mar/2022:18:06:26 +0100] "GET /vendor/adminlte/dist/js/adminlte.min.js HTTP/1.1" 200 46369
+127.0.0.1 - - [14/Mar/2022:18:06:26 +0100] "GET /vendor/adminlte/dist/img/Logo.png HTTP/1.1" 200 274109
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 83253
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 200 89501
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /vendor/adminlte/dist/css/adminlte.min.css HTTP/1.1" 200 1396747
+127.0.0.1 - - [14/Mar/2022:18:06:25 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:06:26 +0100] "GET /vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13224
+127.0.0.1 - - [14/Mar/2022:18:06:26 +0100] "GET /vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78268
+127.0.0.1 - - [14/Mar/2022:18:06:31 +0100] "GET /admin/list-libros HTTP/1.1" 200 9478
+127.0.0.1 - - [14/Mar/2022:18:06:31 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:07:42 +0100] "GET /admin/list-libros HTTP/1.1" 200 9547
+127.0.0.1 - - [14/Mar/2022:18:07:42 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:07:57 +0100] "GET /admin/list-libros HTTP/1.1" 200 9557
+127.0.0.1 - - [14/Mar/2022:18:07:57 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:08:10 +0100] "GET /admin/list-libros HTTP/1.1" 200 9543
+127.0.0.1 - - [14/Mar/2022:18:08:11 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:08:31 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:18:08:31 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:09:31 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:18:20:28 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:18:20:29 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:20:35 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:18:20:35 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:20:37 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:18:20:37 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:20:38 +0100] "POST /admin/list-libros HTTP/1.1" 405 576146
+127.0.0.1 - - [14/Mar/2022:18:20:45 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:21:45 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:18:47:46 +0100] "GET /admin/list-users HTTP/1.1" 500 590517
+127.0.0.1 - - [14/Mar/2022:18:47:49 +0100] "GET /_ignition/health-check HTTP/1.1" 500 590349
+127.0.0.1 - - [14/Mar/2022:18:48:24 +0100] "GET /admin/list-users HTTP/1.1" 200 10070
+127.0.0.1 - - [14/Mar/2022:18:48:25 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:48:27 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:18:48:27 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:18:49:27 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:32:07 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:19:32:08 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:32:09 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:19:32:09 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:32:13 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:19:32:13 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:33:13 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:40:13 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:19:40:14 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:41:13 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:44:49 +0100] "GET /admin/list-libros HTTP/1.1" 200 9542
+127.0.0.1 - - [14/Mar/2022:19:44:49 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:45:49 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:45:59 +0100] "GET /admin/list-libros HTTP/1.1" 500 639950
+127.0.0.1 - - [14/Mar/2022:19:46:59 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:49:15 +0100] "GET /admin/list-libros HTTP/1.1" 500 591835
+127.0.0.1 - - [14/Mar/2022:19:50:11 +0100] "GET /admin/list-libros HTTP/1.1" 500 639950
+127.0.0.1 - - [14/Mar/2022:19:51:11 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:51:31 +0100] "GET /admin/list-libros HTTP/1.1" 500 639916
+127.0.0.1 - - [14/Mar/2022:19:52:02 +0100] "GET /admin/list-libros HTTP/1.1" 500 639948
+127.0.0.1 - - [14/Mar/2022:19:52:07 +0100] "GET /admin/ HTTP/1.1" 301 232
+127.0.0.1 - - [14/Mar/2022:19:52:07 +0100] "GET /admin HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:19:52:07 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:52:10 +0100] "GET /admin/list-users HTTP/1.1" 200 10070
+127.0.0.1 - - [14/Mar/2022:19:52:10 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:52:12 +0100] "GET /admin/list-libros HTTP/1.1" 500 639915
+127.0.0.1 - - [14/Mar/2022:19:53:12 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:53:55 +0100] "GET /admin/list-libros HTTP/1.1" 500 588261
+127.0.0.1 - - [14/Mar/2022:19:54:49 +0100] "GET /admin/list-libros HTTP/1.1" 500 588261
+127.0.0.1 - - [14/Mar/2022:19:55:49 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:19:57:51 +0100] "GET /admin HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:19:57:51 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:19:57:54 +0100] "GET /admin/list-users HTTP/1.1" 500 588217
+127.0.0.1 - - [14/Mar/2022:19:58:07 +0100] "GET /admin/list-libros HTTP/1.1" 500 588219
+127.0.0.1 - - [14/Mar/2022:19:59:06 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:20:00:41 +0100] "GET /admin/list-libros HTTP/1.1" 500 588249
+127.0.0.1 - - [14/Mar/2022:20:01:33 +0100] "GET /admin/list-libros HTTP/1.1" 500 588249
+127.0.0.1 - - [14/Mar/2022:20:02:10 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:02:54 +0100] "GET /admin HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:20:02:55 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:20:02:56 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:03:01 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:03:41 +0100] "GET /admin HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:20:03:41 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:20:03:42 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:03:44 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:04:37 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:05:37 +0100] "-" 408 -
+127.0.0.1 - - [14/Mar/2022:20:05:50 +0100] "GET /admin HTTP/1.1" 200 6431
+127.0.0.1 - - [14/Mar/2022:20:05:51 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [14/Mar/2022:20:05:52 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [14/Mar/2022:20:05:54 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2022:11:16:46 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [15/Mar/2022:11:16:56 +0100] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:11:16:56 +0100] "GET /images/portadaLibro.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:11:16:57 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [15/Mar/2022:11:17:03 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [15/Mar/2022:11:17:05 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [15/Mar/2022:11:17:07 +0100] "GET /vendor/adminlte/dist/img/Logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:11:17:07 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:11:17:10 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2022:11:17:17 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2022:11:17:29 +0100] "POST /logout HTTP/1.1" 302 318
+127.0.0.1 - - [15/Mar/2022:11:17:29 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [15/Mar/2022:11:17:31 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [15/Mar/2022:11:17:40 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [15/Mar/2022:11:17:36 +0100] "GET /contacta HTTP/1.1" 200 15
+127.0.0.1 - - [15/Mar/2022:11:17:44 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [15/Mar/2022:11:17:47 +0100] "GET / HTTP/1.1" 200 1477
+127.0.0.1 - - [15/Mar/2022:11:17:52 +0100] "GET /login HTTP/1.1" 200 5057
+127.0.0.1 - - [15/Mar/2022:11:17:58 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [15/Mar/2022:11:17:59 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [15/Mar/2022:11:17:59 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:11:18:02 +0100] "GET /admin/list-libros HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2022:11:19:02 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:12:38:15 +0100] "GET / HTTP/1.1" 200 1360
+127.0.0.1 - - [15/Mar/2022:12:38:24 +0100] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:12:38:25 +0100] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:12:38:29 +0100] "GET / HTTP/1.1" 200 1289
+127.0.0.1 - - [15/Mar/2022:12:38:34 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [15/Mar/2022:12:38:35 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:12:38:38 +0100] "GET /admin/list-users HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2022:12:39:15 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:12:39:38 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:12:40:25 +0100] "GET /admin/list-users HTTP/1.1" 200 10070
+127.0.0.1 - - [15/Mar/2022:12:40:26 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:12:40:28 +0100] "GET /admin/list-libros HTTP/1.1" 500 639919
+127.0.0.1 - - [15/Mar/2022:12:41:04 +0100] "GET /admin/list-libros HTTP/1.1" 500 639916
+127.0.0.1 - - [15/Mar/2022:12:41:57 +0100] "GET /admin/list-libros HTTP/1.1" 500 639962
+127.0.0.1 - - [15/Mar/2022:12:41:59 +0100] "GET /admin/list-libros HTTP/1.1" 500 639965
+127.0.0.1 - - [15/Mar/2022:12:42:59 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:13:44:33 +0100] "GET / HTTP/1.1" 200 1289
+127.0.0.1 - - [15/Mar/2022:13:44:57 +0100] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:01 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/adminlte/dist/css/adminlte.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /vendor/adminlte/dist/js/adminlte.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:04 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:13:45:05 +0100] "GET /vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:05 +0100] "GET /vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2022:13:45:08 +0100] "GET /admin/list-users HTTP/1.1" 200 10070
+127.0.0.1 - - [15/Mar/2022:13:45:08 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:13:45:12 +0100] "GET /admin/list-libros HTTP/1.1" 500 639915
+127.0.0.1 - - [15/Mar/2022:13:46:12 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:13:51:01 +0100] "GET /admin/list-libros HTTP/1.1" 500 639917
+127.0.0.1 - - [15/Mar/2022:13:51:58 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:13:53:24 +0100] "GET /admin/list-libros HTTP/1.1" 500 639948
+127.0.0.1 - - [15/Mar/2022:13:54:24 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:13:54:58 +0100] "GET /admin/list-libros HTTP/1.1" 500 584002
+127.0.0.1 - - [15/Mar/2022:13:55:05 +0100] "GET /admin/list-libros HTTP/1.1" 500 583008
+127.0.0.1 - - [15/Mar/2022:13:55:18 +0100] "GET /admin/list-libros HTTP/1.1" 500 583026
+127.0.0.1 - - [15/Mar/2022:13:55:33 +0100] "GET /admin/list-libros HTTP/1.1" 500 576351
+127.0.0.1 - - [15/Mar/2022:13:55:53 +0100] "GET /admin/list-libros HTTP/1.1" 500 576302
+127.0.0.1 - - [15/Mar/2022:13:56:53 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:13:56:53 +0100] "GET /admin/list-libros HTTP/1.1" 500 576383
+127.0.0.1 - - [15/Mar/2022:13:57:09 +0100] "GET /admin/list-libros HTTP/1.1" 500 576894
+127.0.0.1 - - [15/Mar/2022:13:57:29 +0100] "GET /admin/list-libros HTTP/1.1" 500 576894
+127.0.0.1 - - [15/Mar/2022:13:57:47 +0100] "GET /admin/list-libros HTTP/1.1" 500 576334
+127.0.0.1 - - [15/Mar/2022:13:58:44 +0100] "GET /admin/list-libros HTTP/1.1" 500 639947
+127.0.0.1 - - [15/Mar/2022:13:58:51 +0100] "GET /admin/list-libros HTTP/1.1" 500 576334
+127.0.0.1 - - [15/Mar/2022:13:59:29 +0100] "GET /admin/list-libros HTTP/1.1" 500 583043
+127.0.0.1 - - [15/Mar/2022:13:59:30 +0100] "GET /admin/list-libros HTTP/1.1" 500 583043
+127.0.0.1 - - [15/Mar/2022:13:59:36 +0100] "GET /admin/list-libros HTTP/1.1" 500 583025
+127.0.0.1 - - [15/Mar/2022:13:59:37 +0100] "GET /admin/list-libros HTTP/1.1" 500 583025
+127.0.0.1 - - [15/Mar/2022:13:59:37 +0100] "GET /admin/list-libros HTTP/1.1" 500 583025
+127.0.0.1 - - [15/Mar/2022:14:00:31 +0100] "GET /admin/list-libros HTTP/1.1" 500 576830
+127.0.0.1 - - [15/Mar/2022:14:01:29 +0100] "GET /admin/list-libros HTTP/1.1" 500 576946
+127.0.0.1 - - [15/Mar/2022:14:01:35 +0100] "GET /admin/list-users HTTP/1.1" 500 576932
+127.0.0.1 - - [15/Mar/2022:14:01:38 +0100] "GET /admin/list-users HTTP/1.1" 500 576932
+127.0.0.1 - - [15/Mar/2022:14:01:42 +0100] "GET /home HTTP/1.1" 500 576915
+127.0.0.1 - - [15/Mar/2022:14:01:46 +0100] "GET /home HTTP/1.1" 500 576885
+127.0.0.1 - - [15/Mar/2022:14:02:16 +0100] "GET /home HTTP/1.1" 500 576915
+127.0.0.1 - - [15/Mar/2022:14:02:17 +0100] "GET /home HTTP/1.1" 500 576915
+127.0.0.1 - - [15/Mar/2022:14:02:22 +0100] "GET /home HTTP/1.1" 500 576915
+127.0.0.1 - - [15/Mar/2022:14:02:40 +0100] "GET /home HTTP/1.1" 500 576930
+127.0.0.1 - - [15/Mar/2022:14:03:34 +0100] "GET /home HTTP/1.1" 500 576981
+127.0.0.1 - - [15/Mar/2022:14:03:36 +0100] "GET /home HTTP/1.1" 500 576981
+127.0.0.1 - - [15/Mar/2022:14:03:40 +0100] "GET / HTTP/1.1" 500 576940
+127.0.0.1 - - [15/Mar/2022:14:03:46 +0100] "GET / HTTP/1.1" 500 576910
+127.0.0.1 - - [15/Mar/2022:14:04:15 +0100] "GET / HTTP/1.1" 200 1289
+127.0.0.1 - - [15/Mar/2022:14:04:16 +0100] "GET / HTTP/1.1" 200 1289
+127.0.0.1 - - [15/Mar/2022:14:04:17 +0100] "GET /home HTTP/1.1" 200 6431
+127.0.0.1 - - [15/Mar/2022:14:04:18 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:14:04:21 +0100] "GET /admin/list-users HTTP/1.1" 200 10070
+127.0.0.1 - - [15/Mar/2022:14:04:21 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:14:04:23 +0100] "GET /admin/list-libros HTTP/1.1" 500 646789
+127.0.0.1 - - [15/Mar/2022:14:04:46 +0100] "GET /admin/list-libros HTTP/1.1" 500 646790
+127.0.0.1 - - [15/Mar/2022:14:04:58 +0100] "GET /admin/list-libros HTTP/1.1" 500 646792
+127.0.0.1 - - [15/Mar/2022:14:05:48 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:14:06:03 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:14:06:05 +0100] "GET /admin/list-libros HTTP/1.1" 500 646790
+127.0.0.1 - - [15/Mar/2022:14:06:31 +0100] "GET /admin/list-libros HTTP/1.1" 200 9541
+127.0.0.1 - - [15/Mar/2022:14:06:32 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [15/Mar/2022:14:07:31 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:14:08:08 +0100] "GET /admin/list-libros HTTP/1.1" 500 584310
+127.0.0.1 - - [15/Mar/2022:14:08:11 +0100] "GET /admin/list-libros HTTP/1.1" 500 584340
+127.0.0.1 - - [15/Mar/2022:14:09:11 +0100] "-" 408 -
+127.0.0.1 - - [15/Mar/2022:14:09:55 +0100] "GET /admin/list-libros HTTP/1.1" 500 584309
+127.0.0.1 - - [15/Mar/2022:14:10:09 +0100] "GET /admin/list-libros HTTP/1.1" 500 584309
+127.0.0.1 - - [15/Mar/2022:14:10:24 +0100] "GET /admin/list-libros HTTP/1.1" 500 584309
