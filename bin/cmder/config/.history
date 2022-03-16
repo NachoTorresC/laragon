@@ -193,3 +193,15 @@ Php artisan make:migration add_user_to_libros_table
 Php artisan make:migration libros_user
 php artisan migrate:fresh --seed
 php artisan route:list
+Php artisan make:migration add_user_to_libros_table
+Php artisan make:migration libros_user
+php artisan route:list
+php artisan migrate:fresh --seed
+php artisan route:list
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed

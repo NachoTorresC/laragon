@@ -5,16 +5,17 @@
     <h1 class="text-center text-info">{{ __("Listado de libros") }}</h1>
    
     
-    <a href="{{route('libros.create')}}" class="btn btn-primary btn-sm mb-4 ">Crear</a> <!-- OJO route NO url-->
+    <a href="{{route('libros.create')}}" class="btn btn-success btn-sm mb-4 ">Añadir libro</a> <!-- OJO route NO url-->
 
 
 <table class="table table-info table-striped" style="width: 100%">
     <thead>
     <tr>
         <th scope="col">{{ ("título") }}</th>
-        <th scope="col">{{ ("temática") }}</th>
+        <th scope="col">{{ ("tematica") }}</th>
         <th scope="col">{{ ("sinopsis") }}</th>
         <th scope="col">{{ ("autor") }}</th>
+        <th scope="col">{{ ("portada") }}</th>
     </tr>
     </thead>
     <tbody>
@@ -22,10 +23,11 @@
             <tr>
 
                 <td>{{ $libro->titulo }}</td>
-                <td>{{ $libro->temática }}</td>
+                <td>{{ $libro->tematica }}</td>
                 <td>{{ $libro->sinopsis }}</td>
                 <td>{{ $libro->autor }}</td>
-                <td><a href="" class="btn btn-primary btn-sm">Editar</a></td>
+                <td>{{ $libro->portada }}</td>
+                <td><a href="{{route('libros.edit', $libro)}}" class="btn btn-primary btn-sm">Editar</a></td>
                 <td>
                     <form id="delete-libro-{{$libro->id }}-form" action="{{route('libros.destroy', $libro)}}" method="POST" class="hidden">
                         @method('DELETE')

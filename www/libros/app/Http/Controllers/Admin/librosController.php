@@ -26,7 +26,12 @@ class librosController extends Controller
      */
     public function create() // abrir formulario para un nuevo registro
     {
-        return view('admin.create');
+        $libros = new libros();
+        $title = __("Crear libro");
+        $textButton = __("Crear");
+        $route = route("libros.store");
+        return view('admin.create', compact("title", "textButton", "route", "libros"));
+       
     }
 
     /**
@@ -37,9 +42,20 @@ class librosController extends Controller
      */
     public function store(Request $request) // guardar en la base de datos el nuevo registro
     {
-        $libros= libros::create($request->all());
-        return redirect()->route('admin.edit',$libros);
-    }
+       // dd($request);
+       // $libros= libros::create($request->all());
+        //return redirect()->route('admin.edit',$libros);
+            libros::create([
+                'titulo'=>$request->input("titulo"),
+                'tematica'=>$request->input("tematica"),
+                'sinopsis'=>$request->input("sinopsis"),
+                'autor'=>$request->input("autor"),
+                'portada'=>$request->input("portada")
+        
+            ]);
+            return redirect(url('/admin/list-libros'))
+            ->with('success',__("Libro añadido"));
+        }
 
     /**
      * Display the specified resource.
@@ -60,7 +76,12 @@ class librosController extends Controller
      */
     public function edit(libros $libros)
     {
-        return view ('admin.edit');
+       
+        $update = true;
+        $title = __("Editar libro");
+        $textButton = __("Actualizar");
+        $route=route("admin.update", ["libros" =>$libros]);
+        return view ("admin.edit",compact("update","title","textButton","route","libros"));
     }
 
     /**
@@ -85,7 +106,7 @@ class librosController extends Controller
     {
          
          $libro->delete();
-         return back()->with("success", __("libro eliminado!"));
+         return back()->with("success", __("Acabas de eliminar el libro"));
     }
 }
 
