@@ -27,7 +27,7 @@
                 <td>{{ $libro->sinopsis }}</td>
                 <td>{{ $libro->autor }}</td>
                 <td>{{ $libro->portada }}</td>
-                <td><a href="{{route('libros.edit', $libro)}}" class="btn btn-primary btn-sm">Editar</a></td>
+                <td><a href="{{route('libros.edit', $libro->id)}}" class="btn btn-primary btn-sm">Editar</a></td>
                 <td>
                     <form id="delete-libro-{{$libro->id }}-form" action="{{route('libros.destroy', $libro)}}" method="POST" class="hidden">
                         @method('DELETE')

@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Libros;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 
 class librosController extends Controller
 {
@@ -50,7 +51,7 @@ class librosController extends Controller
                 'tematica'=>$request->input("tematica"),
                 'sinopsis'=>$request->input("sinopsis"),
                 'autor'=>$request->input("autor"),
-                'portada'=>$request->input("portada")
+                'portada'=>$request->file("portada")->store('', 'images'),
         
             ]);
             return redirect(url('/admin/list-libros'))
@@ -74,13 +75,13 @@ class librosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(libros $libros)
+    public function edit( $id)
     {
-       
+       $libros=libros::find($id);
         $update = true;
         $title = __("Editar libro");
         $textButton = __("Actualizar");
-        $route=route("admin.update", ["libros" =>$libros]);
+        $route=route("libros.update", $libros->id);
         return view ("admin.edit",compact("update","title","textButton","route","libros"));
     }
 
@@ -93,7 +94,27 @@ class librosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            "titulo"=> "required|max:30",
+          
+          
+        ]);
+
+
+       $libros=libros::find($id);
+        $libros-> titulo = $request->get('titulo');
+        $libros-> tematica = $request->get('tematica');
+        $libros-> sinopsis = $request->get('sinopsis');
+        $libros-> autor = $request->get('autor');
+        if($request->hasFile('imagen')){
+            Storage::disk('images')->delete('images/'.$libros->portada);
+            $libros-> portada = $request->file('portada')->store('','images');
+        }
+        
+
+        $libros-> save();
+        return redirect(url("admin/list-libros"))
+        ->with("success", __("¡libro actualizada!"));
     }
 
     /**

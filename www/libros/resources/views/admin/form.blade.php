@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row mt-3">
 			<div class="col-6">
-				<form method="POST" action="{{ $route }}">
+				<form enctype="multipart/form-data" method="POST" action="{{ $route }}">
 					@csrf
 					@isset($update)
 					@method("PUT")
@@ -33,7 +33,7 @@
 					</div>
 					<div class="mb-3">
 						<label for="libro" class="form-label">portada</label>
-						<input name="portada" value="{{ $libros->portada}}" type="text" class="form-control" id="libro" >
+						<input name="portada" value="{{ $libros->portada}}" type="file" class="form-control" id="libro" >
 					</div>
 					
 
