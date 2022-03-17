@@ -33,7 +33,7 @@
 					</div>
 					<div class="mb-3">
 						<label for="libro" class="form-label">portada</label>
-						<input name="portada" value="{{ $libros->portada}}" type="file" class="form-control" id="libro" >
+						<input name="portada" value="" type="file" class="form-control" id="libro" >
 					</div>
 					
 
