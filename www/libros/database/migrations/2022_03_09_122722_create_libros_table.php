@@ -17,7 +17,7 @@ class CreateLibrosTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->string('tematica');
-            $table->string('sinopsis');
+            $table->text('sinopsis'); // OJO, si es tipo string no deja meter más de una extension
             $table->string('autor');
             $table->string('portada');
             $table->timestamps();
@@ -46,7 +46,36 @@ class CreateLibrosTable extends Migration
          "sinopsis"=>" El amor y la muerte se entrecruzan vibrantemente en este magistral tapiz cuyo centro es la construcción de una catedral gótica. La historia se inicia con el ahorcamiento público de un inocente y finaliza con la humillación de un rey.",
          "autor"=>"Ken Follet",
          "portada"=>"null"
+    ]);
+
+
+         DB::table("libros")
+        ->insert([
+         "titulo" => "La fortaleza digital",
+         "tematica"=>"Tecno-thriller",
+         "sinopsis"=>" Un misterioso e indescifrable código hará tambalear las más altas esferas de poder. 
+         Cuando el sofisticado superordenador de la NSA —la agencia de Inteligencia más poderosa del mundo
+         intercepta un código que es incapaz de descifrar, ésta debe recurrir a su mejor criptógrafa, Susan Fletcher.",
+         "autor"=>"Dan Brown",
+         "portada"=>"null"
+    ]);
+         DB::table("libros")
+        ->insert([
+        "titulo" => "Juego de tronos",
+        "tematica"=>"Literatura fantástica",
+        "sinopsis"=>"El invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte del rey Robert Baratheon el Usurpador.",
+        "autor"=>"George R.R. Martin",
+        "portada"=>"null"
 ]);
+        DB::table("libros")
+        ->insert([
+        "titulo" => "Juego de tronos",
+        "tematica"=>"Literatura fantástica",
+        "sinopsis"=>"El invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte del rey Robert Baratheon el Usurpador.",
+        "autor"=>"George R.R. Martin",
+        "portada"=>"null"
+        ]);
+
     }
 
     /**

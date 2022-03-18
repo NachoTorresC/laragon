@@ -46,36 +46,14 @@ class librosController extends Controller
        // dd($request);
        // $libros= libros::create($request->all());
         //return redirect()->route('admin.edit',$libros);
-          /*  libros::create([
+            libros::create([
                 'titulo'=>$request->input("titulo"),
                 'tematica'=>$request->input("tematica"),
                 'sinopsis'=>$request->input("sinopsis"),
                 'autor'=>$request->input("autor"),
                 'portada'=>$request->file("portada")->store('', 'images'),
-                       
-            ]);*/
-          
-
-            if($request->hasFile('imagen')){   
-                libros::create([
-                    'titulo'=>$request->input("titulo"),
-                    'tematica'=>$request->input("tematica"),
-                    'sinopsis'=>$request->input("sinopsis"),
-                    'autor'=>$request->input("autor"),
-                    'portada'=>$request->file("portada")->store('', 'images'),
-                           
-                ]);
-            }else{
-                libros::create([
-                    'titulo'=>$request->input("titulo"),
-                    'tematica'=>$request->input("tematica"),
-                    'sinopsis'=>$request->input("sinopsis"),
-                    'autor'=>$request->input("autor"),
-                    'portada'=>""
-                           
-                ]);
-            }
-             
+        
+            ]);
             return redirect(url('/admin/list-libros'))
             ->with('success',__("Libro añadido"));
         }
@@ -131,12 +109,12 @@ class librosController extends Controller
         if($request->hasFile('imagen')){
             Storage::disk('images')->delete('images/'.$libros->portada);
             $libros-> portada = $request->file('portada')->store('','images');
-        }else $libros->portada="";
+        }
         
 
         $libros-> save();
         return redirect(url("admin/list-libros"))
-        ->with("success", __("¡libro actualizada!"));
+        ->with("success", __("¡libro actualizado!"));
     }
 
     /**

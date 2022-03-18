@@ -31,4 +31,7 @@ class HomeController extends Controller
         }
        
     }
+    public function catalogo(){
+        return view('catalogo');
+    }
 }

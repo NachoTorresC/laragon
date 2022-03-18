@@ -23,12 +23,12 @@
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                        Portada
                     </a>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-yellow-100 no-underline">
+                    <a href="{{ url('catalogo') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                         Catálogo de libros
                     </a>
-                    <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
+                   <!-- <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                        Contacta con nosotros
-                     </a>
+                     </a>-->
                 </div>
 
                 <!-- para meter una imagen se tiene que poner src:   <img src="img/> llaves dentro del  asset" -->

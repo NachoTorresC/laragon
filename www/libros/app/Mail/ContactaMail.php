@@ -20,7 +20,7 @@ class ContactaMail extends Mailable
      */
     public function __construct()
     {
-        //
+        $this->contacto=$contacto;
     }
 
     /**
@@ -30,6 +30,6 @@ class ContactaMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.contacta');
+        return $this->view('contacta.contacta');
     }
 }
