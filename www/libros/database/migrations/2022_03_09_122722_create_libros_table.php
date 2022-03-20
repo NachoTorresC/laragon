@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateLibrosTable extends Migration
 {
@@ -61,7 +62,7 @@ class CreateLibrosTable extends Migration
     ]);
          DB::table("libros")
         ->insert([
-        "titulo" => "Juego de tronos",
+        "titulo" => "Canción de hielo y fuego ",
         "tematica"=>"Literatura fantástica",
         "sinopsis"=>"El invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte del rey Robert Baratheon el Usurpador.",
         "autor"=>"George R.R. Martin",
@@ -69,9 +70,9 @@ class CreateLibrosTable extends Migration
 ]);
         DB::table("libros")
         ->insert([
-        "titulo" => "Juego de tronos",
+        "titulo" => "Choque de reyes",
         "tematica"=>"Literatura fantástica",
-        "sinopsis"=>"El invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte del rey Robert Baratheon el Usurpador.",
+        "sinopsis"=>"La guerra civil se ha extendido por los reinos de Poniente y pasará a conocerse como la Guerra de los Cinco Reyes. Mientras, la Guardia de la Noche envía un grupo de reconocimiento al norte, más allá del muro. En el lejano este, Daenerys Targaryen continua con su misión: volver a los Siete Reinos para reconquistarlos.",
         "autor"=>"George R.R. Martin",
         "portada"=>"null"
         ]);

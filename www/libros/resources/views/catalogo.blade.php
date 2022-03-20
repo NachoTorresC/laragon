@@ -9,21 +9,32 @@
                 {{ session('status') }}
             </div>
         @endif
+        <body>
+            <div class="container">
+                <h1 class="text-yellow-100  text-center mt-2">Catálogo de libros </h1>
+                <div class="row mt-4" >
+                    <div class="col">
+                        <h2 class="text-yellow-100">harry potter</h2>
+                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
+                 
+                    
+                        <h2 class="text-white">harry potter</h2>
+                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
+               
+                  
+                        <h2 class="text-white">harry potter</h2>
+                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
+              
+           
+                        <h2 class="text-white">harry potter</h2>
+                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
+                    </div>
+                </div>
+            </div>
 
-        <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+        </body>
 
-        <div class=" bg-black ">
-        <img src="{{ asset('ECDV.jpg') }}" alt="" >
-        
-        </div>
-        <div class="bg-black">
-        <img src="{{ asset('LaSangreDeLosInocentes.jpg') }}" alt="" >
-        </div>
-    
-        
-
-       
-        </section>
+      
     </div>
 </main>
 @endsection

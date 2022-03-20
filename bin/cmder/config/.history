@@ -222,3 +222,5 @@ Php artisan make:controller Contacta
 Php artisan make:controller ContactaController
 php artisan migrate:fresh --seed
 php artisan make:controller ContactaController
+php artisan migrate:fresh --seed
+npm run dev
