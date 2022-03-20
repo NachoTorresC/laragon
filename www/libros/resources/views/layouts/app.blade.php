@@ -24,11 +24,11 @@
                        Portada
                     </a>
                     <a href="{{ url('catalogo') }}" class="text-lg font-semibold text-yellow-100 no-underline">
-                        Catálogo de libros
+                        Nuestro catálogo
                     </a>
-                   <!-- <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
+                    <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                        Contacta con nosotros
-                     </a>-->
+                     </a>
                 </div>
 
                 <!-- para meter una imagen se tiene que poner src:   <img src="img/> llaves dentro del  asset" -->
@@ -54,7 +54,12 @@
             </div>
         </header>
 
+        
+
         @yield('content')
     </div>
+    <footer>
+        <p class="text-yellow-100 text-center mt-4">&copy;  Nacho Torres 2021-2022 </p>
+    </footer>
 </body>
 </html>

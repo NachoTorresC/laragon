@@ -13,14 +13,16 @@ class ContactaMail extends Mailable
 
     public $asunto="Informacion de contacto";
 
+    public $contacto;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($contacto)
     {
-        $this->contacto=$contacto;
+       $this->contacto=$contacto;
     }
 
     /**

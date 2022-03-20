@@ -1,4 +1,6 @@
 <?php
+
+use Symfony\Component\Routing\Route;
 Use App\http\Controllers\Admin\AdminController;
 Route::prefix('admin')->group(function(){
     Route::get('/',[AdminController::class,'index']);

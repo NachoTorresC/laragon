@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Mail\ContactaMail;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,14 +23,17 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-/*Route::get('contacta',function(){
+Route::get('contacta',function(){
     $correo=new ContactaMail;
 
     Mail::to('vyd15559@educastur.es')->send($correo);
 
     return "mensaje enviado";
-});*/
+});
 
 Route::get('catalogo', [\App\Http\Controllers\HomeController::class, 'catalogo']);
-Route::get('contacta', [\App\Http\Controllers\ContactaController::class, 'index'])->name('contacta.index');
-Route::post('contacta', [\App\Http\Controllers\ContactaController::class, 'store'])->name('contacta.store');
+
+
+
+Route::get('contacta', [ContactaController::class, 'index'])->name('contacta.index');
+Route::post('contacta', [ContactaController::class, 'store'])->name('contacta.store');
