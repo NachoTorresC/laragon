@@ -15,7 +15,7 @@
         <th scope="col">{{ ("tematica") }}</th>
         <th scope="col">{{ ("sinopsis") }}</th>
         <th scope="col">{{ ("autor") }}</th>
-        <th scope="col">{{ ("portada") }}</th>
+        
     </tr>
     </thead>
     <tbody>

@@ -18,23 +18,53 @@
 					<div class="mb-3">
 						<label for="libro" class="form-label">Título del libro</label>
 						<input name="titulo" value="{{ $libros->titulo}}" type="text" class="form-control" id="libro" >
+
+						<!-- Verificación-->
+						@error('titulo')
+						<br>
+						<small class="text-danger">* Este campo es obligatorio</small>
+						<br>
+							
+						@enderror
 					</div>
+				
                     <div class="mb-3">
 						<label for="libro" class="form-label">Temática</label>
 						<input name="tematica" value="{{ $libros->tematica}}" type="text" class="form-control" id="libro" >
+
+							<!-- Verificación-->
+						@error('tematica')
+						<br>
+						<small class="text-danger">* Este campo es obligatorio</small> 
+						<br>
+							
+						@enderror
 					</div>
                     <div class="mb-3">
 						<label for="libro" class="form-label">Sinopsis</label>
 						<input name="sinopsis" value="{{ $libros->sinopsis}}" type="text" class="form-control" id="libro" >
+
+							<!-- Verificación-->
+						@error('sinopsis')
+						<br>
+						<small class="text-danger">* Este campo es obligatorio</small>
+						<br>
+							
+						@enderror
 					</div>
                     <div class="mb-3">
 						<label for="libro" class="form-label">Autor del libro</label>
 						<input name="autor" value="{{ $libros->autor}}" type="text" class="form-control" id="libro" >
+
+							<!-- Verificación-->
+						@error('autor')
+						<br>
+						<small class="text-danger" >* Este campo es obligatorio</small>
+						<br>
+							
+						@enderror
 					</div>
-					<div class="mb-3">
-						<label for="libro" class="form-label">portada</label>
-						<input name="portada" value="{{ $libros->portada}}" type="file" class="form-control" id="libro" >
-					</div>
+					
 					
 
 				

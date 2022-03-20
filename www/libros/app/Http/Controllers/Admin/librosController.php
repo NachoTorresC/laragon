@@ -46,12 +46,21 @@ class librosController extends Controller
        // dd($request);
        // $libros= libros::create($request->all());
         //return redirect()->route('admin.edit',$libros);
+        $this->validate($request, [
+            "titulo"=> "required|max:30",
+            "tematica"=>"required|max:20",
+            "sinopsis"=>"required|max:140",
+            "autor"=>"required|max:40"
+          
+          
+        ]);   
+
             libros::create([
                 'titulo'=>$request->input("titulo"),
                 'tematica'=>$request->input("tematica"),
                 'sinopsis'=>$request->input("sinopsis"),
                 'autor'=>$request->input("autor"),
-                'portada'=>$request->file("portada")->store('', 'images'),
+                //'portada'=>$request->file("portada")->store('', 'images'),
         
             ]);
             return redirect(url('/admin/list-libros'))

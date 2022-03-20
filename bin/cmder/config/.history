@@ -224,3 +224,7 @@ php artisan migrate:fresh --seed
 php artisan make:controller ContactaController
 php artisan migrate:fresh --seed
 npm run dev
+php artisan migrate:fresh --seed
+php artisan storage:link
+php artisan cache:clear
+npm run dev
