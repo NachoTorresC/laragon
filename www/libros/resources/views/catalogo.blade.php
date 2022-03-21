@@ -12,23 +12,59 @@
         <body>
             <div class="container">
                 <h1 class="text-yellow-100  text-center mt-2">Catálogo de libros </h1>
-                <div class="row mt-4" >
-                    <div class="col">
-                        <h2 class="text-yellow-100">harry potter</h2>
+                <div class="row mt-4 " >
+                    <div class="col-3">
+                        <h3 class="text-info">El código </h3>
+                        <h3 class="text-info">da vinci</h3>
                         <img src="{{ asset('ECDV.jpg') }}" alt="" >
-                 
-                    
-                        <h2 class="text-white">harry potter</h2>
-                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
-               
-                  
-                        <h2 class="text-white">harry potter</h2>
-                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
-              
-           
-                        <h2 class="text-white">harry potter</h2>
-                        <img src="{{ asset('ECDV.jpg') }}" alt="" >
+
                     </div>
+                    <div class="col-3">
+                        <h3 class="text-info">La sangre </h3>
+                        <h3 class="text-info">de los inocentes </h3>
+                        <img src="{{ asset('laSangre.jpg') }}" alt="" >
+
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text-info">Los pilares </h3>
+                        <h3 class="text-info">de la tierra </h3>
+                        <img src="{{ asset('losPilares.jpg') }}" alt="" >
+
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text-info">La fortaleza </h3>
+                        <h3 class="text-info">digital </h3>
+                        <img src="{{ asset('fortalezaDigital.jpg') }}" alt="" >
+
+                    </div>
+                    
+                </div>
+                <div class="row mt-5" >
+                    <div class="col-3">
+                        <h3 class="text-info">Cancion de  </h3>
+                        <h3 class="text-info">hielo y fuego</h3>
+                        <img src="{{ asset('cancionHielo.jpg') }}" alt="" >
+
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text-info">Choque de  </h3>
+                        <h3 class="text-info">reyes </h3>
+                        <img src="{{ asset('choqueReyes.jpg') }}" alt="" >
+
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text-info">La piedra </h3>
+                        <h3 class="text-info">filosofal </h3>
+                        <img src="{{ asset('harryPotter.jpg') }}" alt="" >
+
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text-info">La cámara </h3>
+                        <h3 class="text-info">secreta </h3>
+                        <img class="img-fluid" src="{{ asset('laCamaraSecreta.jpg') }}" alt="" >
+
+                    </div>
+                    
                 </div>
             </div>
 

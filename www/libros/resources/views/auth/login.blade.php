@@ -49,13 +49,13 @@
                         <label class="inline-flex items-center text-sm text-gray-700" for="remember">
                             <input type="checkbox" name="remember" id="remember" class="form-checkbox"
                                 {{ old('remember') ? 'checked' : '' }}>
-                            <span class="ml-2">{{ __('Remember Me') }}</span>
+                            <span class="ml-2">{{ __('Recuerdame ') }}</span>
                         </label>
 
                         @if (Route::has('password.request'))
                         <a class="text-sm text-blue-500 hover:text-blue-700 whitespace-no-wrap no-underline hover:underline ml-auto"
                             href="{{ route('password.request') }}">
-                            {{ __('Forgot Your Password?') }}
+                            {{ __('¿SE TE OLVIDÓ LA CONTRASEÑA?') }}
                         </a>
                         @endif
                     </div>
@@ -68,7 +68,7 @@
 
                         @if (Route::has('register'))
                         <p class="w-full text-xs text-center text-gray-700 my-6 sm:text-sm sm:my-8">
-                            {{ __("Don't have an account?") }}
+                            {{ __("¿TODAVÍA SIN CUENTA?") }}
                             <a class="text-blue-500 hover:text-blue-700 no-underline hover:underline" href="{{ route('register') }}">
                                 {{ __('Register') }}
                             </a>

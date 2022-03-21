@@ -228,3 +228,4 @@ php artisan migrate:fresh --seed
 php artisan storage:link
 php artisan cache:clear
 npm run dev
+php artisan migrate:fresh --seed
