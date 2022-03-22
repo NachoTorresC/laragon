@@ -8713,3 +8713,90 @@
 127.0.0.1 - - [22/Mar/2022:19:20:54 +0100] "POST /admin/libros/10 HTTP/1.1" 302 390
 127.0.0.1 - - [22/Mar/2022:19:20:55 +0100] "GET /admin/list-libros HTTP/1.1" 200 14063
 127.0.0.1 - - [22/Mar/2022:19:20:55 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:21:54 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:22:17 +0100] "POST /admin/libros/6 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:17 +0100] "GET /admin/list-libros HTTP/1.1" 200 12794
+127.0.0.1 - - [22/Mar/2022:19:22:17 +0100] "POST /admin/libros/5 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:17 +0100] "GET /admin/list-libros HTTP/1.1" 200 11676
+127.0.0.1 - - [22/Mar/2022:19:22:18 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:22:18 +0100] "POST /admin/libros/4 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:18 +0100] "GET /admin/list-libros HTTP/1.1" 200 10424
+127.0.0.1 - - [22/Mar/2022:19:22:18 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:22:19 +0100] "POST /admin/libros/3 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:19 +0100] "GET /admin/list-libros HTTP/1.1" 200 9245
+127.0.0.1 - - [22/Mar/2022:19:22:19 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:22:19 +0100] "POST /admin/libros/2 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:20 +0100] "GET /admin/list-libros HTTP/1.1" 200 8105
+127.0.0.1 - - [22/Mar/2022:19:22:20 +0100] "POST /admin/libros/1 HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:22:20 +0100] "GET /admin/list-libros HTTP/1.1" 200 7476
+127.0.0.1 - - [22/Mar/2022:19:22:20 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:23:07 +0100] "GET /admin/list-libros HTTP/1.1" 200 7480
+127.0.0.1 - - [22/Mar/2022:19:23:07 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:23:23 +0100] "GET /admin/list-libros HTTP/1.1" 200 7492
+127.0.0.1 - - [22/Mar/2022:19:23:24 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+::1 - - [22/Mar/2022:19:23:53 +0100] "GET /phpmyadmin/index.php?route=/sql&db=libros&table=libros&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1647973433355227307&token=6e3c307051214a617d5b2a4a7b612e37 HTTP/1.1" 200 5214
+::1 - - [22/Mar/2022:19:23:54 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1647973434935459489&token=6e3c307051214a617d5b2a4a7b612e37 HTTP/1.1" 200 1653
+127.0.0.1 - - [22/Mar/2022:19:24:23 +0100] "-" 408 -
+::1 - - [22/Mar/2022:19:24:52 +0100] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=3310929879ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [22/Mar/2022:19:24:51 +0100] "GET /phpmyadmin/index.php?route=/sql&db=libros&table=libros&pos=0 HTTP/1.1" 200 16904
+::1 - - [22/Mar/2022:19:24:52 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [22/Mar/2022:19:24:52 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3113
+::1 - - [22/Mar/2022:19:24:52 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1698
+::1 - - [22/Mar/2022:19:24:52 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1647973492571706861&token=6e3c307051214a617d5b2a4a7b612e37 HTTP/1.1" 200 1653
+::1 - - [22/Mar/2022:19:24:52 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1598
+127.0.0.1 - - [22/Mar/2022:19:24:56 +0100] "GET /admin/list-libros HTTP/1.1" 200 14063
+127.0.0.1 - - [22/Mar/2022:19:24:57 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:25:45 +0100] "GET /admin/list-libros HTTP/1.1" 200 14103
+127.0.0.1 - - [22/Mar/2022:19:25:46 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:26:11 +0100] "GET /admin/list-libros HTTP/1.1" 200 14139
+127.0.0.1 - - [22/Mar/2022:19:26:11 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:26:44 +0100] "GET /admin/list-libros HTTP/1.1" 200 14150
+127.0.0.1 - - [22/Mar/2022:19:26:44 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:27:21 +0100] "GET /admin/list-libros HTTP/1.1" 200 14209
+127.0.0.1 - - [22/Mar/2022:19:27:22 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:28:21 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:28:31 +0100] "GET /admin/list-libros HTTP/1.1" 200 14226
+127.0.0.1 - - [22/Mar/2022:19:28:31 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:28:46 +0100] "GET /admin/list-libros HTTP/1.1" 200 14209
+127.0.0.1 - - [22/Mar/2022:19:28:46 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:29:08 +0100] "GET /admin/list-libros HTTP/1.1" 200 14209
+127.0.0.1 - - [22/Mar/2022:19:29:09 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:29:15 +0100] "GET /admin/libros/create HTTP/1.1" 200 8353
+127.0.0.1 - - [22/Mar/2022:19:29:33 +0100] "GET /admin/libros/create HTTP/1.1" 200 8363
+127.0.0.1 - - [22/Mar/2022:19:29:38 +0100] "POST /admin/libros HTTP/1.1" 302 390
+127.0.0.1 - - [22/Mar/2022:19:29:39 +0100] "GET /admin/list-libros HTTP/1.1" 200 15117
+127.0.0.1 - - [22/Mar/2022:19:29:39 +0100] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [22/Mar/2022:19:30:38 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:31:05 +0100] "POST /logout HTTP/1.1" 302 318
+127.0.0.1 - - [22/Mar/2022:19:31:05 +0100] "GET / HTTP/1.1" 200 1443
+127.0.0.1 - - [22/Mar/2022:19:31:05 +0100] "GET /imagenPortada.png HTTP/1.1" 200 674763
+::1 - - [22/Mar/2022:19:31:13 +0100] "GET /phpmyadmin/index.php?route=/sql&server=1&db=libros&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1647973873895243882&token=6e3c307051214a617d5b2a4a7b612e37 HTTP/1.1" 200 10278
+::1 - - [22/Mar/2022:19:31:14 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1647973874237720181&token=6e3c307051214a617d5b2a4a7b612e37 HTTP/1.1" 200 1670
+127.0.0.1 - - [22/Mar/2022:19:31:28 +0100] "GET /login HTTP/1.1" 200 5673
+127.0.0.1 - - [22/Mar/2022:19:31:35 +0100] "POST /login HTTP/1.1" 302 338
+127.0.0.1 - - [22/Mar/2022:19:31:35 +0100] "GET /home HTTP/1.1" 200 3334
+127.0.0.1 - - [22/Mar/2022:19:31:39 +0100] "GET / HTTP/1.1" 200 1255
+127.0.0.1 - - [22/Mar/2022:19:31:42 +0100] "GET /home HTTP/1.1" 200 3334
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /catalogo HTTP/1.1" 200 5494
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /ECDV.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /laSangre.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /choqueReyes.jpg HTTP/1.1" 200 15588
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /fortalezaDigital.jpg HTTP/1.1" 200 14833
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /cancionHielo.jpg HTTP/1.1" 200 18121
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /losPilares.jpg HTTP/1.1" 200 22083
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /harryPotter.jpg HTTP/1.1" 200 19034
+127.0.0.1 - - [22/Mar/2022:19:31:44 +0100] "GET /laCamaraSecreta.jpg HTTP/1.1" 200 18507
+127.0.0.1 - - [22/Mar/2022:19:32:02 +0100] "GET /contacta HTTP/1.1" 200 5379
+127.0.0.1 - - [22/Mar/2022:19:33:00 +0100] "GET /catalogo HTTP/1.1" 200 5494
+127.0.0.1 - - [22/Mar/2022:19:34:00 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:36:19 +0100] "GET /catalogo HTTP/1.1" 200 5591
+127.0.0.1 - - [22/Mar/2022:19:36:21 +0100] "GET /catalogo HTTP/1.1" 200 5591
+127.0.0.1 - - [22/Mar/2022:19:36:38 +0100] "GET /catalogo HTTP/1.1" 200 5597
+127.0.0.1 - - [22/Mar/2022:19:37:38 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:38:00 +0100] "GET /catalogo HTTP/1.1" 200 5675
+127.0.0.1 - - [22/Mar/2022:19:39:00 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:40:06 +0100] "GET /catalogo HTTP/1.1" 200 5675
+127.0.0.1 - - [22/Mar/2022:19:40:46 +0100] "GET /catalogo HTTP/1.1" 200 5600
+127.0.0.1 - - [22/Mar/2022:19:41:46 +0100] "-" 408 -
+127.0.0.1 - - [22/Mar/2022:19:42:04 +0100] "GET /catalogo HTTP/1.1" 200 5640
+127.0.0.1 - - [22/Mar/2022:19:43:04 +0100] "-" 408 -
