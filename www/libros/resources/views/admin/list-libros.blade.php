@@ -4,18 +4,23 @@
 
     <h1 class="text-center text-info ">{{ __("Listado de libros") }}</h1>
    
+   
+    <div class="d-flex justify-content-center">
+        <a href="{{route('libros.create')}}" class="btn btn-success btn-sm mb-4 ">Añadir libro</a> 
+    </div>
     
-    <a href="{{route('libros.create')}}" class="btn btn-success btn-sm mb-4 ">Añadir libro</a> 
 
 
 <table class="table table-info table-striped" style="width: 100%">
     <thead>
     <tr>
         <!-- lista con los libros  -->
-        <th scope="col">{{ ("título") }}</th>
-        <th scope="col">{{ ("tematica") }}</th>
-        <th scope="col">{{ ("sinopsis") }}</th>
-        <th scope="col">{{ ("autor") }}</th>
+        <th scope="col">{{ ("Título") }}</th>
+        <th scope="col">{{ ("Tematica") }}</th>
+        <th scope="col">{{ ("Sinopsis") }}</th>
+        <th scope="col">{{ ("Autor") }}</th>
+        <th scope="col">{{ ("Editar") }}</th>
+        <th scope="col">{{ ("Eliminar") }}</th>
         
     </tr>
     </thead>
@@ -45,7 +50,7 @@
             <tr>
                 <td colspan="4">
                     <div class="bg-blue-100 text-center border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-                        <p><strong class="font-bold">{{ __("No hay libros") }}</strong></p>
+                        <p><strong class="font-bold text-danger">{{ __("NO TENEMOS LIBROS") }}</strong></p>
                         <span class="block sm:inline">{{ __("Todavía no hay nada que mostrar aquí") }}</span>
                     </div>
                 </td>
