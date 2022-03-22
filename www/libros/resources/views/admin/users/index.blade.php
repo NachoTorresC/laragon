@@ -3,7 +3,7 @@
 
 <body class="bg-light">
     <div class="container">
-        <h1 class="text-center text-info mt-2">Panel de Administrador</h1>
+        <h1 class="text-center text-info ">Panel de Administrador</h1>
         <h1 class="text-center text-info">de</h1>
         <div class="container bg-light">
         

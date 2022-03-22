@@ -33,7 +33,7 @@
             <div>
                 <h1 class="mb-6 text-gray-600 text-center font-light tracking-wider text-4xl sm:mb-8 sm:text-6xl">
                    
-                  <img class="img-fluid" src="{{asset('images/imagenPortada.png')}}">
+                  <img class="img-fluid" src="{{asset('imagenPortada.png')}}">
                 </h1>
                 
             </div>

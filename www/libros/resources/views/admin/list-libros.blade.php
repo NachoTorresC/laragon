@@ -2,7 +2,7 @@
 
 @section("content")
 
-    <h1 class="text-center text-info">{{ __("Listado de libros") }}</h1>
+    <h1 class="text-center text-info ">{{ __("Listado de libros") }}</h1>
    
     
     <a href="{{route('libros.create')}}" class="btn btn-success btn-sm mb-4 ">Añadir libro</a> <!-- OJO route NO url-->
