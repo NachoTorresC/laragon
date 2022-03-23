@@ -68,6 +68,6 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]);
+        ])->assignRole('usuario');  // IMPORTANTE -> esto hace que se asigne un rol especificado al registrarse alguien nuevo
     }
 }

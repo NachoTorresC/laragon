@@ -1,0 +1,2 @@
+errores en el proyecto -> no pueden salir erroer tipo 403 404, DEBE salir un mensaje personalizado 
+tipo " el usuario no tiene permisos..."
