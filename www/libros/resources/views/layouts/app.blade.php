@@ -23,10 +23,11 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-yellow-100 no-underline">
-                       Portada
+                       Portada  |
                     </a>
+                    
                     <a href="{{ url('catalogo') }}" class="text-lg font-semibold text-yellow-100 no-underline">
-                        Nuestro catálogo
+                        Nuestro catálogo | 
                     </a>
                     <a href="{{ url('contacta') }}" class="text-lg font-semibold text-yellow-100 no-underline">
                        Contacta con nosotros
