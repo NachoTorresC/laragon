@@ -47,7 +47,7 @@ class librosController extends Controller
        // $libros= libros::create($request->all());
         //return redirect()->route('admin.edit',$libros);
         $this->validate($request, [
-            "titulo"=> "required|max:30",
+            "titulo"=> "required|max:30|unique:libros,titulo",
             "tematica"=>"required|max:20",
             "sinopsis"=>"required|max:140",
             "autor"=>"required|max:40"

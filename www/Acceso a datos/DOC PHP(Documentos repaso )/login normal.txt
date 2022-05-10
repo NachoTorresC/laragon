@@ -1,0 +1,50 @@
+
+<?php
+include ('conexion.php');
+session_start();
+echo "<link rel='stylesheet' type='text/css' href='estilo.css' />";
+if (isset($_POST['usuario'])){
+    $usuario = $_POST['usuario'];
+	$instruccion = "select nombre from clientes where id_cliente = '$usuario' ";
+	$consulta = $conexion->query ($instruccion);
+	if($res=$consulta->fetch(PDO::FETCH_OBJ)){
+	    $_SESSION["nombre"] = $res->nombre;
+		$_SESSION["usuario_valido"]=$usuario;
+		$_SESSION['horaConexion'] = date('H:i:s');
+		$_SESSION['fechaConexion'] = date('j-m-Y');
+		header('Location: menu.html');
+	} else{
+		echo "<tr><td><p>Usuario no autorizado</p></td></tr>";
+		echo "<tr><td>[ <A HREF='login.php'>Volver a login</A> ]</td></tr>";		
+    }
+}else{
+	?>
+	<p>Esta zona tiene el acceso restringido.<BR> Para entrar debe identificarse</p>
+		
+    <form class='entrada' name='login' action='login.php' METHOD='POST'>
+		<fieldset>
+	 		<table>
+				<?php 
+				if (!isset ($usuario)){
+					echo "
+					<tr>
+						<td>Usuario:</td>
+						<td><input type='text' name='usuario' size='15'></td>
+					</tr>";
+					echo "
+					<tr>
+						<td><input type='submit' value='entrar'>
+						</td>
+					</tr>";
+				}
+				else{
+					echo "<tr><td><p>Usuario no autorizado</p></td></tr>";
+					echo "<tr><td>[ <a href='login.php'>Conectar</a> ]</td></tr>";		
+				}
+				?>
+   			</table>
+		</fieldset>
+	</form>
+<?php
+}
+?>

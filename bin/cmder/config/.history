@@ -233,3 +233,47 @@ php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+cd ..
+ls
+cd educonet
+composer require laravel/ui
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm audit fix --forve
+npm install
+npm audit fix
+npm audit fix --foce
+cd educonet
+npm audit fix --forve
+npm audit fix
+npm audit fix --foce
+composer require laravel/ui
+composer require laravel-frontend-presets/tailwindcss --dev
+npm install
+npm audit fix 
+npm audit fix --force
+php artisan migrate
+npm run dev
+php artisan ui tailwindcss --auth
+php artisan ui tailwindcss --auth
+npm audit fix --forve
+npm audit fix --foce
+npm audit fix 
+npm audit fix --force
+npm run dev
+php artisan ui tailwindcss --auth
+composer require laravel/ui
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm install
+npm audit fix
+npm run dev 
+php artisan make:migration recursos
+php artisan make:migration profesores
+php artisan make:migration cursos
+php artisan migrate
+php artisan migrate:fresh --seed

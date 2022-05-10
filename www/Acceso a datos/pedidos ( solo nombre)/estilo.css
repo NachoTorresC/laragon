@@ -1,0 +1,55 @@
+
+body { 
+  
+  font-family: sans-serif; 
+  padding: 0 20px;
+}
+
+#cabeza{
+background-color: #D5F2FF; 
+border:2px solid #00C0C0;
+margin:20px;padding-left:20px;
+width:60%;
+
+}
+
+fieldset { 
+  background-color: #E6E6FF;
+  border: #8686FF 2px solid; 
+  padding: 10px 20px 20px;
+} 
+
+legend { 
+ background-color: #E6E6FF;
+  border: #8686FF 1px solid; 
+  padding: 0px 10px; 
+}
+
+input { 
+  font-family: monospace; 
+  background-color:#E2E2E2;
+  font-weight:bold;
+}
+
+.der { 
+  text-align: right; 
+  margin: 10px 0px; 
+}
+
+
+.aviso {
+  color: red;
+}
+
+th {
+  font-size: 10pt; 
+  font-weight: bold; 
+  color: white; 
+  background: #8686FF; 
+  text-align: left;
+  }
+
+td {
+  font-size: 10pt; 
+  background: #E2E2E2;
+}

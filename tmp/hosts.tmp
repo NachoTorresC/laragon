@@ -1,6 +1,7 @@
 #
 127.0.0.1 localhost
 ::1 localhost
+127.0.0.1      educonet.test        #laragon magic!   
 127.0.0.1      libros.test          #laragon magic!   
 127.0.0.1      proyecto.test        #laragon magic!   
 127.0.0.1      Proyecto-Libros.test #laragon magic!   
