@@ -309,3 +309,4 @@ php artisan make:migration recursos
 php artisan db:wipe
 php artisan migrate
 php artisan migrate:fresh --seed
+npm run dev
