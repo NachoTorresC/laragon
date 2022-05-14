@@ -310,3 +310,8 @@ php artisan db:wipe
 php artisan migrate
 php artisan migrate:fresh --seed
 npm run dev
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider
+php artisan migrate
+php artisan make:seeder RoleSeeder
+php artisan migrate:fresh --seed
