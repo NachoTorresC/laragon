@@ -13,7 +13,24 @@ class RecursoUser extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('recurso_user', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('recurso_id')
+                    ->nullable()
+                    ->constrained('recursos')
+                    ->cascadeOnUpdate()
+                    ->nullOnDelete();
+            
+                    $table->foreignId('user_id')
+                    ->nullable()
+                    ->constrained('users')
+                    ->cascadeOnUpdate()
+                    ->nullOnDelete();
+                    
+            $table->timestamps();
+     
+            
+        });
     }
 
     /**
@@ -23,6 +40,6 @@ class RecursoUser extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('recurso_user');
     }
 }
