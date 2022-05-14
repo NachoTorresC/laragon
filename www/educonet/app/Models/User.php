@@ -50,4 +50,7 @@ class User extends Authenticatable
     public function recursos(){
         return $this ->belongsToMany(Recursos::class,'user:recurso');
     }
+    public function cursos(){
+        return $this ->belongsToMany(Cursos::class,'user:curso');
+    }
 }

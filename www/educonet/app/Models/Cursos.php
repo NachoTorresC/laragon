@@ -19,6 +19,10 @@ class Cursos extends Model
         return $this->belongsTo(Profesores::class)->withTimestamps();
     } 
 
+    public function users(){
+        return $this ->belongsToMany(User::class,'curso_user');
+    }
+
   
     
    

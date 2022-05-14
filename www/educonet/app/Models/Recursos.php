@@ -16,6 +16,10 @@ class Recursos extends Model
     public function profesores(){
         return $this->belongsTo(Profesores::class)->withTimestamps();
     }  
+
+    public function users(){
+        return $this ->belongsToMany(User::class,'recurso_user');
+    }
     
 
 
