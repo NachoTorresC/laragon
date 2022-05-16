@@ -315,3 +315,11 @@ php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvid
 php artisan migrate
 php artisan make:seeder RoleSeeder
 php artisan migrate:fresh --seed
+php artisan migrate
+php artisan make:seeder RoleSeeder
+php artisan make:migration create curso_user_table
+php artisan make:migration recurso_user
+php artisan make:migration curso_user
+php artisan make:model RecursoUser
+php artisan make:model CursoUser
+php artisan migrate:fresh --seed
