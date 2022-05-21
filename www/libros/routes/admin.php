@@ -6,7 +6,10 @@ Use App\http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\librosController;
 
-Route::group(['middleware'=>['can:admin']],function(){   // lo que hace esta función es que si no eres un administrador no puedes entrar en el panel de administrador
+
+
+// lo que hace esta función es que si no eres un administrador no puedes entrar en el panel de administrador
+Route::group(['middleware'=>['can:admin']],function(){   
     Route::get('admin',[AdminController::class,'index']);
     Route::get('admin/list-users',[AdminController::class,'list_users']);
     Route::get('admin/list-libros',[AdminController::class,'list_libros']); 
