@@ -11961,3 +11961,83 @@
 ::1 - - [20/May/2022:18:41:31 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653064891282681837&token=3b59533542484249732b28613f624271 HTTP/1.1" 200 1740
 ::1 - - [20/May/2022:18:41:36 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=proyecto&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=165306489614630388&token=3b59533542484249732b28613f624271 HTTP/1.1" 200 10316
 ::1 - - [20/May/2022:18:41:36 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653064896463935546&token=3b59533542484249732b28613f624271 HTTP/1.1" 200 1736
+127.0.0.1 - - [21/May/2022:17:37:35 +0200] "GET / HTTP/1.1" 500 568679
+127.0.0.1 - - [21/May/2022:17:37:37 +0200] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2022:17:38:09 +0200] "GET / HTTP/1.1" 200 1398
+127.0.0.1 - - [21/May/2022:17:38:10 +0200] "GET /css/estilos.css HTTP/1.1" 200 45
+127.0.0.1 - - [21/May/2022:17:38:10 +0200] "GET /css/app.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2022:17:38:15 +0200] "GET /admin HTTP/1.1" 302 350
+127.0.0.1 - - [21/May/2022:17:38:16 +0200] "GET /login HTTP/1.1" 500 657411
+127.0.0.1 - - [21/May/2022:17:39:15 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:17:41:12 +0200] "GET /admin HTTP/1.1" 302 350
+127.0.0.1 - - [21/May/2022:17:41:12 +0200] "GET /login HTTP/1.1" 500 657411
+127.0.0.1 - - [21/May/2022:17:42:12 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:17:50:21 +0200] "GET / HTTP/1.1" 200 1398
+127.0.0.1 - - [21/May/2022:17:50:16 +0200] "GET /login HTTP/1.1" 500 657441
+127.0.0.1 - - [21/May/2022:17:50:31 +0200] "GET /login HTTP/1.1" 500 657450
+127.0.0.1 - - [21/May/2022:17:51:31 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:17:52:03 +0200] "GET /login HTTP/1.1" 200 4612
+127.0.0.1 - - [21/May/2022:17:52:03 +0200] "GET /js/app.js HTTP/1.1" 200 621420
+127.0.0.1 - - [21/May/2022:17:52:52 +0200] "GET /admin HTTP/1.1" 302 350
+127.0.0.1 - - [21/May/2022:17:52:52 +0200] "GET /login HTTP/1.1" 200 4612
+::1 - - [21/May/2022:17:53:00 +0200] "GET /phpmyadmin/ HTTP/1.1" 200 4757
+::1 - - [21/May/2022:17:53:04 +0200] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=1857780040ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [21/May/2022:17:53:04 +0200] "GET /phpmyadmin/themes/pmahomme/img/logo_right.png HTTP/1.1" 200 4306
+::1 - - [21/May/2022:17:53:04 +0200] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [21/May/2022:17:53:06 +0200] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [21/May/2022:17:53:07 +0200] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 15994
+::1 - - [21/May/2022:17:53:08 +0200] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=341513051ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [21/May/2022:17:53:09 +0200] "GET /phpmyadmin/themes/pmahomme/img/b_more.png HTTP/1.1" 200 111
+::1 - - [21/May/2022:17:53:09 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1608
+::1 - - [21/May/2022:17:53:09 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1699
+::1 - - [21/May/2022:17:53:09 +0200] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2564
+::1 - - [21/May/2022:17:53:09 +0200] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [21/May/2022:17:53:09 +0200] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1599
+::1 - - [21/May/2022:17:53:12 +0200] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=educonet&ajax_request=true&ajax_page_request=true&_nocache=1653148392694845060&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 8147
+::1 - - [21/May/2022:17:53:14 +0200] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.ZWR1Y29uZXQ%3D&vPath=cm9vdA%3D%3D.ZWR1Y29uZXQ%3D&pos=0&searchClause=&searchClause2=&_nocache=1653148394562592074&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 2522
+::1 - - [21/May/2022:17:53:16 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=users&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1653148396874471439&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 10261
+::1 - - [21/May/2022:17:53:17 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653148397846887502&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 1661
+127.0.0.1 - - [21/May/2022:17:53:32 +0200] "POST /login HTTP/1.1" 302 350
+127.0.0.1 - - [21/May/2022:17:53:34 +0200] "GET /admin HTTP/1.1" 200 18
+127.0.0.1 - - [21/May/2022:17:54:05 +0200] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [21/May/2022:17:54:54 +0200] "POST /login HTTP/1.1" 419 6615
+127.0.0.1 - - [21/May/2022:17:54:58 +0200] "GET / HTTP/1.1" 200 1210
+127.0.0.1 - - [21/May/2022:17:55:02 +0200] "GET /home HTTP/1.1" 200 2221
+127.0.0.1 - - [21/May/2022:17:55:04 +0200] "POST /logout HTTP/1.1" 302 326
+127.0.0.1 - - [21/May/2022:17:55:04 +0200] "GET / HTTP/1.1" 200 1398
+127.0.0.1 - - [21/May/2022:17:55:06 +0200] "GET /login HTTP/1.1" 200 4612
+127.0.0.1 - - [21/May/2022:17:55:12 +0200] "POST /login HTTP/1.1" 302 326
+127.0.0.1 - - [21/May/2022:17:55:12 +0200] "GET / HTTP/1.1" 200 1210
+127.0.0.1 - - [21/May/2022:17:55:22 +0200] "GET /home HTTP/1.1" 200 2231
+127.0.0.1 - - [21/May/2022:17:55:28 +0200] "GET /admin HTTP/1.1" 200 18
+127.0.0.1 - - [21/May/2022:17:56:28 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:18:35:47 +0200] "GET /admin HTTP/1.1" 200 6
+127.0.0.1 - - [21/May/2022:18:36:47 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:18:41:20 +0200] "GET /admin HTTP/1.1" 200 26
+127.0.0.1 - - [21/May/2022:18:42:20 +0200] "-" 408 -
+127.0.0.1 - - [21/May/2022:18:43:10 +0200] "GET /admin HTTP/1.1" 200 355
+127.0.0.1 - - [21/May/2022:18:43:10 +0200] "GET /css/admin_custom.css HTTP/1.1" 404 6609
+127.0.0.1 - - [21/May/2022:18:44:10 +0200] "-" 408 -
+::1 - - [21/May/2022:18:54:50 +0200] "GET /phpmyadmin/ HTTP/1.1" 200 16032
+::1 - - [21/May/2022:18:54:50 +0200] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=3362611827ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [21/May/2022:18:54:50 +0200] "GET /phpmyadmin/js/messages.php?l=es&v=5.1.1 HTTP/1.1" 200 8988
+::1 - - [21/May/2022:18:54:51 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1611
+::1 - - [21/May/2022:18:54:51 +0200] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2605
+::1 - - [21/May/2022:18:54:51 +0200] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [21/May/2022:18:54:51 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1701
+::1 - - [21/May/2022:18:54:52 +0200] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1602
+::1 - - [21/May/2022:18:54:57 +0200] "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=educonet&ajax_request=true&ajax_page_request=true&_nocache=1653152097297839557&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 8143
+::1 - - [21/May/2022:18:54:57 +0200] "GET /phpmyadmin/index.php?route=/navigation&ajax_request=1&server=1&aPath=cm9vdA%3D%3D.ZWR1Y29uZXQ%3D&vPath=cm9vdA%3D%3D.ZWR1Y29uZXQ%3D&pos=0&searchClause=&searchClause2=&_nocache=1653152097607400624&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 2525
+::1 - - [21/May/2022:18:55:00 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=recursos&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1653152100852321820&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 5266
+::1 - - [21/May/2022:18:55:01 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653152101371181521&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 1676
+::1 - - [21/May/2022:18:58:46 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=recursos&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1653152326777908249&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 5265
+::1 - - [21/May/2022:18:58:47 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653152327202711271&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 1676
+::1 - - [21/May/2022:19:01:38 +0200] "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.1&nocache=3719658388ltr&server=1 HTTP/1.1" 200 214799
+::1 - - [21/May/2022:19:01:35 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=recursos&pos=0 HTTP/1.1" 200 16999
+::1 - - [21/May/2022:19:01:38 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1611
+::1 - - [21/May/2022:19:01:38 +0200] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3373
+::1 - - [21/May/2022:19:01:38 +0200] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1701
+::1 - - [21/May/2022:19:01:38 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653152498803321761&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 1676
+::1 - - [21/May/2022:19:01:39 +0200] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1602
+::1 - - [21/May/2022:19:03:36 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=cursos&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1653152616741545205&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 5273
+::1 - - [21/May/2022:19:03:37 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1653152617151152384&token=4b39795e487669357d5527772f615a55 HTTP/1.1" 200 1684
