@@ -15,5 +15,5 @@
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script> alert('Está en el panel del administrador'); </script>
 @stop
