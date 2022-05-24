@@ -19,7 +19,7 @@ class RoleSeeder extends Seeder
         $role2=Role::create(['name' =>'premium']);
         $role3=Role::create(['name' =>'invitado']);
 
-      //  Permission::create(['name'=>'ver recursos']);
+        Permission::create(['name'=>'adminPermission'])->syncRoles($role1);
 
     }
 }

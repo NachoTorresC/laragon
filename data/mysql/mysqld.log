@@ -10840,3 +10840,782 @@ Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-05-23T06:09:09.052885Z 0 [Note] Event Scheduler: Loaded 0 events
 2022-05-23T06:09:09.054062Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
 Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T11:58:37.933251Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-05-23T11:58:37.935843Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-05-23T11:58:37.937000Z 0 [Note] Shutting down slave threads
+2022-05-23T11:58:37.947443Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-05-23T11:58:37.948411Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-05-23T11:58:37.990988Z 0 [Note] Binlog end
+2022-05-23T11:58:38.005946Z 0 [Note] Shutting down plugin 'ngram'
+2022-05-23T11:58:38.034263Z 0 [Note] Shutting down plugin 'partition'
+2022-05-23T11:58:38.035265Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-05-23T11:58:38.036031Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-05-23T11:58:38.036896Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-05-23T11:58:38.037990Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-05-23T11:58:38.050358Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-05-23T11:58:38.051352Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-05-23T11:58:38.052152Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-05-23T11:58:38.053187Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-05-23T11:58:38.054185Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-05-23T11:58:38.055097Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-05-23T11:58:38.055951Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-05-23T11:58:38.056773Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-05-23T11:58:38.057624Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-05-23T11:58:38.058498Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-05-23T11:58:38.059421Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-05-23T11:58:38.060275Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-05-23T11:58:38.061171Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-05-23T11:58:38.062026Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-05-23T11:58:38.062841Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-05-23T11:58:38.063829Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-05-23T11:58:38.064686Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-05-23T11:58:38.066354Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-05-23T11:58:38.067220Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-05-23T11:58:38.068112Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-05-23T11:58:38.069171Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-05-23T11:58:38.070068Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-05-23T11:58:38.070911Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-05-23T11:58:38.071804Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-05-23T11:58:38.072634Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-05-23T11:58:38.073502Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-05-23T11:58:38.074306Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-05-23T11:58:38.075146Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-05-23T11:58:38.075940Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-05-23T11:58:38.076807Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-05-23T11:58:38.077596Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-05-23T11:58:38.078357Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-05-23T11:58:38.079391Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-05-23T11:58:38.080507Z 0 [Note] InnoDB: Starting shutdown...
+2022-05-23T11:58:38.194187Z 0 [Note] InnoDB: Dumping buffer pool(s) to L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T11:58:38.200762Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220523 13:58:38
+2022-05-23T11:58:39.500294Z 0 [Note] InnoDB: Shutdown completed; log sequence number 90523746
+2022-05-23T11:58:39.503455Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T11:58:39.504584Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-05-23T11:58:39.505326Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T11:58:39.506043Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-05-23T11:58:39.506873Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-05-23T11:58:39.508166Z 0 [Note] Shutting down plugin 'binlog'
+2022-05-23T11:58:39.532221Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+20222--055-3T16:14:2:1.295833ZZ 0  War[Warn] ins] Inseceuronfigurgurataon ono fo-r c--e-fcure-frive-priv: Currenn vavua lues doest  enorict lorcationc ofon oenernerad fi fis.leos.idCon sedet seng intg it to aid,alno, enon-epmpty 
+pa22-.5203T1605-4231.2688801Z2 0325Zote] L:t\] Lraglon\gionm\sbin\myslql.7.33-wl-5.7.b33-mysnx64\biysqlys 5.7 .33sqld 5r.7.33) staocess as  roc12 . ..0
+ ...
+2022-05-23T16:14:21.481904Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T16:14:21.485211Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T16:14:21.488788Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T16:14:21.490749Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T16:14:21.492574Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-23T16:14:21.493925Z 0 [Note] InnoDB: Not using CPU crc32 022-05-2iTo6ns:21.494638Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T16:14:21.496156Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T16:14:21.499139Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T16:14:21.500539Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.02
+2-05-23T16:14:21.501366Z 0 [Note] InnoDB: Initializing buffer pool, tota2 size =22-05-23T16:14:21.502128ZM, instanoes = I1nnoDB:k simzer o= 1oo8s
+: 1
+2022-05-23T16:14:21.503656Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-23T16:14:21.508835Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-23T16:14:21.514091Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T16:14:21.522646Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T16:14:21.608885Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:14:21.610236Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:14:21.938420Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-23T16:14:26.381616Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-23T16:14:26.383816Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-23T16:14:26.944753Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-23T16:14:26.959794Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-23T16:14:26.961386Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-23T16:14:26.963046Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-23T16:14:27.025917Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5498ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-23T16:14:27.079493Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 90523746
+2022-05-23T16:14:27.083214Z 0 [Note] InnoDB: Loading buffer pool(s) from L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T16:14:27.085564Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-23T16:14:27.435826Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-23T16:14:27.438092Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-23T16:14:27.528676Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-23T16:14:27.530413Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-23T16:14:27.549159Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-23T16:14:27.551128Z 0 [Note] IPv6 is available.
+2022-05-23T16:14:27.552112Z 0 [Note]   - '::' resolves to '::';
+2022-05-23T16:14:27.553229Z 0 [Note] Server socket created on IP: '::'.
+2022-05-23T16:14:28.205071Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220523 18:14:28
+2022-05-23T16:14:29.760059Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-23T16:14:29.761264Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T16:14:31.626533Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:14:31.628090Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:14:41.634720Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:14:41.636143Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:14:51.654191Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:14:51.657116Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:01.675380Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:01.677887Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:11.697598Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:11.700368Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:21.731335Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:21.733962Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:31.754539Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:31.758300Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:41.775808Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:41.778427Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:15:51.786421Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:15:51.789260Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:01.795983Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:01.798511Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:11.804826Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:11.807796Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:21.814775Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:21.816421Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:31.830829Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:31.833338Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:41.853425Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:41.856300Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:16:51.866354Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:16:51.869077Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:01.879946Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:01.882631Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:11.896004Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:11.898863Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:21.905292Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:21.908371Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:31.918262Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:31.920996Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:41.930931Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:41.932814Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:17:52.211965Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:17:52.213339Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:02.440649Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:02.443208Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:12.626564Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:12.629251Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:22.809424Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:22.811993Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:32.917005Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:32.918804Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:42.928994Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:42.931522Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:18:52.948565Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:18:52.950176Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:02.964925Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:02.966994Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:12.983860Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:12.986739Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:23.015314Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:23.023661Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:33.040166Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:33.043049Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:43.065615Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:43.067123Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:19:53.077648Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:19:53.080192Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:03.100397Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:03.102979Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:13.155053Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:13.157668Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:23.173856Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:23.176720Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:33.188639Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:33.191117Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:43.204395Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:43.205964Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:20:53.220330Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:20:53.223229Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:03.236407Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:03.239168Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:13.262876Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:13.265053Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:23.273014Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:23.274882Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:33.289464Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:33.292475Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:43.307762Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:43.309246Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:21:53.316652Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:21:53.318132Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:03.337340Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:03.338815Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:13.356625Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:13.359540Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:23.374296Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:23.377559Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:33.397171Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:33.398854Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:43.414643Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:43.417419Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:22:53.434782Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:22:53.437408Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:03.456383Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:03.457837Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:13.472513Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:13.475663Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:23.492428Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:23.494208Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:33.503308Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:33.504907Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:43.512881Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:43.516507Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:23:53.532245Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:23:53.535124Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:03.581679Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:03.585993Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:13.657915Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:13.659266Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:23.854102Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:23.855867Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:33.890270Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:33.891580Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:43.914070Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:43.915435Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:24:53.931707Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:24:53.934465Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:03.949340Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:03.950915Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:13.958417Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:13.960019Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:23.978603Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:23.980363Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:33.999047Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:34.001014Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:44.067070Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:44.068613Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:25:54.088311Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:25:54.089608Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:04.105177Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:04.106508Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:14.115184Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:14.117902Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:24.133351Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:24.135860Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:34.151412Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:34.152866Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:44.169020Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:44.170308Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:26:54.185379Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:26:54.188039Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:04.209744Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:04.211044Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:14.216860Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:14.218312Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:24.238788Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:24.240066Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:34.293511Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:34.294822Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:44.304017Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:44.305611Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:27:54.324130Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:27:54.326108Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:04.339879Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:04.342732Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:14.351330Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:14.353158Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:24.743236Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:24.746103Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:34.816764Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:34.818188Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:44.836395Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:44.838887Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:28:54.849954Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:28:54.852506Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:04.872887Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:04.874252Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:14.890057Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:14.892056Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:24.906340Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:24.907837Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:34.917509Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:34.918827Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:44.970478Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:44.971856Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:29:55.776638Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:29:55.778571Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:05.791373Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:05.794115Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:15.807540Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:15.811088Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:25.830317Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:25.831778Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:35.839717Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:35.841694Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:45.878002Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:45.879747Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:30:55.901914Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:30:55.903656Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:05.921991Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:05.923285Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:15.944611Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:15.946445Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:25.962462Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:25.964996Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:35.980640Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:35.983468Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:46.002620Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:46.005733Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:31:56.015961Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:31:56.017400Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:06.027561Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:06.030318Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:16.059410Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:16.062727Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:26.073721Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:26.076373Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:36.086417Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:36.087841Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:46.103118Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:46.104558Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:32:56.110456Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:32:56.111742Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:06.126247Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:06.128780Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:16.145154Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:16.146674Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:26.152778Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:26.154085Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:36.171080Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:36.173953Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:46.216452Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:46.217793Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:33:56.224588Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:33:56.226236Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:06.235612Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:06.239429Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:16.251177Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:16.253899Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:26.272231Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:26.275218Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:36.282664Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:36.284168Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:46.294048Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:46.295545Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:34:56.317533Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:34:56.320368Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:06.333865Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:06.336267Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:16.346951Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:16.349880Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:26.363734Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:26.366836Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:36.380228Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:36.381666Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:46.399547Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:46.401123Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:35:56.420826Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:35:56.422425Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:06.432688Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:06.435487Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:16.461730Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:16.463846Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:26.475460Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:26.476878Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:36.491000Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:36.492566Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:46.503484Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:46.506657Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:36:56.524516Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:36:56.526661Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:06.541970Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:06.544672Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:16.565175Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:16.567837Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:26.587754Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:26.590555Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:36.609987Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:36.612753Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:46.634674Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:46.640921Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:37:56.653556Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:37:56.661528Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:06.686602Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:06.688555Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:16.707704Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:16.709583Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:26.727041Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:26.729902Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:36.741563Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:36.743014Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:46.760790Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:46.763575Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:38:56.780461Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:38:56.783233Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:06.805588Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:06.809049Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:16.825190Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:16.828842Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:26.849198Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:26.850862Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:36.866385Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:36.867848Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:46.886051Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:46.888813Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:39:56.906127Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:39:56.909458Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:06.920846Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:06.923636Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:16.934557Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:16.936752Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:26.955275Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:26.956880Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:36.976999Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:36.979145Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:46.994884Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:46.996501Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:40:57.008088Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:40:57.010977Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:41:07.027878Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:41:07.029590Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:41:17.043091Z 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-05-23T16:41:17.046055Z 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-05-23T16:45:47.363364Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-05-23T16:45:47.364124Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 4724 ...
+2022-05-23T16:45:47.491002Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T16:45:47.492365Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T16:45:47.493167Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T16:45:47.494482Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T16:45:47.496119Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-23T16:45:47.497899Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-23T16:45:47.502533Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-23T16:45:47.512012Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T16:45:47.858663Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-23T16:45:47.909450Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 90524236
+2022-05-23T16:45:47.910768Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 90524245
+2022-05-23T16:45:47.912058Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-23T16:45:47.913229Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-23T16:45:51.838570Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T16:45:51.839857Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-23T16:45:51.841533Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-23T16:45:52.401850Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-23T16:45:52.417212Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-23T16:45:52.418843Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-23T16:45:52.420627Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-23T16:45:52.478649Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4963ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-23T16:45:52.497738Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 90524245
+2022-05-23T16:45:52.499788Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-23T16:45:52.500037Z 0 [Note] InnoDB: Loading buffer pool(s) from L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T16:45:52.770978Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-23T16:45:52.772857Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-23T16:45:52.840950Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-23T16:45:52.842550Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-23T16:45:52.862353Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-23T16:45:52.864481Z 0 [Note] IPv6 is available.
+2022-05-23T16:45:52.865620Z 0 [Note]   - '::' resolves to '::';
+2022-05-23T16:45:52.866749Z 0 [Note] Server socket created on IP: '::'.
+2022-05-23T16:45:53.256552Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220523 18:45:53
+2022-05-23T16:45:54.474210Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-23T16:45:54.475390Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T16:46:36.105827Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-05-23T16:46:36.107729Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-05-23T16:46:36.109085Z 0 [Note] Shutting down slave threads
+2022-05-23T16:46:36.109816Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-05-23T16:46:36.110824Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-05-23T16:46:36.112332Z 0 [Note] Binlog end
+2022-05-23T16:46:36.114473Z 0 [Note] Shutting down plugin 'ngram'
+2022-05-23T16:46:36.115273Z 0 [Note] Shutting down plugin 'partition'
+2022-05-23T16:46:36.116012Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-05-23T16:46:36.116743Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-05-23T16:46:36.117452Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-05-23T16:46:36.118588Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-05-23T16:46:36.119354Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-05-23T16:46:36.120467Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-05-23T16:46:36.121445Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-05-23T16:46:36.122325Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-05-23T16:46:36.123251Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-05-23T16:46:36.124204Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-05-23T16:46:36.125066Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-05-23T16:46:36.126241Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-05-23T16:46:36.127062Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-05-23T16:46:36.127971Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-05-23T16:46:36.128886Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-05-23T16:46:36.129855Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-05-23T16:46:36.130729Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-05-23T16:46:36.131720Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-05-23T16:46:36.132630Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-05-23T16:46:36.133661Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-05-23T16:46:36.135006Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-05-23T16:46:36.136019Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-05-23T16:46:36.136877Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-05-23T16:46:36.137763Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-05-23T16:46:36.138654Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-05-23T16:46:36.139585Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-05-23T16:46:36.140384Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-05-23T16:46:36.141279Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-05-23T16:46:36.142110Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-05-23T16:46:36.142933Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-05-23T16:46:36.143967Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-05-23T16:46:36.144819Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-05-23T16:46:36.145567Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-05-23T16:46:36.146388Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-05-23T16:46:36.147157Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-05-23T16:46:36.147901Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-05-23T16:46:36.148661Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-05-23T16:46:36.149573Z 0 [Note] InnoDB: Starting shutdown...
+2022-05-23T16:46:36.257344Z 0 [Note] InnoDB: Dumping buffer pool(s) to L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T16:46:36.353406Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220523 18:46:36
+2022-05-23T16:46:37.586034Z 0 [Note] InnoDB: Shutdown completed; log sequence number 90524273
+2022-05-23T16:46:37.595387Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T16:46:37.596424Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-05-23T16:46:37.597109Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T16:46:37.597773Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-05-23T16:46:37.598563Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-05-23T16:46:37.599517Z 0 [Note] Shutting down plugin 'binlog'
+2022-05-23T16:46:37.605992Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+2022-05-23T16:47:26.843350Z 0 [Warning] Insecure configuration for --secure-22i-e05r23Tiv:47:26.7 C375Zu0 [rarning] Insecure configuration for --secure-file-priv: Curennt vat v doue  not rest restrioct ioncatiogenef geed fated fiConsidern ider set it to a  v a vd, ido, enpoynpa-h.pty pa0th23T
+102247:-605-2135Z6: 0 [N.843816Z 0 ototee]L L:\ragon\bnin\n\msys\mysysql-5.7..33-wnin464\\ibin\myld sqysq (my5.7ld 5. star)ting tas  aprocesss 8876  ...
+2022-05-23T16:47:26.982036Z 0 [Note] InnoDB: Mutexes and 2w_lock5- 3use W7indows2700Z 0 [Note] nnterl: Mute functions
+d rw_locks use Window2 2n-te-rlT16ked :26.9tio067Z
+ 0 [Note] InnoDB2 Uses 5-23Tt16ute7:26
+.984862Z 0 2No2t-e] InT16:4: U2s.9e5s 7Z en t otet] esnoDB: _mm_l2e022-0 and3T16:4s7e26ce(.9a8e5942Z for metmoryn bDB: _erm
+_lfence() a2d 02m_sfen23ce6:47:26.986d74or m0 [Noy barInnor
+B: Compress2d ta-05-2 us16 z:i471.2.117533Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T16:47:26.988640Z 0 [Note] 2In5-2B:3Tu1b6r o7 p:26s:91
+89016Z 0 [Note] InnoDB: Number of pools2 02
+2-05-23T16:47:26.990241Z 0 [Not2] InnoD-B:T1 :Not usin0g CPU0 [Not2 instroDB: Not
+ using CPU crc32 instructions
+2022-05-23T16:47:26.995894Z 0 [Note] InnoDB: Initia2022-g05-23T16:47:26t.996503Z 0 [N si]ze =oD12B: Iinitialis = 1, ucher p size = 1a28Miz
+e = 128M, instances = 1, chunk size = 128M
+2022-05-23T16:47:27.008698Z 0 [Note] InnoDB: 2o022-05d i3T16ial7:27.009 406Zb0 [ferte] olnoDB: Completed initialization of buffer pool
+2022-05-23T16:47:27.065306Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-05-23T16:47:27.068080Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-05-23T16:47:27.070544Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-23T16:47:27.296218Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-23T16:47:27.297415Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-23T16:47:27.298689Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-23T16:47:27.299869Z 0 [ERROR] Aborting
+
+2022-05-23T16:47:27.300773Z 0 [Note] Binlog end
+2022-05-23T16:47:27.301841Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T16:47:27.311142Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+2022-05-23T16:47:27.382998Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-23T16:47:31.912745Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-23T16:47:31.932018Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-23T16:47:32.604017Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-23T16:47:32.660890Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-23T16:47:32.662603Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-23T16:47:32.664869Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-23T16:47:32.721861Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5708ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-23T16:47:32.731928Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 90524273
+2022-05-23T16:47:32.736392Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-23T16:47:32.736439Z 0 [Note] InnoDB: Loading buffer pool(s) from L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T16:47:33.055023Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-23T16:47:33.058589Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-23T16:47:33.141762Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-23T16:47:33.143629Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-23T16:47:33.152839Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-23T16:47:33.156107Z 0 [Note] IPv6 is available.
+2022-05-23T16:47:33.157228Z 0 [Note]   - '::' resolves to '::';
+2022-05-23T16:47:33.158207Z 0 [Note] Server socket created on IP: '::'.
+2022-05-23T16:47:33.658491Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220523 18:47:33
+2022-05-23T16:47:35.192252Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-23T16:47:35.193751Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T17:34:44.686914Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-05-23T17:34:44.689340Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-05-23T17:34:44.690507Z 0 [Note] Shutting down slave threads
+2022-05-23T17:34:44.701845Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-05-23T17:34:44.702805Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-05-23T17:34:44.707308Z 0 [Note] Binlog end
+2022-05-23T17:34:44.717992Z 0 [Note] Shutting down plugin 'ngram'
+2022-05-23T17:34:44.718812Z 0 [Note] Shutting down plugin 'partition'
+2022-05-23T17:34:44.719566Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-05-23T17:34:44.720334Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-05-23T17:34:44.721083Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-05-23T17:34:44.722092Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-05-23T17:34:44.749141Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-05-23T17:34:44.750024Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-05-23T17:34:44.750867Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-05-23T17:34:44.751734Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-05-23T17:34:44.752581Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-05-23T17:34:44.753435Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-05-23T17:34:44.754294Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-05-23T17:34:44.755426Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-05-23T17:34:44.756324Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-05-23T17:34:44.757156Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-05-23T17:34:44.758019Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-05-23T17:34:44.758921Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-05-23T17:34:44.759869Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-05-23T17:34:44.760838Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-05-23T17:34:44.761643Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-05-23T17:34:44.762500Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-05-23T17:34:44.763374Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-05-23T17:34:44.764461Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-05-23T17:34:44.765251Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-05-23T17:34:44.766165Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-05-23T17:34:44.767089Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-05-23T17:34:44.767953Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-05-23T17:34:44.768762Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-05-23T17:34:44.769663Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-05-23T17:34:44.771032Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-05-23T17:34:44.773494Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-05-23T17:34:44.774386Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-05-23T17:34:44.775811Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-05-23T17:34:44.776915Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-05-23T17:34:44.777803Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-05-23T17:34:44.778580Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-05-23T17:34:44.779334Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-05-23T17:34:44.780176Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-05-23T17:34:44.781215Z 0 [Note] InnoDB: Starting shutdown...
+2022-05-23T17:34:44.882791Z 0 [Note] InnoDB: Dumping buffer pool(s) to L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T17:34:44.898504Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220523 19:34:44
+2022-05-23T17:34:46.232936Z 0 [Note] InnoDB: Shutdown completed; log sequence number 90529744
+2022-05-23T17:34:46.239007Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T17:34:46.240288Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-05-23T17:34:46.241778Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T17:34:46.242523Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-05-23T17:34:46.243349Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-05-23T17:34:46.244504Z 0 [Note] Shutting down plugin 'binlog'
+2022-05-23T17:34:46.248177Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+2022-05-23T17:34:56.986015Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-05-23T17:34:56.986535Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 1208 ...
+2022-05-23T17:34:57.018877Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T17:34:57.020250Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T17:34:57.021079Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T17:34:57.022378Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T17:34:57.024193Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-23T17:34:57.025475Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-23T17:34:57.029724Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-23T17:34:57.045215Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T17:34:57.197222Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-23T17:34:57.985224Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-23T17:34:57.986764Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-23T17:34:58.517302Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-23T17:34:58.531270Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-23T17:34:58.532847Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-23T17:34:58.535276Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-23T17:34:58.618087Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 90529744
+2022-05-23T17:34:58.619727Z 0 [Note] InnoDB: Loading buffer pool(s) from L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T17:34:58.619792Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-23T17:34:58.844650Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-23T17:34:58.848221Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-23T17:34:58.862336Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-23T17:34:58.864430Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-23T17:34:58.867079Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-23T17:34:58.868610Z 0 [Note] IPv6 is available.
+2022-05-23T17:34:58.869936Z 0 [Note]   - '::' resolves to '::';
+2022-05-23T17:34:58.871583Z 0 [Note] Server socket created on IP: '::'.
+2022-05-23T17:34:59.113452Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-23T17:34:59.115183Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T17:34:59.366919Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220523 19:34:59
+2022-05-23T18:37:51.283376Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-05-23T18:37:51.283991Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 7212 ...
+2022-05-23T18:37:51.422317Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T18:37:51.423614Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T18:37:51.424385Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T18:37:51.425561Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T18:37:51.427016Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-23T18:37:51.428021Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-23T18:37:51.432998Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-23T18:37:51.443299Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T18:37:51.638263Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-23T18:37:51.735084Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 91660150
+2022-05-23T18:37:51.736782Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 91660159
+2022-05-23T18:37:51.742309Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-23T18:37:51.743558Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-23T18:37:55.509986Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T18:37:55.511437Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-23T18:37:55.513150Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-23T18:37:56.075799Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-23T18:37:56.093945Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-23T18:37:56.095626Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-23T18:37:56.097769Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-23T18:37:56.159197Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4711ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-23T18:37:56.169735Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 91660159
+2022-05-23T18:37:56.173923Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-23T18:37:56.183414Z 0 [Note] InnoDB: Loading buffer pool(s) from L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T18:37:56.459715Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-23T18:37:56.474426Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-23T18:37:56.502577Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220523 20:37:56
+2022-05-23T18:37:56.546056Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-23T18:37:56.547458Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-23T18:37:56.562237Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-23T18:37:56.563671Z 0 [Note] IPv6 is available.
+2022-05-23T18:37:56.564423Z 0 [Note]   - '::' resolves to '::';
+2022-05-23T18:37:56.565297Z 0 [Note] Server socket created on IP: '::'.
+2022-05-23T18:37:58.120687Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-23T18:37:58.121922Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-05-23T18:38:35.566156Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-05-23T18:38:35.566611Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 2848 ...
+2022-05-23T18:38:35.594291Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-23T18:38:35.595673Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-23T18:38:35.596617Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-23T18:38:35.597841Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-23T18:38:35.599169Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-23T18:38:35.600087Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-23T18:38:35.604284Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-23T18:38:35.614125Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-23T18:38:35.634519Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-05-23T18:38:35.635811Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-05-23T18:38:35.637409Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-23T18:38:35.854025Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-23T18:38:35.855355Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-23T18:38:35.856619Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-23T18:38:35.857572Z 0 [ERROR] Aborting
+
+2022-05-23T18:38:35.858191Z 0 [Note] Binlog end
+2022-05-23T18:38:35.859039Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T18:38:35.864432Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+
+2022-05-23T18:40:34.105493Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5484ms. The settings might not be optimal. (flushed=89 and evicted=0, during the time.)
+2022-05-23T18:41:02.741572Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4307ms. The settings might not be optimal. (flushed=174 and evicted=0, during the time.)
+2022-05-23T19:04:41.043530Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Normal shutdown
+
+2022-05-23T19:04:41.045426Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-05-23T19:04:41.046510Z 0 [Note] Shutting down slave threads
+2022-05-23T19:04:41.047214Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-05-23T19:04:41.048084Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-05-23T19:04:41.049389Z 0 [Note] Binlog end
+2022-05-23T19:04:41.054459Z 0 [Note] Shutting down plugin 'ngram'
+2022-05-23T19:04:41.055281Z 0 [Note] Shutting down plugin 'partition'
+2022-05-23T19:04:41.055995Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-05-23T19:04:41.056706Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-05-23T19:04:41.057394Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-05-23T19:04:41.058258Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-05-23T19:04:41.059116Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-05-23T19:04:41.059812Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-05-23T19:04:41.060634Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-05-23T19:04:41.061519Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-05-23T19:04:41.062391Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-05-23T19:04:41.063274Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-05-23T19:04:41.064090Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-05-23T19:04:41.064904Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-05-23T19:04:41.065731Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-05-23T19:04:41.066553Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-05-23T19:04:41.067407Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-05-23T19:04:41.068206Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-05-23T19:04:41.069034Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-05-23T19:04:41.069859Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-05-23T19:04:41.070636Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-05-23T19:04:41.071482Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-05-23T19:04:41.072267Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-05-23T19:04:41.073142Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-05-23T19:04:41.073985Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-05-23T19:04:41.074821Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-05-23T19:04:41.075677Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-05-23T19:04:41.076513Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-05-23T19:04:41.077311Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-05-23T19:04:41.078226Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-05-23T19:04:41.079153Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-05-23T19:04:41.079960Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-05-23T19:04:41.080732Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-05-23T19:04:41.081534Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-05-23T19:04:41.082289Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-05-23T19:04:41.083103Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-05-23T19:04:41.083865Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-05-23T19:04:41.084585Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-05-23T19:04:41.085311Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-05-23T19:04:41.086192Z 0 [Note] InnoDB: Starting shutdown...
+2022-05-23T19:04:41.198799Z 0 [Note] InnoDB: Dumping buffer pool(s) to L:\laragon\data\mysql\ib_buffer_pool
+2022-05-23T19:04:41.205336Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220523 21:04:41
+2022-05-23T19:04:44.884136Z 0 [Note] InnoDB: Shutdown completed; log sequence number 92854900
+2022-05-23T19:04:45.009281Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-23T19:04:45.011367Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-05-23T19:04:45.012780Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-23T19:04:45.014125Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-05-23T19:04:45.015713Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-05-23T19:04:45.017660Z 0 [Note] Shutting down plugin 'binlog'
+2022-05-23T19:04:45.022252Z 0 [Note] L:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+

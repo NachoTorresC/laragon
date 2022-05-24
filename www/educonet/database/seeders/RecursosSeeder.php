@@ -15,9 +15,9 @@ class RecursosSeeder extends Seeder
     public function run()
     {
         $data=[
-            ['nombre'=> 'dinosaurios',
+         ['nombre'=> 'dinosaurios',
             'autor' =>'Rionda ',
-            'categoria'=>'movimientos',
+            'categoria'=>'lectoescritura',
             'descripcion'=>'trabajo con dinosaurios',
             'id_profesores'=>'1'
         ],

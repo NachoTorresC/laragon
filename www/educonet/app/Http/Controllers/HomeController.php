@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+
 
 class HomeController extends Controller
 {
@@ -21,8 +23,15 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('home');
+    public function index(){
+     
+    
+        if(auth()->user()->can('adminPermission')){
+            return view('admin.index');
+        }else{
+            return view('home');
+        }
+        
+        
     }
 }

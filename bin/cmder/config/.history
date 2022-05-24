@@ -354,3 +354,9 @@ php artisan migrate:fresh --seed
 php artisan db:seed --class=ProfesoresSeeder
 php artisan db:seed --class=RecursosSeeder
 php artisan make:seeder CursosSeeder
+php artisan make:seeder CursosSeeder
+php artisan migrate:fresh --seed
+php artisan route:list
+php artisan migrate:fresh --seed
+php artisan route:list
+php artisan migrate:fresh --seed
