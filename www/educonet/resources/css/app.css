@@ -3,3 +3,7 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+.cabecera{
+    background-color:#E4D2AE;
+}

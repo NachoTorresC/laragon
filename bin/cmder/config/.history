@@ -360,3 +360,8 @@ php artisan route:list
 php artisan migrate:fresh --seed
 php artisan route:list
 php artisan migrate:fresh --seed
+php artisan make:controller UserController -- resouce
+php artisan make:controller UserController --resouce
+php artisan make:controller UserController --resource
+php artisan make:controller UserController --resource
+php artisan migrate:fresh --seed

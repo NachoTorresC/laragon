@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
             ])->assignRole('Admin');
 
 
-            // generación de 9 usuarios 
-         \App\Models\User::factory(9)->create();
+            // generación de 29 usuarios 
+         \App\Models\User::factory(29)->create();
         $this->seedRelationRolesUser();
 
         
