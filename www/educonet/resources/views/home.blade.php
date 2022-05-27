@@ -14,6 +14,12 @@
 
          
         </section>
+
+        <h1 class="font-bold text-red-700">Editar pagina home</h1>
     </div>
 </main>
+
+
 @endsection
+
+
