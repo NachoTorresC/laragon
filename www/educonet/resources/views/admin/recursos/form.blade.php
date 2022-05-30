@@ -42,7 +42,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="profesor" class="form-label">correo</label>
-						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="text" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
+						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="email" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
 						@error('correo')

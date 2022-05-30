@@ -17,7 +17,7 @@
 					@endisset
 					<div class="mb-3">
 						<label for="profesor" class="form-label">Nombre del profesor</label>
-						<input name="nombre" value="{{ $profesores->nombre}} {{old('nombre') }}" type="text" class="form-control" id="profesor" >
+						<input name="nombre" value="{{ $profesores->nombre}} {{old('nombre') }}" type="text" class="form-control" id="nombre" >
 
 					{{-- 	<!-- Verificación-->
 						@error('titulo')
@@ -30,7 +30,7 @@
 				
                     <div class="mb-3">
 						<label for="profesor" class="form-label">Apellido</label>
-						<input name="categoria" value="{{ $profesores->apellido}} {{old('apellido') }}" type="text" class="form-control" id="curso" >
+						<input name="apellido" value="{{ $profesores->apellido}} {{old('apellido') }}" type="text" class="form-control" id="apellido" >
 
 							<!-- Verificación-->
 						@error('apellido')
@@ -54,7 +54,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="profesor" class="form-label">telefono del profesor</label>
-						<input name="telefono" value="{{ $profesores->telefono}} {{old('telefono')}}" type="number" min=1 max=999999999 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+						<input name="telefono" value="{{ $profesores->telefono}} {{old('telefono')}}" type="number" min=600000000 max=699999999 class="form-control" id="telefono" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
 
 							<!-- Verificación-->
 						@error('telefono')

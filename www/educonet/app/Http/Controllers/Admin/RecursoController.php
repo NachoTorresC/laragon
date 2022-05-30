@@ -19,7 +19,7 @@ class RecursoController extends Controller
     public function index()
     {
         $recursos = Recursos::paginate(10);
-        $recursos=Recursos::all();
+       // $recursos=Recursos::all();
         return view('admin.recursos.index', compact('recursos'));
     }
 
