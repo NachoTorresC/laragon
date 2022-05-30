@@ -2,8 +2,13 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\CursoController;
+use App\Http\Controllers\Admin\RecursoController;
+use App\Http\Controllers\Admin\ProfesorController;
+
+
 
 //añadir controladores de profesores recursos cursos
 
@@ -24,11 +29,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// creo esta función para que si no eres administrador no puedes entrar
 Route::group(['middleware'=>['can:adminPermission']],function(){  
 Route::get('admin',[AdminController::class,'index']);
 Route::resource('admin/users',UserController::class);
-/* Route::resource("admin/recursos",librosController::class); 
-Route::resource("admin/cursos",librosController::class); 
-Route::resource("admin/profesores",librosController::class); */
+Route::resource("admin/recursos",RecursoController::class); 
+Route::resource("admin/cursos",CursoController::class); 
+Route::resource("admin/profesores",ProfesorController::class); 
+
 });
 

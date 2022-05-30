@@ -110,7 +110,7 @@ class librosController extends Controller
         ]);
 
 
-       $libros=libros::find($id);
+        $libros=libros::find($id);
         $libros-> titulo = $request->get('titulo');
         $libros-> tematica = $request->get('tematica');
         $libros-> sinopsis = $request->get('sinopsis');

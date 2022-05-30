@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class Cursos extends Migration
 {
@@ -16,15 +17,28 @@ class Cursos extends Migration
         Schema::create('cursos', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->string('profesor');
             $table->string('categoria');
             $table->text('descripcion');
-            $table->integer('duracion');
             $table->foreignId('id_profesores')
                   ->constrained('profesores')
                   ->cascadeOnUpdate();
             $table->timestamps();
         });
+
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'Cristina',
+            'categoria' =>'aprende a enseñar ',
+            'descripcion'=>'curso orientado a interinos',
+            'id_profesores'=>'1',
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'Cristina',
+            'categoria' =>'aprende a enseñar ',
+            'descripcion'=>'curso orientado a interinos',
+            'id_profesores'=>'1',
+        ]);
     }
 
     /**

@@ -60,7 +60,7 @@ class UserController extends Controller
     public function edit($id)
     {
         $roles=Role::all();
-        return view('admin,users.edit',compact('user','roles'));
+        return view('admin.users.edit',compact('user','roles'));
     }
 
     /**

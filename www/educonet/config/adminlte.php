@@ -243,19 +243,20 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Recursos',
-            'url'  => 'admin/recursos',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
             'text' => 'Cursos',
             'url'  => 'admin/cursos',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-book',
         ],
+        [
+            'text' => 'Recursos',
+            'url'  => 'admin/recursos',
+            'icon' => 'fas fa-fw fa-graduation-cap ',
+        ],
+
         [
             'text' => 'Profesores',
             'url'  => 'admin/profesores',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-graduation-cap ',
         ],
       
     
