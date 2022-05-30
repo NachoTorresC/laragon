@@ -16,8 +16,8 @@
 					@method("PUT")
 					@endisset
 					<div class="mb-3">
-						<label for="profesor" class="form-label">Nombre del recurso</label>
-						<input name="nombre" value="{{ $recursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="profesor" >
+						<label for="recurso" class="form-label">Nombre del recurso</label>
+						<input name="nombre" value="{{ $recursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="recurso" >
 
 					{{-- 	<!-- Verificación-->
 						@error('titulo')
@@ -29,8 +29,8 @@
 					</div>
 				
                     <div class="mb-3">
-						<label for="profesor" class="form-label">Apellido</label>
-						<input name="categoria" value="{{ $profesores->apellido}} {{old('apellido') }}" type="text" class="form-control" id="curso" >
+						<label for="recurso" class="form-label">Apellido</label>
+						<input name="categoria" value="{{ $recursos->apellido}} {{old('apellido') }}" type="text" class="form-control" id="categoria" >
 
 							<!-- Verificación-->
 						@error('apellido')
@@ -41,8 +41,8 @@
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="profesor" class="form-label">correo</label>
-						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="email" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
+						<label for="recurso" class="form-label">correo</label>
+						<input name="correo" value="{{ $recursos->correo}} {{old('correo') }}" type="email" class="form-control" id="recurso" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
 						@error('correo')
@@ -53,8 +53,8 @@
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="profesor" class="form-label">telefono del profesor</label>
-						<input name="telefono" value="{{ $profesores->telefono}} {{old('telefono')}}" type="number" min=1 max=999999999 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+						<label for="recurso" class="form-label">telefono del profesor</label>
+						<input name="telefono" value="{{ $recursos->telefono}} {{old('telefono')}}" type="number" min=1 max=999999999 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
 
 							<!-- Verificación-->
 						@error('telefono')
