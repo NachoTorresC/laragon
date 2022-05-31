@@ -35,13 +35,13 @@
 							<!-- Verificación-->
 						@error('apellido')
 						<br>
-						<small class="text-danger">* Tiene que tener algun apellido</small> 
+						<small class="text-danger">* Tiene que tener algún apellido</small> 
 						<br>
 							
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="profesor" class="form-label">correo</label>
+						<label for="profesor" class="form-label">Correo</label>
 						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="text" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
@@ -53,7 +53,7 @@
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="profesor" class="form-label">telefono del profesor</label>
+						<label for="profesor" class="form-label">Telefono del profesor</label>
 						<input name="telefono" value="{{ $profesores->telefono}} {{old('telefono')}}" type="number" min=600000000 max=699999999 class="form-control" id="telefono" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
 
 							<!-- Verificación-->
@@ -69,7 +69,7 @@
 
 				
 
-					<button type="submit" class="btn btn-primary">Crear curso</button>
+					<button type="submit" class="btn btn-primary">Crear profesor</button>
 				</form>
 			</div>
     </div>

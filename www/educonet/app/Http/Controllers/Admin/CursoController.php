@@ -17,7 +17,7 @@ class CursoController extends Controller
      */
     public function index()
     {
-        $cursos=Cursos::all();
+        $cursos = Cursos::paginate(10);
         return view('admin.cursos.index', compact('cursos'));
     }
 
@@ -87,7 +87,7 @@ class CursoController extends Controller
      */
     public function edit($id)
     {
-         $cursos=Cursos::find($id);
+        $cursos=Cursos::find($id);
         $update = true;
         $title = __("Editar curso");
         $textButton = __("Actualizar");
@@ -105,11 +105,11 @@ class CursoController extends Controller
      */
     public function update(Request $request, $id)
     {
-         $this->validate($request, [
+      /*    $this->validate($request, [
             "titulo"=> "required|max:5",
           
           
-        ]); 
+        ]);  */
 
 
       $cursos=Cursos::find($id);
@@ -138,7 +138,7 @@ class CursoController extends Controller
 
         $cursos=Cursos::find($id);
         $cursos->delete();
-        return back()->with("success", __("Acabas de eliminar un recurso"));
+        return back()->with("success", __("Acabas de eliminar un curso"));
  
     }
     }

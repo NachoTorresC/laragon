@@ -14,6 +14,6 @@
     <link rel="stylesheet" href="/css/admin_custom.css">
 @stop
 
-@section('js')
+{{-- @section('js')
     <script> alert('Está en el panel del administrador'); </script>
-@stop
+@stop --}}

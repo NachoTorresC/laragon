@@ -6,6 +6,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Recursos;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 //use Illuminate\Support\Facades\Storage; importacion para imagenes
 
 
@@ -19,7 +20,6 @@ class RecursoController extends Controller
     public function index()
     {
         $recursos = Recursos::paginate(10);
-       // $recursos=Recursos::all();
         return view('admin.recursos.index', compact('recursos'));
     }
 
@@ -117,12 +117,22 @@ class RecursoController extends Controller
 
       $recursos=Recursos::find($id);
         $recursos-> nombre = $request->get('nombre');
-        $recursos-> apellido = $request->get('autor');
+        $recursos-> autor = $request->get('autor');
         $recursos-> categoria = $request->get('categoria');
         $recursos-> descripcion = $request->get('descripcion'); 
         $recursos-> id_profesores = $request->get('id_profesores'); 
      
-      
+      if($request ->hasFile('image')){
+          if($recursos->image !=null){
+              Storage::disk('images')->delete($recursos->image->path);
+              $recursos->image->delete();
+          }
+
+          $recursos->image()->create([
+              'path'=>$request->image->store('recursos','images'),
+          ]);
+          
+      }
         
 
         $recursos-> save();

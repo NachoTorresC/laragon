@@ -66,8 +66,8 @@
    
 </table>
 <div class="mt-3">
-  {{--  {!! $cursos->links()!!} --}}
-    </div>
+    {{ $cursos->links()}}
+     </div>
 
 
 @endsection

@@ -29,37 +29,49 @@
 					</div>
 				
                     <div class="mb-3">
-						<label for="recurso" class="form-label">Apellido</label>
-						<input name="categoria" value="{{ $recursos->apellido}} {{old('apellido') }}" type="text" class="form-control" id="categoria" >
+						<label for="recurso" class="form-label">Autor</label>
+						<input name="autor" value="{{ $recursos->autor}} {{old('autor') }}" type="text" class="form-control" id="autor" >
 
 							<!-- Verificación-->
-						@error('apellido')
+						@error('autor')
 						<br>
-						<small class="text-danger">* Tiene que tener algun apellido</small> 
+						<small class="text-danger">* Tiene que tener algun autor</small> 
 						<br>
 							
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="recurso" class="form-label">correo</label>
-						<input name="correo" value="{{ $recursos->correo}} {{old('correo') }}" type="email" class="form-control" id="recurso" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
+						<label for="recurso" class="form-label">Categoria</label>
+						<input name="categoria" value="{{ $recursos->categoria}} {{old('categoria') }}" type="text" class="form-control" id="categoria" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
-						@error('correo')
+						@error('categoria')
 						<br>
-						<small class="text-danger">* No puede quedar el correo vacio </small>
+						<small class="text-danger">* No puede quedar la categoria vacia </small>
 						<br>
 							
 						@enderror
 					</div>
                     <div class="mb-3">
-						<label for="recurso" class="form-label">telefono del profesor</label>
-						<input name="telefono" value="{{ $recursos->telefono}} {{old('telefono')}}" type="number" min=1 max=999999999 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+						<label for="recurso" class="form-label">Descripción del recurso</label>
+						<input name="descripcion" value="{{ $recursos->descripcion}} {{old('descripcion')}}" type="text"  class="form-control" id="descripcion" > 
 
 							<!-- Verificación-->
-						@error('telefono')
+						@error('descripcion')
 						<br>
-						<small class="text-danger" >* Tiene que registrar un telefono</small>
+						<small class="text-danger" >* Tiene que registrar una descripción</small>
+						<br>
+							
+						@enderror
+					</div>
+					<div class="mb-3">
+						<label for="recurso" class="form-label">Id del profesor</label>
+						<input name="id_profesores" value="{{ $recursos->id_profesores}} {{old('id_profesores')}}" type="number" min="1" max="10"  class="form-control" id="id_profesores" > 
+
+							<!-- Verificación-->
+						@error('id_profesores')
+						<br>
+						<small class="text-danger" >* Tiene que registrar un id_profesores</small>
 						<br>
 							
 						@enderror
@@ -69,7 +81,7 @@
 
 				
 
-					<button type="submit" class="btn btn-primary">Crear curso</button>
+					<button type="submit" class="btn btn-primary d-block mx-auto">Crear recurso</button>
 				</form>
 			</div>
     </div>

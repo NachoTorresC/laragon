@@ -63,132 +63,102 @@ class Recursos extends Migration
         ]);
         DB::table("recursos")
         ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
+            'nombre'=> ' Etiquetas para cajoneras.',
             'autor' =>'Cristina Rionda ',
             'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
+            'descripcion'=>'Etiquetas en mayúscula, minúscula e imagen real de materiales y juguetes habituales.',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'Cada muñeco con su sombrero.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Lógico-matemática',
+            'descripcion'=>'Imprimible para trabajar la asociación por colores y grafía-cantidad desde el 1 hasta el 10, añadiendo tantos botones como nos indique su sombrero.',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'Dino-series.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Proyectos (dinosaurios)',
+            'descripcion'=>'Imprimible con temática de dinosaurios para trabajar vocabulario y nociones de seriación. Incluye series de dos y tres elementos simples, y patrones combinados.',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'La ruleta del cuerpo humano',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Proyectos (cuerpo humano)',
+            'descripcion'=>'Conjunto de 50 imágenes para trabajar vocabulario relativo al cuerpo humano (partes externas, articulaciones, huesos, músculos, órganos, material médico…). .',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'El bingo del cuerpo humano.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Proyectos (cuerpo humano)',
+            'descripcion'=>'25 cartones de bingo y sus correspondientes imágenes a modo de bolas con vocabulario relativo al cuerpo humano (partes externas, articulaciones, huesos, músculos, órganos, material médico…).',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'Dino-receta.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Proyectos (dinosaurios)',
+            'descripcion'=>'Cartel con los ingredientes necesarios y pasos a seguir para construir tu propio diplodocus saludable. ¡Para comérselo!',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'La huevera de las vocales.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Lenguajes',
+            'descripcion'=>'Un recurso para iniciarse en la conciencia fonológica con los sonidos de las vocales a través de la clasificación de las imágenes presentes en los huevos en su correspondiente huevera.',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'Palabras desordenadas.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Lenguajes',
+            'descripcion'=>'Conjunto de 12 tarjetas con letras desordenadas para formar las palabras. Diferentes niveles de dificultad (directas, inversas y trabadas).',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> 'Laberintos de otoño.',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Lenguajes',
+            'descripcion'=>'Distintos patrones grafomotores bajo la temática del otoño que pueden imprimirse en distintos tamaños o proyectarse a gran escala en PDI.',
+            'id_profesores'=>'1'
+        ]);
+        DB::table("recursos")
+        ->insert([
+            'nombre'=> '¡A la compra!',
+            'autor' =>'Cristina Rionda ',
+            'categoria'=>'Asamblea',
+            'descripcion'=>'Con esta lista de la compra podrás trabajar la atención y el conteo de frutas y verduras (hasta el 10). Incluye dos niveles de dificultad: acompañamiento de imágenes para prelectores y palabra escrita.',
             'id_profesores'=>'1'
         ]);
         DB::table("recursos")
         ->insert([
             'nombre'=> 'Marcasitios modelo arcoíris.',
             'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
+            'categoria'=>'Lógico-matemática',
             'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
             'id_profesores'=>'1'
         ]);
         DB::table("recursos")
         ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
+            'nombre'=> 'Mi casa.',
             'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
+            'categoria'=>'Lenguajes',
+            'descripcion'=>'Libro imprimible con una habitación diferente en cada página, e imágenes de objetos cotidianos para clasificar según la estancia en la que estén.',
             'id_profesores'=>'1'
         ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina Rionda ',
-            'categoria'=>'Asamblea',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1'
-        ]);
+      
+    
 
 
     }

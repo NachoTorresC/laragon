@@ -66,7 +66,7 @@
    
 </table>
 <div class="mt-3">
-    {{ $profesores->links()}}
+    {!! $profesores->links()!!}
      </div>
 
 

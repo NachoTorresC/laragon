@@ -58,7 +58,7 @@
             <tr>
                 <td colspan="4">
                     <div class="bg-blue-100 text-center border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-                        <p><strong class="font-bold">{{ __("No hay profesores") }}</strong></p>
+                        <p><strong class="font-bold">{{ __("No hay recursos") }}</strong></p>
                         <span class="block sm:inline">{{ __("Todavía no hay nada que mostrar aquí") }}</span>
                     </div>
                 </td>
