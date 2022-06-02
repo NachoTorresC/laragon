@@ -21,6 +21,8 @@
         <th scope="col">{{ ("Categoria") }}</th>
         <th scope="col">{{ ("Descripcion") }}</th>
         <th scope="col">{{ ("Id_profesores") }}</th>
+        <th scope="col">{{ ("imagen") }}</th>
+
   
      
     </tr>
@@ -34,6 +36,8 @@
                 <td>{{ $recurso->categoria }}</td>
                 <td>{{ $recurso->descripcion }}</td>
                 <td>{{ $recurso->id_profesores }}</td>
+                <td><img class="img-fluid" src="/images/{{$recurso->Imagen}}" alt=""></td> 
+
               
 
                 <td><a href="{{route('recursos.edit', $recurso->id)}}" class="btn btn-primary btn-sm">Editar</a></td>

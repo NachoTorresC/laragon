@@ -19,13 +19,13 @@
 						<label for="recurso" class="form-label">Nombre del recurso</label>
 						<input name="nombre" value="{{ $recursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="recurso" >
 
-					{{-- 	<!-- Verificación-->
-						@error('titulo')
+						<!-- Verificación-->
+						@error('nombre')
 						<br>
 						<small class="text-danger">* Tiene que escribir un nombre</small>
 						<br>
 							
-						@enderror --}}
+						@enderror 
 					</div>
 				
                     <div class="mb-3">
@@ -64,9 +64,10 @@
 							
 						@enderror
 					</div>
+					
 					<div class="mb-3">
 						<label for="recurso" class="form-label">Id del profesor</label>
-						<input name="id_profesores" value="{{ $recursos->id_profesores}} {{old('id_profesores')}}" type="number" min="1" max="10"  class="form-control" id="id_profesores" > 
+						<input name="id_profesores" value="{{ $recursos->id_profesores}}" type="number" min="1" max="10"  class="form-control" id="id_profesores" > 
 
 							<!-- Verificación-->
 						@error('id_profesores')
@@ -75,6 +76,15 @@
 						<br>
 							
 						@enderror
+					</div>
+					<div class="mb-3">
+						<label for="Imagen" class="mr-3">Imagen</label> 
+						<input id="Imagen" type="file" name="Imagen" value="{{$recursos->imagen}}">
+						@if($recursos->imagen){
+							
+						}
+						
+						
 					</div>
 					
 					

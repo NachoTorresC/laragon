@@ -47,14 +47,14 @@ class ProfesorController extends Controller
 
     public function store(Request $request)
     {
-        /*$this->validate($request, [
-            "titulo"=> "required|max:30|unique:libros,titulo",
-            "tematica"=>"required|max:20",
-            "sinopsis"=>"required|max:140",
-            "autor"=>"required|max:40"
+        $this->validate($request, [
+            "nombre"=> "required|max:30|",
+            "apellido"=>"required|max:20",
+            "correo"=>"required|max:140",
+            "telefono"=>"required|max:40"
           
           
-        ]);   */
+        ]);   
 
         Profesores::create([
                 'nombre'=>$request->input("nombre"),
@@ -88,7 +88,8 @@ class ProfesorController extends Controller
      */
     public function edit($id)
     {
-         $profesores=Profesores::find($id);
+        
+        $profesores=Profesores::find($id);
         $update = true;
         $title = __("Editar profesor");
         $textButton = __("Actualizar");
@@ -105,12 +106,16 @@ class ProfesorController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    {/* 
-         $this->validate($request, [
-            "titulo"=> "required|max:5",
+    {
+
+          $this->validate($request, [
+            "nombre"=> "required|max:30|",
+            "apellido"=>"required|max:20",
+            "correo"=>"required",
+            "telefono"=>"required|max:9"
           
           
-        ]);  */
+        ]);   
 
 
       $profesores=Profesores::find($id);

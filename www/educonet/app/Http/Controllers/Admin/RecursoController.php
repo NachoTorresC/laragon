@@ -7,7 +7,7 @@ use App\Models\Recursos;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-//use Illuminate\Support\Facades\Storage; importacion para imagenes
+
 
 
 class RecursoController extends Controller
@@ -48,14 +48,15 @@ class RecursoController extends Controller
 
     public function store(Request $request)
     {
-        /*$this->validate($request, [
-            "titulo"=> "required|max:30|unique:libros,titulo",
-            "tematica"=>"required|max:20",
-            "sinopsis"=>"required|max:140",
-            "autor"=>"required|max:40"
+        $this->validate($request, [
+            "nombre"=> "required|max:30|unique:recursos,nombre",
+            "autor"=>"required|max:20",
+            "categoria"=>"required|max:140",
+            "descripcion"=>"required|max:40",
+            "id_profesores"=>"required",
+            "Imagen"=>"required" 
           
-          
-        ]);   */
+        ]);   
 
         Recursos::create([
                 'nombre'=>$request->input("nombre"),
@@ -63,6 +64,7 @@ class RecursoController extends Controller
                 'categoria'=>$request->input("categoria"),
                 'descripcion'=>$request->input("descripcion"), 
                 'id_profesores'=>$request->input("id_profesores"), 
+                'Imagen'=>$request->file("Imagen")->store('', 'images'),
                 
                 
         
@@ -107,12 +109,16 @@ class RecursoController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    {/* 
-         $this->validate($request, [
-            "titulo"=> "required|max:5",
+    {
+        $this->validate($request, [
+            "nombre"=> "required|max:30|",
+            "autor"=>"required|max:20",
+            "categoria"=>"required|max:140",
+            "descripcion"=>"required|max:40",
+             "id_profesores"=>"required",
+             "Imagen"=>"required|image|mimes:png,jpg,jpeg"
           
-          
-        ]);  */
+        ]);   
 
 
       $recursos=Recursos::find($id);
@@ -121,16 +127,12 @@ class RecursoController extends Controller
         $recursos-> categoria = $request->get('categoria');
         $recursos-> descripcion = $request->get('descripcion'); 
         $recursos-> id_profesores = $request->get('id_profesores'); 
-     
-      if($request ->hasFile('image')){
-          if($recursos->image !=null){
-              Storage::disk('images')->delete($recursos->image->path);
-              $recursos->image->delete();
-          }
+        if($request ->hasFile('Imagen')){
+              
+              Storage::disk('images')->delete('images/'.$recursos->Imagen);
+              $recursos->Imagen = $request->file('Imagen')->store('','images');
 
-          $recursos->image()->create([
-              'path'=>$request->image->store('recursos','images'),
-          ]);
+        
           
       }
         

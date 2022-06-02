@@ -46,14 +46,14 @@ class CursoController extends Controller
 
     public function store(Request $request)
     {
-        /*$this->validate($request, [
-            "titulo"=> "required|max:30|unique:libros,titulo",
-            "tematica"=>"required|max:20",
-            "sinopsis"=>"required|max:140",
-            "autor"=>"required|max:40"
+        $this->validate($request, [
+            "nombre"=> "required",
+            "categoria"=>"required|max:20",
+            "descripcion"=>"required|max:240",
+            "id_profesores"=>"required|max:40"
           
           
-        ]);   */
+        ]);   
 
             Cursos::create([
                 'nombre'=>$request->input("nombre"),
@@ -105,11 +105,14 @@ class CursoController extends Controller
      */
     public function update(Request $request, $id)
     {
-      /*    $this->validate($request, [
-            "titulo"=> "required|max:5",
+        $this->validate($request, [
+            "nombre"=> "required",
+            "categoria"=>"required|max:20",
+            "descripcion"=>"required|max:240",
+            "id_profesores"=>"required|max:40"
           
           
-        ]);  */
+        ]);   
 
 
       $cursos=Cursos::find($id);

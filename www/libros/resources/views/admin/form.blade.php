@@ -64,6 +64,18 @@
 							
 						@enderror
 					</div>
+					<div class="w-full px-5 row">
+						<label class="col-12 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-3" for="Imagen">
+							{{ __("Imagen") }}
+						</label>
+						<input name="Imagen" value="{{$libros->Imagen}}" class="col-3 appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="Imagen" type="file">
+						@error("Imagen")
+						<div class="w-100"></div>
+						<div class="border border-red-400 rounded-b mt-1 px-4 py-3 text-red-700">
+							{{ "Introduce una imagen valida" }}
+						</div>
+						@enderror
+					</div>
 					
 					
 

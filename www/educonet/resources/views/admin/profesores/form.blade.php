@@ -19,13 +19,13 @@
 						<label for="profesor" class="form-label">Nombre del profesor</label>
 						<input name="nombre" value="{{ $profesores->nombre}} {{old('nombre') }}" type="text" class="form-control" id="nombre" >
 
-					{{-- 	<!-- Verificación-->
-						@error('titulo')
+					 	<!-- Verificación-->
+						@error('nombre')
 						<br>
 						<small class="text-danger">* Tiene que escribir un nombre</small>
 						<br>
 							
-						@enderror --}}
+						@enderror 
 					</div>
 				
                     <div class="mb-3">
@@ -42,7 +42,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="profesor" class="form-label">Correo</label>
-						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="text" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
+						<input name="correo" value="{{ $profesores->correo}} {{old('correo') }}" type="email" class="form-control" id="correo" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
 						@error('correo')
@@ -54,7 +54,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="profesor" class="form-label">Telefono del profesor</label>
-						<input name="telefono" value="{{ $profesores->telefono}} {{old('telefono')}}" type="number" min=600000000 max=699999999 class="form-control" id="telefono" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+						<input name="telefono" value="{{ $profesores->telefono}}" type="number" min=600000000 max=699999999 class="form-control" id="telefono" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
 
 							<!-- Verificación-->
 						@error('telefono')
