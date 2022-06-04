@@ -36,7 +36,7 @@
                 <td>{{ $recurso->categoria }}</td>
                 <td>{{ $recurso->descripcion }}</td>
                 <td>{{ $recurso->id_profesores }}</td>
-                <td><img class="img-fluid" src="/images/{{$recurso->Imagen}}" alt=""></td> 
+                <td><img src="/images/{{$recurso->Imagen}}" alt="" style="max-width: 109px"></td> 
 
               
 

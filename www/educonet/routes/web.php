@@ -7,8 +7,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\CursoController;
 use App\Http\Controllers\Admin\RecursoController;
 use App\Http\Controllers\Admin\ProfesorController;
-
-
+use App\Http\Controllers\UserRecursoController;
 
 //añadir controladores de profesores recursos cursos
 
@@ -39,4 +38,11 @@ Route::resource("admin/cursos",CursoController::class);
 Route::resource("admin/profesores",ProfesorController::class); 
 
 });
+// ruta de la vista que ve el usuario  
 
+Route::group(['middleware'=>['can:userPermission']],function(){  
+Route::get("recursos/index",[UserRecursoController::class, "mostrarRecursos"]); 
+Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]); 
+
+
+});

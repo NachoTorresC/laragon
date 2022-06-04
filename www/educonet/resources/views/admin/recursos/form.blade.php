@@ -17,7 +17,7 @@
 					@endisset
 					<div class="mb-3">
 						<label for="recurso" class="form-label">Nombre del recurso</label>
-						<input name="nombre" value="{{ $recursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="recurso" >
+						<input name="nombre" value="{{ $recursos->nombre}} " type="text" class="form-control" id="recurso" >
 
 						<!-- Verificación-->
 						@error('nombre')
@@ -30,7 +30,7 @@
 				
                     <div class="mb-3">
 						<label for="recurso" class="form-label">Autor</label>
-						<input name="autor" value="{{ $recursos->autor}} {{old('autor') }}" type="text" class="form-control" id="autor" >
+						<input name="autor" value="{{ $recursos->autor}}" type="text" class="form-control" id="autor" >
 
 							<!-- Verificación-->
 						@error('autor')
@@ -42,7 +42,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="recurso" class="form-label">Categoria</label>
-						<input name="categoria" value="{{ $recursos->categoria}} {{old('categoria') }}" type="text" class="form-control" id="categoria" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
+						<input name="categoria" value="{{ $recursos->categoria}} " type="text" class="form-control" id="categoria" > <!-- en el value el old es por si falta algo y saltan verificaciones el campo que esté completo se mantiene-->
 
 							<!-- Verificación-->
 						@error('categoria')
@@ -54,7 +54,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="recurso" class="form-label">Descripción del recurso</label>
-						<input name="descripcion" value="{{ $recursos->descripcion}} {{old('descripcion')}}" type="text"  class="form-control" id="descripcion" > 
+						<input name="descripcion" value="{{ $recursos->descripcion}} " type="text"  class="form-control" id="descripcion" > 
 
 							<!-- Verificación-->
 						@error('descripcion')
@@ -80,9 +80,12 @@
 					<div class="mb-3">
 						<label for="Imagen" class="mr-3">Imagen</label> 
 						<input id="Imagen" type="file" name="Imagen" value="{{$recursos->imagen}}">
-						@if($recursos->imagen){
-							
-						}
+						
+						@error('Imagen')
+						<br>
+						<small class="text-danger" >* Tiene que registrar una imagen</small>
+							<br>
+						@enderror
 						
 						
 					</div>

@@ -15,16 +15,25 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
         <header class="bg-amber py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                    <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline">
                         {{ ('Educonet') }}
                     </a>
+                    @auth                    
+                    <a href="{{ url('recursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                        {{ ('Recursos') }}
+                    </a>
+                    @endauth
                 </div>
+
                 <nav class="space-x-4 text-yellow-700 text-sm sm:text-base">
                     @guest
                         <a class=" font-bold hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -53,6 +62,6 @@
      
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -20,6 +20,8 @@ class RoleSeeder extends Seeder
         $role3=Role::create(['name' =>'invitado']);
 
         Permission::create(['name'=>'adminPermission'])->syncRoles($role1);
+        Permission::create(['name'=>'userPermission'])->syncRoles($role2,$role3);
+
 
     }
 }

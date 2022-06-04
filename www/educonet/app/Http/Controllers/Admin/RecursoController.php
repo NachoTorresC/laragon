@@ -114,7 +114,7 @@ class RecursoController extends Controller
             "nombre"=> "required|max:30|",
             "autor"=>"required|max:20",
             "categoria"=>"required|max:140",
-            "descripcion"=>"required|max:40",
+            "descripcion"=>"required|max:340",
              "id_profesores"=>"required",
              "Imagen"=>"required|image|mimes:png,jpg,jpeg"
           

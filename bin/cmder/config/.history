@@ -398,3 +398,8 @@ php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan make:controller UserRecursoController --resource
+php artisan migrate:fresh --seed
