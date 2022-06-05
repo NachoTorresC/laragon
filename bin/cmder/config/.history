@@ -403,3 +403,8 @@ php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan make:controller UserRecursoController --resource
 php artisan migrate:fresh --seed
+composer require paypal/rest-api-sdk-php
+php artisan make:controller PaymentController
+php artisan migrate:fresh --seed
+ composer require paypal/rest-api-sdk-php
+composer require srmklive/paypal:~3.0

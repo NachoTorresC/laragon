@@ -2,12 +2,14 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\PremiumController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\CursoController;
+use App\Http\Controllers\UserRecursoController;
 use App\Http\Controllers\Admin\RecursoController;
 use App\Http\Controllers\Admin\ProfesorController;
-use App\Http\Controllers\UserRecursoController;
 
 //añadir controladores de profesores recursos cursos
 
@@ -43,6 +45,12 @@ Route::resource("admin/profesores",ProfesorController::class);
 Route::group(['middleware'=>['can:userPermission']],function(){  
 Route::get("recursos/index",[UserRecursoController::class, "mostrarRecursos"]); 
 Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]); 
+Route::get("miembroPremium/index",[PremiumController::class, "mostrarVistaPremium"])->name('miembroPremium/index'); 
+Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]); 
 
 
+//paypal
+Route::get('processPaypal', [PaymentController::class, 'processPaypal'])->name('processPaypal');
+Route::get('processSuccess', [PaymentController::class, 'processSuccess'])->name('processSuccess');
+Route::get('processCancel', [PaymentController::class, 'processCancel'])->name('processCancel');
 });
