@@ -408,3 +408,7 @@ php artisan make:controller PaymentController
 php artisan migrate:fresh --seed
  composer require paypal/rest-api-sdk-php
 composer require srmklive/paypal:~3.0
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed

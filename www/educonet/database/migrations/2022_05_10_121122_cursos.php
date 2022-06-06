@@ -19,6 +19,7 @@ class Cursos extends Migration
             $table->string('nombre');
             $table->string('categoria');
             $table->text('descripcion');
+            $table->String('Imagen');
             $table->foreignId('id_profesores')
                   ->constrained('profesores')
                   ->cascadeOnUpdate();
@@ -27,17 +28,93 @@ class Cursos extends Migration
 
         DB::table("cursos")
         ->insert([
-            'nombre'=> 'Cristina',
-            'categoria' =>'aprende a enseñar ',
-            'descripcion'=>'curso orientado a interinos',
+            'nombre'=> 'CURSO AVANZADO INFANTIL ABN',
+            'categoria' =>'Curso',
+            'descripcion'=>'Ampliar los conocimientos de la numeración ABN iniciada en Infantil.Iniciar y sentar las bases del algoritmo de cálculo.Motivar al profesorado en nuevas metodologías que mejoren los resultados académicos',
             'id_profesores'=>'1',
+            'Imagen'=>'17.png'
         ]);
         DB::table("cursos")
         ->insert([
-            'nombre'=> 'Cristina',
-            'categoria' =>'aprende a enseñar ',
-            'descripcion'=>'curso orientado a interinos',
+            'nombre'=> 'ACOMPAÑANDO EMOCIONES',
+            'categoria' =>'Taller',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'2',
+            'Imagen'=>'20.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'PRINCIPIOS MONTESSORI Y AMBIENTE PREPARADO',
+            'categoria' =>'Curso',
+            'descripcion'=>'En este curso podrás adquirir una visión global de lo que es Montessori, conociendo los principios básicos de la filosofía Montessori, aprenderás a indentificar los obstáculos que entorpecen el desarrollo y el aprendizaje de tus hijos',
             'id_profesores'=>'1',
+            'Imagen'=>'21.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'EL JUEGO CON MINIMUNDOS',
+            'categoria' =>'Curso',
+            'descripcion'=>'En este curso ',
+            'id_profesores'=>'2',
+            'Imagen'=>'22.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'JUGAR CON LOS CUENTOS',
+            'categoria' =>'Masterclass',
+            'descripcion'=>'En esta masterclass te ayudaremos a mejorar la relación con tus hijos, alumnos a través de los juegos.',
+            'id_profesores'=>'1',
+            'Imagen'=>'23.png'
+        ]);
+     
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'SIGNOS PARA BEBÉS',
+            'categoria' =>'Curso',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'2',
+            'Imagen'=>'24.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'ORGANIZACIÓN Y ORDEN EN LOS ESPACIOS INFANTILES',
+            'categoria' =>'Taller',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'2',
+            'Imagen'=>'25.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'AUTOESTIMA INFANTIL',
+            'categoria' =>'Curso',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'2',
+            'Imagen'=>'26.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'INTRODUCCIÓN A LA EDUCACIÓN EN POSITIVO',
+            'categoria' =>'Curso',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'2',
+            'Imagen'=>'27.png'
+        ]);
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'ACOMPAÑAR EL CONTROL DE ESFÍNTERES',
+            'categoria' =>'Curso',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'3',
+            'Imagen'=>'28.png'
+        ]);
+       
+        DB::table("cursos")
+        ->insert([
+            'nombre'=> 'GESTIÓN DE RABIETAS',
+            'categoria' =>'Curso',
+            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'id_profesores'=>'4',
+            'Imagen'=>'29.png'
         ]);
     }
 
