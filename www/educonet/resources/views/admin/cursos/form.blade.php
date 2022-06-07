@@ -54,7 +54,7 @@
 					</div>
                     <div class="mb-3">
 						<label for="curso" class="form-label">id del profesor</label>
-						<input name="id_profesores" value="{{ $cursos->id_profesores}} {{old('id_profesores')}}" type="number" min=1 max=10 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+						<input name="id_profesores" value="{{ $cursos->id_profesores}} " type="number" min=1 max=10 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
 
 							<!-- Verificación-->
 						@error('id_profesores')
@@ -63,6 +63,18 @@
 						<br>
 							
 						@enderror
+					</div>
+					<div class="mb-3">
+						<label for="Imagen" class="mr-3">Imagen</label> 
+						<input id="Imagen" type="file" name="Imagen" value="{{$cursos->imagen}}">
+						
+						@error('Imagen')
+						<br>
+						<small class="text-danger" >* Tiene que registrar una imagen</small>
+							<br>
+						@enderror
+						
+						
 					</div>
 					
 					

@@ -131,8 +131,6 @@ class RecursoController extends Controller
               
               Storage::disk('images')->delete('images/'.$recursos->Imagen);
               $recursos->Imagen = $request->file('Imagen')->store('','images');
-
-        
           
       }
         

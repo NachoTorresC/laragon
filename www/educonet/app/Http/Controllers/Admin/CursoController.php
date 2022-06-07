@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Cursos;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 //use Illuminate\Support\Facades\Storage; importacion para imagenes
 
 
@@ -50,7 +51,8 @@ class CursoController extends Controller
             "nombre"=> "required",
             "categoria"=>"required|max:20",
             "descripcion"=>"required|max:240",
-            "id_profesores"=>"required|max:40"
+            "id_profesores"=>"required|max:40",
+            "Imagen"=>"required" 
           
           
         ]);   
@@ -60,6 +62,7 @@ class CursoController extends Controller
                 'categoria'=>$request->input("categoria"),
                 'descripcion'=>$request->input("descripcion"),
                 'id_profesores'=>$request->input("id_profesores"), 
+                'Imagen'=>$request->file("Imagen")->store('', 'images'),
                 
                 
         
@@ -109,7 +112,8 @@ class CursoController extends Controller
             "nombre"=> "required",
             "categoria"=>"required|max:20",
             "descripcion"=>"required|max:240",
-            "id_profesores"=>"required|max:40"
+            "id_profesores"=>"required|max:40",
+            "Imagen"=>"required|image|mimes:png,jpg,jpeg"
           
           
         ]);   
@@ -120,6 +124,12 @@ class CursoController extends Controller
         $cursos-> categoria = $request->get('categoria');
         $cursos-> descripcion = $request->get('descripcion');
         $cursos-> id_profesores = $request->get('id_profesores'); 
+        if($request ->hasFile('Imagen')){
+              
+            Storage::disk('images')->delete('images/'.$cursos->Imagen);
+            $cursos->Imagen = $request->file('Imagen')->store('','images');
+        
+    }
      
       
         

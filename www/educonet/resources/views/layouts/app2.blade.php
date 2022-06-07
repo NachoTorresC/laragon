@@ -32,7 +32,7 @@
                         {{ ('Recursos') }}
                     </a>
                     <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
-                        {{ ('miembro premium') }}
+                        {{ ('Hazte Premium') }}
                     </a>
 
                     @endauth

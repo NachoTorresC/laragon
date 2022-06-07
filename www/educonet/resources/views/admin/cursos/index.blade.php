@@ -15,11 +15,12 @@
 <table class="table table-info table-striped" style="width: 100%">
     <thead>
     <tr>
-        <th scope="col">{{ ("id") }}</th>
-        <th scope="col">{{ ("nombre") }}</th>
-        <th scope="col">{{ ("categoria") }}</th>
-        <th scope="col">{{ ("descripcion") }}</th>
-        <th scope="col">{{ ("id_profesores") }}</th>
+        <th scope="col">{{ ("Id") }}</th>
+        <th scope="col">{{ ("Nombre") }}</th>
+        <th scope="col">{{ ("Categoria") }}</th>
+        <th scope="col">{{ ("Descripcion") }}</th>
+        <th scope="col">{{ ("Id_profesores") }}</th>
+        <th scope="col">{{"Imagen"}}</th>
   
      
     </tr>
@@ -32,6 +33,7 @@
                 <td>{{ $curso->categoria }}</td>
                 <td>{{ $curso->descripcion }}</td>
                 <td>{{ $curso->id_profesores }}</td>
+                <td><img src="/images/{{$curso->Imagen}}" style="max-width: 109px" alt=""></td>
               
 
                 <td><a href="{{route('cursos.edit', $curso->id)}}" class="btn btn-primary btn-sm">Editar</a></td>

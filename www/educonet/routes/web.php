@@ -40,6 +40,7 @@ Route::resource("admin/cursos",CursoController::class);
 Route::resource("admin/profesores",ProfesorController::class); 
 
 });
+
 // ruta de la vista que ve el usuario  
 
 Route::group(['middleware'=>['can:userPermission']],function(){  
