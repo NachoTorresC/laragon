@@ -71,7 +71,7 @@ class Cursos extends Migration
         ->insert([
             'nombre'=> 'SIGNOS PARA BEBÉS',
             'categoria' =>'Curso',
-            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'descripcion'=>'Aprende a saber lo que le pasa por la cabeza a los más pequeños',
             'id_profesores'=>'2',
             'Imagen'=>'24.png'
         ]);
@@ -79,7 +79,7 @@ class Cursos extends Migration
         ->insert([
             'nombre'=> 'ORGANIZACIÓN Y ORDEN EN LOS ESPACIOS INFANTILES',
             'categoria' =>'Taller',
-            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'descripcion'=>'En este taller enseñaremos a organizar los espacios infantiles, de manera que se conviera en algo sencillo y divertido.',
             'id_profesores'=>'2',
             'Imagen'=>'25.png'
         ]);
@@ -87,7 +87,7 @@ class Cursos extends Migration
         ->insert([
             'nombre'=> 'AUTOESTIMA INFANTIL',
             'categoria' =>'Curso',
-            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'descripcion'=>'Entenderás qué es la autoestima y como se construye, aprenderás a ayudar a desarrolar al alumnado todas las habilidades de las personas con buena autoestima.',
             'id_profesores'=>'2',
             'Imagen'=>'26.png'
         ]);
@@ -103,7 +103,7 @@ class Cursos extends Migration
         ->insert([
             'nombre'=> 'ACOMPAÑAR EL CONTROL DE ESFÍNTERES',
             'categoria' =>'Curso',
-            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'descripcion'=>'En este curso conoceremos los aspectos más relevantes del acompañamiento al control de esfínteres desde el respeto a los ritmos particulares y las herramientas prácticas que nos faciliten apoyar tan importante proceso de niños y niñas.',
             'id_profesores'=>'3',
             'Imagen'=>'28.png'
         ]);
@@ -112,7 +112,7 @@ class Cursos extends Migration
         ->insert([
             'nombre'=> 'GESTIÓN DE RABIETAS',
             'categoria' =>'Curso',
-            'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
+            'descripcion'=>'Conoceremos los principios de la disciplina positiva, veremos las bases para entender el comportamiento de los niños y niñas.',
             'id_profesores'=>'4',
             'Imagen'=>'29.png'
         ]);
