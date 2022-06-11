@@ -414,3 +414,7 @@ php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan make:controller DownloadFileController
+php artisan migrate:fresh --seed
+php artisan make:controller DownloadFileController
+php artisan migrate:fresh --seed
+php artisan make:controller UserCursoController --resource

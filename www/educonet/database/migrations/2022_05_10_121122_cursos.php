@@ -20,6 +20,7 @@ class Cursos extends Migration
             $table->string('categoria');
             $table->text('descripcion');
             $table->String('Imagen');
+            $table->double('precio');
             $table->foreignId('id_profesores')
                   ->constrained('profesores')
                   ->cascadeOnUpdate();
@@ -32,7 +33,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'Ampliar los conocimientos de la numeración ABN iniciada en Infantil.Iniciar y sentar las bases del algoritmo de cálculo.Motivar al profesorado en nuevas metodologías que mejoren los resultados académicos',
             'id_profesores'=>'1',
-            'Imagen'=>'17.png'
+            'Imagen'=>'17.png',
+            'precio'=>2.5
         ]);
         DB::table("cursos")
         ->insert([
@@ -40,7 +42,8 @@ class Cursos extends Migration
             'categoria' =>'Taller',
             'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
             'id_profesores'=>'2',
-            'Imagen'=>'20.png'
+            'Imagen'=>'20.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -48,15 +51,17 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'En este curso podrás adquirir una visión global de lo que es Montessori, conociendo los principios básicos de la filosofía Montessori, aprenderás a indentificar los obstáculos que entorpecen el desarrollo y el aprendizaje de tus hijos',
             'id_profesores'=>'1',
-            'Imagen'=>'21.png'
+            'Imagen'=>'21.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
             'nombre'=> 'EL JUEGO CON MINIMUNDOS',
             'categoria' =>'Curso',
-            'descripcion'=>'En este curso ',
+            'descripcion'=>'El juego de los Mini Mundos es un tipo de juego imaginativo y de roles que invita y provoca a los niños a ser creativos y espontáneos en un contexto de juego dramático-representativo, de la misma manera que lo hacen muchas otras actividades de la vida cotidiana.',
             'id_profesores'=>'2',
-            'Imagen'=>'22.png'
+            'Imagen'=>'22.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -64,7 +69,8 @@ class Cursos extends Migration
             'categoria' =>'Masterclass',
             'descripcion'=>'En esta masterclass te ayudaremos a mejorar la relación con tus hijos, alumnos a través de los juegos.',
             'id_profesores'=>'1',
-            'Imagen'=>'23.png'
+            'Imagen'=>'23.png',
+            'precio'=>2
         ]);
      
         DB::table("cursos")
@@ -73,7 +79,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'Aprende a saber lo que le pasa por la cabeza a los más pequeños',
             'id_profesores'=>'2',
-            'Imagen'=>'24.png'
+            'Imagen'=>'24.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -81,7 +88,8 @@ class Cursos extends Migration
             'categoria' =>'Taller',
             'descripcion'=>'En este taller enseñaremos a organizar los espacios infantiles, de manera que se conviera en algo sencillo y divertido.',
             'id_profesores'=>'2',
-            'Imagen'=>'25.png'
+            'Imagen'=>'25.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -89,7 +97,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'Entenderás qué es la autoestima y como se construye, aprenderás a ayudar a desarrolar al alumnado todas las habilidades de las personas con buena autoestima.',
             'id_profesores'=>'2',
-            'Imagen'=>'26.png'
+            'Imagen'=>'26.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -97,7 +106,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'¿Qué son las emociones? ¿Y los sentimientos? ¿Qué pasa en nuestro cerebro cuando una emoción se activa? ¿Qué tienen que ver con el aprendizaje? ¿Podemos controlar nuestras emociones? ¿Qué pasa cuando una emoción nos invade? En este curso abordaremos estas y otras muchas cuestiones que tienen que ver con las emociones y cómo acompañar a nuestras niñas y niños en el conocimiento y regulación de las mismas.',
             'id_profesores'=>'2',
-            'Imagen'=>'27.png'
+            'Imagen'=>'27.png',
+            'precio'=>2
         ]);
         DB::table("cursos")
         ->insert([
@@ -105,7 +115,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'En este curso conoceremos los aspectos más relevantes del acompañamiento al control de esfínteres desde el respeto a los ritmos particulares y las herramientas prácticas que nos faciliten apoyar tan importante proceso de niños y niñas.',
             'id_profesores'=>'3',
-            'Imagen'=>'28.png'
+            'Imagen'=>'28.png',
+            'precio'=>2
         ]);
        
         DB::table("cursos")
@@ -114,7 +125,8 @@ class Cursos extends Migration
             'categoria' =>'Curso',
             'descripcion'=>'Conoceremos los principios de la disciplina positiva, veremos las bases para entender el comportamiento de los niños y niñas.',
             'id_profesores'=>'4',
-            'Imagen'=>'29.png'
+            'Imagen'=>'29.png',
+            'precio'=>2
         ]);
     }
 

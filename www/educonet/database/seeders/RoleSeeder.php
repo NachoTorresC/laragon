@@ -21,6 +21,7 @@ class RoleSeeder extends Seeder
 
         Permission::create(['name'=>'adminPermission'])->syncRoles($role1);
         Permission::create(['name'=>'userPermission'])->syncRoles($role2,$role3);
+        Permission::create(['name'=>'userPremium'])->syncRoles($role2);
 
 
     }

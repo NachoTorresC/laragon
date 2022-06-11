@@ -52,14 +52,26 @@
 							
 						@enderror
 					</div>
-                    <div class="mb-3">
-						<label for="curso" class="form-label">id del profesor</label>
-						<input name="id_profesores" value="{{ $cursos->id_profesores}} " type="number" min=1 max=10 class="form-control" id="id_profesores" > <!-- min y max restringen los valores que puede tomar el campo id profesor-->
+					<div class="mb-3">
+						<label for="recurso" class="form-label">Id del profesor</label>
+						<input name="id_profesores" value="{{ $cursos->id_profesores}}" type="number" min="1" max="10"  class="form-control" id="id_profesores" > 
 
 							<!-- Verificación-->
 						@error('id_profesores')
 						<br>
-						<small class="text-danger" >* Tiene que registrar id_profesores</small>
+						<small class="text-danger" >* Tiene que registrar un id_profesores</small>
+						<br>
+							
+						@enderror
+					</div>
+					<div class="mb-3">
+						<label for="recurso" class="form-label">Precio</label>
+						<input name="precio" value="{{ $cursos->precio}}" type="number" min="1" max="200"  class="form-control" id="precio" > 
+
+							<!-- Verificación-->
+						@error('precio')
+						<br>
+						<small class="text-danger" >* Tiene que registrar un precio</small>
 						<br>
 							
 						@enderror

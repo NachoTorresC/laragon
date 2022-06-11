@@ -34,8 +34,14 @@
                     <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
                         {{ ('Hazte Premium') }}
                     </a>
-
+                    
                     @endauth
+                    <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                        {{ ('Cursos') }}
+                    </a>
+                    <a href="{{ url('shop/products') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                        {{ ('Tienda') }}
+                    </a>
                 </div>
 
                 <nav class="space-x-4 text-yellow-700 text-sm sm:text-base">
