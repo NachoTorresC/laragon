@@ -418,3 +418,16 @@ php artisan migrate:fresh --seed
 php artisan make:controller DownloadFileController
 php artisan migrate:fresh --seed
 php artisan make:controller UserCursoController --resource
+php artisan make:controller DownloadFileController
+php artisan make:controller UserCursoController --resource
+composer require "darryldecode/cart"
+php artisan make:controller CartController
+php artisan make:controller CursoCarritoController
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed

@@ -14,7 +14,7 @@
 
 <div class="d-flex justify-content-center mt-5 ">
     
-    <img class="text-center" src="{{ asset('error403.jpg') }}" alt="" >
+    <img class="text-center" src="{{ asset('error.png') }}" alt="" >
 
     
 </div>

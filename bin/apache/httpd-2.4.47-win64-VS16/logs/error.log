@@ -1450,4 +1450,73 @@ Apache server interrupted...
 [Sat Jun 11 17:20:19.379352 2022] [mpm_winnt:notice] [pid 8968:tid 488] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
 [Sat Jun 11 17:20:19.379352 2022] [core:notice] [pid 8968:tid 488] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
 [Sat Jun 11 17:20:19.383350 2022] [mpm_winnt:notice] [pid 8968:tid 488] AH00418: Parent: Created child process 11628
-[Sat Jun 11 17:20:19.910025 2022] [mpm_winnt:notice] [pid 11628:tid 624] AH00354: Child: Starting 64 worker threads.
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 11628:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 11 18:51:02.252101 2022] [core:error] [pid 11628:tid 1152] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58731] AH00127: Cannot map GET /images/http://educonet.test/17.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.263095 2022] [core:error] [pid 11628:tid 1148] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58732] AH00127: Cannot map GET /images/http://educonet.test/21.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.263095 2022] [core:error] [pid 11628:tid 1152] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58731] AH00127: Cannot map GET /images/http://educonet.test/20.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.266097 2022] [core:error] [pid 11628:tid 1160] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58734] AH00127: Cannot map GET /images/http://educonet.test/22.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.268094 2022] [core:error] [pid 11628:tid 1156] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58735] AH00127: Cannot map GET /images/http://educonet.test/23.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.269092 2022] [core:error] [pid 11628:tid 1164] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58736] AH00127: Cannot map GET /images/http://educonet.test/24.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.269092 2022] [core:error] [pid 11628:tid 1144] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58737] AH00127: Cannot map GET /images/http://educonet.test/25.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.276087 2022] [core:error] [pid 11628:tid 1144] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58737] AH00127: Cannot map GET /images/http://educonet.test/26.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.277088 2022] [core:error] [pid 11628:tid 1164] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58736] AH00127: Cannot map GET /images/http://educonet.test/27.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.278088 2022] [core:error] [pid 11628:tid 1156] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58735] AH00127: Cannot map GET /images/http://educonet.test/28.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 18:51:02.279086 2022] [core:error] [pid 11628:tid 1160] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58734] AH00127: Cannot map GET /images/http://educonet.test/29.png HTTP/1.1 to file, referer: http://educonet.test/shop
+[Sat Jun 11 19:39:31.380762 2022] [mpm_winnt:notice] [pid 8968:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 11 19:39:33.391353 2022] [mpm_winnt:notice] [pid 11628:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 10:15:39.404972 2022] [core:warn] [pid 11532:tid 648] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 10:15:42.355095 2022] [mpm_winnt:notice] [pid 11532:tid 648] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Sun Jun 12 10:15:42.355095 2022] [mpm_winnt:notice] [pid 11532:tid 648] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Sun Jun 12 10:15:42.355095 2022] [core:notice] [pid 11532:tid 648] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Sun Jun 12 10:15:42.362091 2022] [mpm_winnt:notice] [pid 11532:tid 648] AH00418: Parent: Created child process 2732
+[Sun Jun 12 10:15:42.896761 2022] [mpm_winnt:notice] [pid 2732:tid 632] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 10:49:51.071443 2022] [mpm_winnt:crit] [pid 2732:tid 632] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jun 12 10:49:53.083486 2022] [mpm_winnt:notice] [pid 2732:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 08:21:36.474472 2022] [core:warn] [pid 3420:tid 480] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 08:21:39.549236 2022] [mpm_winnt:notice] [pid 3420:tid 480] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Mon Jun 13 08:21:39.549236 2022] [mpm_winnt:notice] [pid 3420:tid 480] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Mon Jun 13 08:21:39.549236 2022] [core:notice] [pid 3420:tid 480] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Mon Jun 13 08:21:39.552234 2022] [mpm_winnt:notice] [pid 3420:tid 480] AH00418: Parent: Created child process 15220
+[Mon Jun 13 08:21:41.108277 2022] [mpm_winnt:notice] [pid 15220:tid 624] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 14 11:13:27.250977 2022] [core:warn] [pid 16944:tid 568] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 14 11:13:29.893352 2022] [mpm_winnt:notice] [pid 16944:tid 568] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Tue Jun 14 11:13:29.893352 2022] [mpm_winnt:notice] [pid 16944:tid 568] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Tue Jun 14 11:13:29.893352 2022] [core:notice] [pid 16944:tid 568] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Tue Jun 14 11:13:29.926332 2022] [mpm_winnt:notice] [pid 16944:tid 568] AH00418: Parent: Created child process 10444
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 10444:tid 640] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 14 12:32:09.945051 2022] [mpm_winnt:notice] [pid 16944:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 14 12:32:11.964536 2022] [mpm_winnt:notice] [pid 10444:tid 640] AH00364: Child: All worker threads have exited.
+[Tue Jun 14 17:35:25.176093 2022] [core:warn] [pid 17552:tid 520] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 14 17:35:29.355852 2022] [mpm_winnt:notice] [pid 17552:tid 520] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Tue Jun 14 17:35:29.355852 2022] [mpm_winnt:notice] [pid 17552:tid 520] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Tue Jun 14 17:35:29.355852 2022] [core:notice] [pid 17552:tid 520] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Tue Jun 14 17:35:29.362845 2022] [mpm_winnt:notice] [pid 17552:tid 520] AH00418: Parent: Created child process 7728
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 7728:tid 624] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 14 17:39:55.995776 2022] [mpm_winnt:notice] [pid 17552:tid 520] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 14 17:39:58.008148 2022] [mpm_winnt:notice] [pid 7728:tid 624] AH00364: Child: All worker threads have exited.
+[Tue Jun 14 18:51:21.717083 2022] [core:warn] [pid 11776:tid 552] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 14 18:51:21.860993 2022] [mpm_winnt:notice] [pid 11776:tid 552] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Tue Jun 14 18:51:21.860993 2022] [mpm_winnt:notice] [pid 11776:tid 552] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Tue Jun 14 18:51:21.860993 2022] [core:notice] [pid 11776:tid 552] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Tue Jun 14 18:51:21.868988 2022] [mpm_winnt:notice] [pid 11776:tid 552] AH00418: Parent: Created child process 5172
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 5172:tid 548] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 14 20:06:55.354677 2022] [mpm_winnt:notice] [pid 11776:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 14 20:06:57.364710 2022] [mpm_winnt:notice] [pid 5172:tid 548] AH00364: Child: All worker threads have exited.
+[Wed Jun 15 06:01:38.367352 2022] [core:warn] [pid 7820:tid 576] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 15 06:01:41.641646 2022] [mpm_winnt:notice] [pid 7820:tid 576] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Wed Jun 15 06:01:41.642645 2022] [mpm_winnt:notice] [pid 7820:tid 576] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Wed Jun 15 06:01:41.642645 2022] [core:notice] [pid 7820:tid 576] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Wed Jun 15 06:01:41.676719 2022] [mpm_winnt:notice] [pid 7820:tid 576] AH00418: Parent: Created child process 18696
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 18696:tid 672] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 15 13:24:13.420172 2022] [mpm_winnt:notice] [pid 7820:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 15 17:53:39.311983 2022] [core:warn] [pid 19444:tid 472] AH00098: pid file L:/laragon/bin/apache/httpd-2.4.47-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 15 17:53:41.651878 2022] [mpm_winnt:notice] [pid 19444:tid 472] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19 configured -- resuming normal operations
+[Wed Jun 15 17:53:41.653877 2022] [mpm_winnt:notice] [pid 19444:tid 472] AH00456: Apache Lounge VS16 Server built: Apr 24 2021 11:08:47
+[Wed Jun 15 17:53:41.653877 2022] [core:notice] [pid 19444:tid 472] AH00094: Command line: 'L:\\laragon\\bin\\apache\\httpd-2.4.47-win64-VS16\\bin\\httpd -d L:/laragon/bin/apache/httpd-2.4.47-win64-VS16'
+[Wed Jun 15 17:53:41.677875 2022] [mpm_winnt:notice] [pid 19444:tid 472] AH00418: Parent: Created child process 14464
+[Wed Jun 15 17:53:42.210637 2022] [mpm_winnt:notice] [pid 14464:tid 624] AH00354: Child: Starting 64 worker threads.

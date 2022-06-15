@@ -17,7 +17,7 @@
     <img class="text center" src="{{ asset('error403.jpg') }}" alt="" >
 
     <a href="{{ url('/home') }}" class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Home') }}</a>
-    <p class="text-danger">no estas autorizado</p>
+    <p class="text-danger">No estas autorizado</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>

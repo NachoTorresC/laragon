@@ -253,11 +253,11 @@ return [
             'icon' => 'fas fa-fw fa-graduation-cap ',
         ],
 
-        [
+       /*  [
             'text' => 'Profesores',
             'url'  => 'admin/profesores',
             'icon' => 'fas fa-fw fa-graduation-cap ',
-        ],
+        ], */
       
     
     ],

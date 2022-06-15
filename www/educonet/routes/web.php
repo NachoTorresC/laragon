@@ -40,19 +40,15 @@ Route::get('admin',[AdminController::class,'index']);
 Route::resource('admin/users',UserController::class);
 Route::resource("admin/recursos",RecursoController::class); 
 Route::resource("admin/cursos",CursoController::class); 
-Route::resource("admin/profesores",ProfesorController::class); 
+//Route::resource("admin/profesores",ProfesorController::class); 
 
 });
 
-// ruta de la vista que ve el usuario  
-
+// rutas de la vista que ve el usuario invitado
 Route::group(['middleware'=>['can:userPermission']],function(){  
+    
 Route::get("recursos/index",[UserRecursoController::class, "mostrarRecursos"]); 
 Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]); 
-Route::get("shop/products",[ProductoController::class, "productList"]); 
-Route::get("cursos/index",[UserCursoController::class, "mostrarCursos"]); 
-Route::get("cursos/{id}",[UserCursoController::class, "mostrarCurso"]); 
-Route::get("miembroPremium/index",[PremiumController::class, "mostrarVistaPremium"])->name('miembroPremium/index'); 
 Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]); 
 
 
@@ -60,6 +56,23 @@ Route::get("recursos/{id}",[UserRecursoController::class, "mostrarRecurso"]);
 Route::get('processPaypal', [PaymentController::class, 'processPaypal'])->name('processPaypal');
 Route::get('processSuccess', [PaymentController::class, 'processSuccess'])->name('processSuccess');
 Route::get('processCancel', [PaymentController::class, 'processCancel'])->name('processCancel');
+
+Route::get("miembroPremium/index",[PremiumController::class, "mostrarVistaPremium"])->name('miembroPremium/index'); 
+
+});
+
+
+
+// ruta de la vista que ve el usuario premium
+
+Route::group(['middleware'=>['can:userPremium']],function(){  
+
+Route::get("shop/products",[ProductoController::class, "productList"]); 
+Route::get("cursos/index",[UserCursoController::class, "mostrarCursos"]); 
+Route::get("cursos/{id}",[UserCursoController::class, "mostrarCurso"]); 
+
+
+
 
 // carrito de compra 
 
