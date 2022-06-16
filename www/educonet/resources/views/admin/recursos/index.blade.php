@@ -21,7 +21,8 @@
         <th scope="col">{{ ("Categoria") }}</th>
         <th scope="col">{{ ("Descripcion") }}</th>
         <th scope="col">{{ ("Id_profesores") }}</th>
-        <th scope="col">{{ ("imagen") }}</th>
+        <th scope="col">{{ ("Descargable") }}</th>
+        <th scope="col">{{ ("Imagen") }}</th>
 
   
      
@@ -36,6 +37,7 @@
                 <td>{{ $recurso->categoria }}</td>
                 <td>{{ $recurso->descripcion }}</td>
                 <td>{{ $recurso->id_profesores }}</td>
+                <td>{{ $recurso->descargable }}</td>
                 <td><img src="/images/{{$recurso->Imagen}}" alt="" style="max-width: 109px"></td> 
 
               

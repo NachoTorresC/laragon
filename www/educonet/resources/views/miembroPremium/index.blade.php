@@ -6,7 +6,7 @@
 <tbody>
     @if(!Auth::user()->can('userPremium'))
         <div class="row d-flex justify-content-center">
-            <h1 class="text-center text-amber">Siendo usuario premium podrás acceder a la compra de cursos</h1>
+            <h1 class="text-center text-amber">¡Hazte premium y podrás acceder a la compra de cursos!</h1>
           <div class="text-center">
             <a href="{{url('processPaypal')}}"><button class=" btn btn-success justify-content-center">HAZTE PREMIUM</button></a>        
             </div>  

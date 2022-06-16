@@ -15,7 +15,10 @@
                
                     
                 </div>
-                <p class="text-danger "> boton de descargar</p>
+                <div>
+                    <a class="btn btn-success btn-m" href="#">Enlace para descargar</a>
+                </div>
+              
             </div>
         </div>
     </div>

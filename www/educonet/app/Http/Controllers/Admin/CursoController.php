@@ -52,7 +52,7 @@ class CursoController extends Controller
             "categoria"=>"required|max:20",
             "descripcion"=>"required|max:240",
             "id_profesores"=>"required|max:40",
-            "precio"=>"required",
+            "descargable"=>"required",
             "Imagen"=>"required" 
           
           
@@ -63,7 +63,7 @@ class CursoController extends Controller
                 'categoria'=>$request->input("categoria"),
                 'descripcion'=>$request->input("descripcion"),
                 'id_profesores'=>$request->input("id_profesores"), 
-                'precio'=>$request->input("precio"), 
+                'descargable'=>$request->file("descargable")->store('','images'), 
                 'Imagen'=>$request->file("Imagen")->store('', 'images'),
                 
                 
@@ -115,8 +115,8 @@ class CursoController extends Controller
             "categoria"=>"required|max:20",
             "descripcion"=>"required|max:240",
             "id_profesores"=>"required|max:40",
-            "precio"=>"required",
-            "Imagen"=>"required|image|mimes:png,jpg,jpeg"
+            "descargable"=>"mimes:pdf",
+            "Imagen"=>"image|mimes:png,jpg,jpeg"
           
           
         ]);   
@@ -126,8 +126,13 @@ class CursoController extends Controller
         $cursos-> nombre = $request->get('nombre');
         $cursos-> categoria = $request->get('categoria');
         $cursos-> descripcion = $request->get('descripcion');
-        $cursos-> precio = $request->get('precio');
-        $cursos-> id_profesores = $request->get('id_profesores'); 
+        $cursos-> id_   ofesores = $request->get('id_profesores'); 
+        if($request ->hasFile('descargable')){
+              
+            Storage::disk('images')->delete('images/'.$cursos->descargable);
+            $cursos->descargable = $request->file('descargable')->store('','images');
+        
+    }
         if($request ->hasFile('Imagen')){
               
             Storage::disk('images')->delete('images/'.$cursos->Imagen);

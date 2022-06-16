@@ -431,3 +431,7 @@ php artisan make:controller ProductoController
 php artisan migrate:fresh --seed
 php artisan make:controller ProductoController
 php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed

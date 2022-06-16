@@ -64,18 +64,7 @@
 							
 						@enderror
 					</div>
-					<div class="mb-3">
-						<label for="recurso" class="form-label">Precio</label>
-						<input name="precio" value="{{ $cursos->precio}}" type="number" min="1" max="200"  class="form-control" id="precio" > 
-
-							<!-- Verificación-->
-						@error('precio')
-						<br>
-						<small class="text-danger" >* Tiene que registrar un precio</small>
-						<br>
-							
-						@enderror
-					</div>
+			
 					<div class="mb-3">
 						<label for="Imagen" class="mr-3">Imagen</label> 
 						<input id="Imagen" type="file" name="Imagen" value="{{$cursos->imagen}}">
@@ -83,6 +72,18 @@
 						@error('Imagen')
 						<br>
 						<small class="text-danger" >* Tiene que registrar una imagen</small>
+							<br>
+						@enderror
+						
+						
+					</div>
+					<div class="mb-3">
+						<label for="descargable" class="mr-3">descargable</label> 
+						<input id="descargable" type="file" name="descargable" value="{{$cursos->descargable}}">
+						
+						@error('descargable')
+						<br>
+						<small class="text-danger" >* Tiene que registrar un descargable</small>
 							<br>
 						@enderror
 						

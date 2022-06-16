@@ -80,10 +80,24 @@
 					<div class="mb-3">
 						<label for="Imagen" class="mr-3">Imagen</label> 
 						<input id="Imagen" type="file" name="Imagen" value="{{$recursos->imagen}}">
+						<label >{{$recursos->Imagen}}</label>
 						
 						@error('Imagen')
 						<br>
 						<small class="text-danger" >* Tiene que registrar una imagen</small>
+							<br>
+						@enderror
+						
+						
+					</div>
+					<div class="mb-3">
+						<label for="descargable" class="mr-3">descargable</label> 
+						<input id="descargable" type="file" name="descargable" value="{{$recursos->descargable}}">
+						<label >{{$recursos->descargable}}</label>
+						
+						@error('descargable')
+						<br>
+						<small class="text-danger" >* Tiene que registrar un descargable</small>
 							<br>
 						@enderror
 						

@@ -10,7 +10,7 @@ class Recursos extends Model
     use HasFactory;
 
       protected $fillable = [
-        'nombre','autor','categoria','descripcion','id_profesores','Imagen'
+        'nombre','autor','categoria','descripcion','id_profesores','descargable','Imagen'
         ];
 
     public function profesores(){

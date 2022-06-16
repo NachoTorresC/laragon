@@ -20,7 +20,7 @@
         <th scope="col">{{ ("Categoria") }}</th>
         <th scope="col">{{ ("Descripcion") }}</th>
         <th scope="col">{{ ("Id_profesores") }}</th>
-        <th scope="col">{{"Precio"}}</th>
+        <th scope="col">{{"Descargable"}}</th>
         <th scope="col">{{"Imagen"}}</th>
   
      
@@ -34,7 +34,7 @@
                 <td>{{ $curso->categoria }}</td>
                 <td>{{ $curso->descripcion }}</td>
                 <td>{{ $curso->id_profesores }}</td>
-                <td>{{ $curso->precio }}</td>
+                <td>{{ $curso->descargable }}</td>
                 <td><img src="/images/{{$curso->Imagen}}" style="max-width: 109px" alt=""></td>
               
 
