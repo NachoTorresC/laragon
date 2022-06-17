@@ -20,5 +20,14 @@ class UserCursoController extends Controller
        return view("cursos.curso", compact("curso"));
    }
 
+   public function download($id)
+   {
+
+   
+    $curso=Cursos::where('id',$id)->firstOrFail();
+    $pathToFile=storage_path("app/public/pdf/" . $curso->descargable );
+    return response()->download($pathToFile);
+   }
+
 
 }

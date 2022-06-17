@@ -15,7 +15,10 @@
                
                     
                 </div>
-                <p class="btn btn-primary text-danger "> boton para pagar</p>
+                <div>
+                    <a class="btn btn-success btn-m" href="{{url('cursos/download', $curso->id)}}">{{$curso->descargable}}</a>
+                </div>
+              
             </div>
         </div>
     </div>

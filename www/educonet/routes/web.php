@@ -72,6 +72,7 @@ Route::group(['middleware'=>['can:userPremium']],function(){
 Route::get("shop/products",[ProductoController::class, "productList"]); 
 Route::get("cursos/index",[UserCursoController::class, "mostrarCursos"]); 
 Route::get("cursos/{id}",[UserCursoController::class, "mostrarCurso"]); 
+Route::get('cursos/download/{descargable}',[UserCursoController::class,'download'])->name('download');
 
 
 
