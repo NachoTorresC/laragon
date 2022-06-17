@@ -6,9 +6,9 @@
 <tbody>
     @if(!Auth::user()->can('userPremium'))
         <div class="row d-flex justify-content-center">
-            <h1 class="text-center text-amber">¡Hazte premium y podrás acceder a la compra de cursos!</h1>
+            <h1 class="text-center text-amber mt-5">¡Hazte premium y podrás acceder a la descarga de cursos!</h1>
           <div class="text-center">
-            <a href="{{url('processPaypal')}}"><button class=" btn btn-success justify-content-center">HAZTE PREMIUM</button></a>        
+            <a href="{{url('processPaypal')}}"><button class="mt-5 btn btn-success justify-content-center">HAZTE PREMIUM</button></a>        
             </div>  
         </div>
     @else
