@@ -59,6 +59,8 @@ Route::get('processCancel', [PaymentController::class, 'processCancel'])->name('
 
 Route::get("miembroPremium/index",[PremiumController::class, "mostrarVistaPremium"])->name('miembroPremium/index'); 
 
+//descargas
+Route::get('recursos/download/{descargable}',[UserRecursoController::class,'download'])->name('download');
 });
 
 

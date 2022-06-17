@@ -64,7 +64,7 @@ class RecursoController extends Controller
                 'categoria'=>$request->input("categoria"),
                 'descripcion'=>$request->input("descripcion"), 
                 'id_profesores'=>$request->input("id_profesores"), 
-                'descargable'=>$request->file("descargable")->store('','images'),
+                'descargable'=>$request->file("descargable")->store('','pdf'),
                 'Imagen'=>$request->file("Imagen")->store('', 'images'),
                 
                 
@@ -131,8 +131,8 @@ class RecursoController extends Controller
         $recursos-> id_profesores = $request->get('id_profesores'); 
         if($request ->hasFile('descargable')){
               
-            Storage::disk('images')->delete('images/'.$recursos->descargable);
-            $recursos->descargable = $request->file('descargable')->store('','images');
+            Storage::disk('pdf')->delete('pdf/'.$recursos->descargable);
+            $recursos->descargable = $request->file('descargable')->store('','pdf');
         
     }
         if($request ->hasFile('Imagen')){

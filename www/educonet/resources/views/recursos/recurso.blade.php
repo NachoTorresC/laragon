@@ -16,7 +16,7 @@
                     
                 </div>
                 <div>
-                    <a class="btn btn-success btn-m" href="#">Enlace para descargar</a>
+                    <a class="btn btn-success btn-m" href="{{url('recursos/download', $recurso->id)}}">{{$recurso->descargable}}</a>
                 </div>
               
             </div>

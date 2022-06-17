@@ -20,5 +20,14 @@ class UserRecursoController extends Controller
        return view("recursos.recurso", compact("recurso"));
    }
 
+   public function download($id)
+   {
+
+   
+    $recurso=Recursos::where('id',$id)->firstOrFail();
+    $pathToFile=storage_path("app/public/pdf/" . $recurso->descargable );
+    return response()->download($pathToFile);
+   }
+
 
 }

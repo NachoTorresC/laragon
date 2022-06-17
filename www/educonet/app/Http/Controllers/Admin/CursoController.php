@@ -63,7 +63,7 @@ class CursoController extends Controller
                 'categoria'=>$request->input("categoria"),
                 'descripcion'=>$request->input("descripcion"),
                 'id_profesores'=>$request->input("id_profesores"), 
-                'descargable'=>$request->file("descargable")->store('','images'), 
+                'descargable'=>$request->file("descargable")->store('','pdf'), 
                 'Imagen'=>$request->file("Imagen")->store('', 'images'),
                 
                 
@@ -126,11 +126,11 @@ class CursoController extends Controller
         $cursos-> nombre = $request->get('nombre');
         $cursos-> categoria = $request->get('categoria');
         $cursos-> descripcion = $request->get('descripcion');
-        $cursos-> id_   ofesores = $request->get('id_profesores'); 
+        $cursos-> id_profesores = $request->get('id_profesores'); 
         if($request ->hasFile('descargable')){
               
-            Storage::disk('images')->delete('images/'.$cursos->descargable);
-            $cursos->descargable = $request->file('descargable')->store('','images');
+            Storage::disk('pdf')->delete('pdf/'.$cursos->descargable);
+            $cursos->descargable = $request->file('descargable')->store('','pdf');
         
     }
         if($request ->hasFile('Imagen')){
