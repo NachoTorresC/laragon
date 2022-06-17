@@ -42,9 +42,13 @@
                     </a>
                     @endauth
                    
+
+                    <!--  -->
+                    @if(Auth::user()->can('userPremium'))
                     <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
                         {{ ('Cursos') }}
                     </a>
+                    @endauth
                {{--      <a href="{{ url('shop/products') }}" class="text-lg font-bold text-yellow-700 no-underline">
                         {{ ('Tienda') }}
                     </a> --}}

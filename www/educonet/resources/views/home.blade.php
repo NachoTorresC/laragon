@@ -12,18 +12,18 @@
 
        
 
-        <h1 class="font-bold text-red-700">Editar pagina home</h1>
         
-        <div class="col-12 d-flex justify-content-center" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="d-flex justify-content-center" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/111.png" class="d-block w-50" alt="100">
+                <img src="/images/111.png" class="d-block w-100" alt="100">
               </div>
               <div class="carousel-item">
-                <img src="/images/222.png" class="d-block w-50" alt="100">
+                <img src="/images/222.png" class="d-block w-100" alt="100">
               </div>
               <div class="carousel-item">
-                <img src="/images/333.png" class="d-block w-50" alt="100">
+                <img src="/images/333.png" class="d-block w-100" alt="100">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

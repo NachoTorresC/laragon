@@ -1,4 +1,5 @@
-
+@extends('layouts.app2')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +15,16 @@
 
 <div class="container bg-primary "></div>
     
-    <img class="text center" src="{{ asset('error403.jpg') }}" alt="" >
+<h3 class="mt-5 text-2xl text-danger text-center"> No tienes permiso</h3>
+<div class="d-flex justify-content-center">
+    <img class="mt-5" src="https://media.giphy.com/media/eKrgVyZ7zLvJrgZNZn/giphy.gif" alt="No GIF">
+</div>
 
-    <a href="{{ url('/home') }}" class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Home') }}</a>
-    <p class="text-danger">No estas autorizado</p>
+
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
+@endsection
