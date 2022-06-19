@@ -36,7 +36,7 @@
          @endforelse
  
      </div>
-     <div class="d-flex justify-content-space-beetween pb-5 pl-5 ml-5 ">
+     <div class=" d-flex justify-content-center pb-5 pl-5 ml-5 ">
         {{$recursos->links()}}
     </div>
  </div>

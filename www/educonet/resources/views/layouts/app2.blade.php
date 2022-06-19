@@ -26,24 +26,28 @@
 
         <header class="bg-amber py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
-                <div class="menu">
+                <div class="menu d-flex align-items-center gap-3">
                     <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
-                        {{ ('Educonet') }}
+                        <img  src="{{asset('/images/Logo.png')}}"> 
                     </a>
                     @auth                    
                     <a href="{{ url('recursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Recursos') }}
-                    </a>            
+                    </a>      
 
-                    <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
-                        {{ ('Hazte Premium') }}
-                    </a>
-           
                     @if(Auth::user()->can('userPremium'))
                     <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Cursos') }}
+                    </a>      
+                    @endif
+
+                    @if(!Auth::user()->can('userPremium'))
+                    <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
+                        {{ ('Hazte Premium') }}
                     </a>
                     @endif
+               
+                    
                     @endauth
              
                {{--      <a href="{{ url('shop/products') }}" class="text-lg font-bold text-yellow-700 no-underline">
@@ -62,9 +66,9 @@
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline "
+                           class="no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white"
                            onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
+                                document.getElementById('logout-form').submit();">{{ __('Cerrar sesión') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                             {{ csrf_field() }}
                         </form>

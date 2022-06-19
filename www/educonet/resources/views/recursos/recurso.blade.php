@@ -10,11 +10,11 @@
             </div>
             <div class="col-12 grid gap-y-9">
                 <div class="grid grid-col-12 mb-3">
-                    <h2 class="col-span-11 font-bold text-xl  no-underline ">{{$recurso->nombre}}</h2>
+                    <h2 class="col-span-11 font-bold text-xl text-center no-underline ">{{$recurso->nombre}}</h2>
                     <p class="col-span-11  text-xl text-center ">{{$recurso->descripcion}}</p>
                 </div>
                 <div class="enlaceDescarga text-center">
-                    <a class=" btn btn-success btn-m " href="{{url('recursos/download', $recurso->id)}}">Descargar</a>
+                    <a class=" btn bg-btn btn-m text-white " href="{{url('recursos/download', $recurso->id)}}">Descargar</a>
                 </div>
               
             </div>

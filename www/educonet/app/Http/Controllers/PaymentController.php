@@ -33,7 +33,7 @@ class PaymentController extends Controller
                 0 => [
                     "amount" => [
                         "currency_code" => "EUR",
-                        "value" => "0.99"
+                        "value" => "1.99"
                     ]
                 ]
             ]
