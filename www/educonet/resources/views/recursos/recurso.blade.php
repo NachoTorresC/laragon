@@ -12,8 +12,6 @@
                 <div class="grid grid-cols-12 mb-3">
                     <h2 class="col-span-11 fond-bold text-xl nl-4">{{$recurso->nombre}}</h2>
                     <p class="col-span-11 fond-bold text-xl nl-4">{{$recurso->descripcion}}</p>
-               
-                    
                 </div>
                 <div>
                     <a class="btn btn-success btn-m" href="{{url('recursos/download', $recurso->id)}}">{{$recurso->descargable}}</a>

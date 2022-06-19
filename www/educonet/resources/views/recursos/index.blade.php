@@ -3,7 +3,7 @@
 @section("content")
 <div class="flex justify-center flex-wrap p-4 mt-5">
     <div class="text-center">
-        <h1 class="mb-5">{{"Recursos"}}</h1>
+        <h1 class="mb-5 text-amber">{{"Recursos"}}</h1>
     </div>
 </div>
 
@@ -11,13 +11,13 @@
  <div class="">
      <div class="row d-flex justify-content-center">
          @forelse ( $recursos as $recurso )
-         <a href="{{url('recursos', $recurso->id) }}"class="card col-2 mx-3 mb-4 row p-0 text-center bg-light text-black">
+         <a href="{{url('recursos', $recurso->id) }}"class="card col-3 mx-3 mb-4 row p-0 text-center bg-light text-amber hover:shadow">
          
           
 
-            <div class="card-header class col-12 d-flex justify-content-center "><img style="max-width:109px" class="img-fluid boder p-0" src="/images/{{$recurso->Imagen}}" >
+            <div class="card-header class col-12 d-flex justify-content-center "><img style="max-width:140px" class="img-fluid boder p-0" src="/images/{{$recurso->Imagen}}" >
             </div>
-            <h5 class="text-center col-12">{{$recurso->nombre}}</h5>
+            <h5 class="text-center col-12 mt-2">{{$recurso->nombre}}</h5>
          
         </a>
              
@@ -34,13 +34,15 @@
          </tr>
              
          @endforelse
+ 
      </div>
+     <div class="d-flex justify-content-space-beetween pb-5 pl-5 ml-5 ">
+        {{$recursos->links()}}
+    </div>
  </div>
 
 </tbody>
 
-<div class="mt-3">
-    {{$recursos->links()}}
-</div>
+
 
 @endsection

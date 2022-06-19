@@ -3,7 +3,7 @@
 @section("content")
 <div class="flex justify-center flex-wrap p-4 mt-5">
     <div class="text-center">
-        <h1 class="mb-5">{{"Cursos"}}</h1>
+        <h1 class="mb-5 text-amber">{{"Cursos"}}</h1>
     </div>
 </div>
 
@@ -11,7 +11,7 @@
  <div class="">
      <div class="row d-flex justify-content-center">
          @forelse ( $cursos as $curso )
-         <a href="{{url('cursos', $curso->id) }}"class="card col-2 mx-3 mb-4 row p-0 text-center bg-light text-black">
+         <a href="{{url('cursos', $curso->id) }}"class="card col-2 mx-3 mb-4 row p-0 text-center bg-light text-amber">
          
           
 
@@ -35,12 +35,13 @@
              
          @endforelse
      </div>
+     
+<div class="d-flex justify-content-space-beetween pb-5 pl-5 ml-5 ">
+    {{ $cursos->links()}}
+     </div>
  </div>
 
 </tbody>
 
-<div class="mt-3">
-    {{ $cursos->links()}}
-     </div>
 
 @endsection
