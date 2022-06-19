@@ -11,11 +11,11 @@
  <div class="">
      <div class="row d-flex justify-content-center">
          @forelse ( $recursos as $recurso )
-         <a href="{{url('recursos', $recurso->id) }}"class="card col-3 mx-3 mb-4 row p-0 text-center bg-light text-amber hover:shadow">
+         <a href="{{url('recursos', $recurso->id) }}"class="card recursos no-underline hover:zoom col-lg-3 col-md-4 col-sm-12 mx-3 mb-4 row p-0 text-center bg-light text-amber text-decoration:none">
          
           
 
-            <div class="card-header class col-12 d-flex justify-content-center "><img style="max-width:140px" class="img-fluid boder p-0" src="/images/{{$recurso->Imagen}}" >
+            <div class="card-header class col-12 d-flex justify-content-center bg-image hover-zoom "><img style="max-width:200px" class="img-fluid boder p-0" src="/images/{{$recurso->Imagen}}" >
             </div>
             <h5 class="text-center col-12 mt-2">{{$recurso->nombre}}</h5>
          

@@ -20,27 +20,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
-    <div id="app">
+    <div id="app container">
 
         <!--header-->
 
         <header class="bg-amber py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
-                <div>
-                    <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                <div class="menu">
+                    <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Educonet') }}
                     </a>
                     @auth                    
-                    <a href="{{ url('recursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                    <a href="{{ url('recursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Recursos') }}
                     </a>            
 
-                    <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                    <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Hazte Premium') }}
                     </a>
            
                     @if(Auth::user()->can('userPremium'))
-                    <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline">
+                    <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Cursos') }}
                     </a>
                     @endif
@@ -54,15 +54,15 @@
 
                 <nav class="space-x-4 text-yellow-700 text-sm sm:text-base">
                     @guest
-                        <a class=" font-bold hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class=" font-bold no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="font-bold hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="font-bold no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
+                           class="no-underline "
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">

@@ -1,6 +1,9 @@
 .bg-amber{
     background-color: #E4D2AE;
 }
+.bg-amber-400{
+    background-color: #8e4b10;
+}
 
 .text-amber{
     color: #8e4b10;
@@ -12,107 +15,17 @@ footer{
     width: 100%;
 }
 
+.recursos:hover{
+    text-decoration: none;
+}
 
-.mt-3 nav .pagination{
-    margin-bottom: 10px;;
+.enlaceDescarga a:hover{
+   background-color: #b07848;
 }
 
 
-/* Media queries para crear mi rejilla de 12 columnas*/
-
-.fila{
-    display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap:1em;
-    
-}
 
 
-    
-    
-    /* Media query para resoluciones menores a 768 */
-    @media screen and (max-width:768px) {
-        .col-sm-12{ grid-column-end:span 12; }
-        .col-sm-11{ grid-column-end:span 11; }
-        .col-sm-10{ grid-column-end:span 10; }
-        .col-sm-9 { grid-column-end:span 9; }
-        .col-sm-8 { grid-column-end:span 8; }
-        .col-sm-7 { grid-column-end:span 7; }
-        .col-sm-6 { grid-column-end:span 6; }
-        .col-sm-5 { grid-column-end:span 5; }
-        .col-sm-4 { grid-column-end:span 4; }
-        .col-sm-3 { grid-column-end:span 3; }
-        .col-sm-2 { grid-column-end:span 2; }
-        .col-sm-1 { grid-column-end:span 1; }
 
-        .hidden-sm{display: none;}
 
-      
 
-        #hamburguesa{
-            background-color: #6d808d;
-        }
-
-        header nav ul li a{
-            width: 100% !important;
-            background-image: none !important;
-            padding-top: 25px;
-        }
-
-        .menu-responsive li:not(:first-child){ /* con esta regla hacemos que las etiquetas del menú desaparezcan*/
-            display: none;
-        }
-
-        .responsive li {
-            display: block !important;
-        }
-    }
-    
-    
-    /* Media query para resoluciones entre 769 y 1200 */
-    @media screen and (min-width:769px) and (max-width:1023px) {
-    
-        .col-md-12{ grid-column-end:span 12; }
-        .col-md-11{ grid-column-end:span 11; }
-        .col-md-10{ grid-column-end:span 10; }
-        .col-md-9 { grid-column-end:span 9; }
-        .col-md-8 { grid-column-end:span 8; }
-        .col-md-7 { grid-column-end:span 7; }
-        .col-md-6 { grid-column-end:span 6; }
-        .col-md-5 { grid-column-end:span 5; }
-        .col-md-4 { grid-column-end:span 4; }
-        .col-md-3 { grid-column-end:span 3; }
-        .col-md-2 { grid-column-end:span 2; }
-        .col-md-1 { grid-column-end:span 1; }
-
-        /* propiedad para ocultar lo que nos interesa */
-        .hidden-md{display: none;}
-
-        /* tenemos que definir propiedades al logo
-        ya que no aparece si no se le dan*/
-
-  
-
-    }
-    
-    
-    /* Media query para resoluciones mayores que 1024 */
-    @media screen and (min-width:1024px) {
-        .col-lg-12{ grid-column-end:span 12; }
-        .col-lg-11{ grid-column-end:span 11; }
-        .col-lg-10{ grid-column-end:span 10; }
-        .col-lg-9 { grid-column-end:span 9; }
-        .col-lg-8 { grid-column-end:span 8; }
-        .col-lg-7 { grid-column-end:span 7; }
-        .col-lg-6 { grid-column-end:span 6; }
-        .col-lg-5 { grid-column-end:span 5; }
-        .col-lg-4 { grid-column-end:span 4; }
-        .col-lg-3 { grid-column-end:span 3; }
-        .col-lg-2 { grid-column-end:span 2; }
-        .col-lg-1 { grid-column-end:span 1; }
-
-        .margin-lg-1{grid-column-start: 2;}
-        .margin-lg-4{grid-column-start: 5;}
-
-        .hidden-lg{display: none;}
-    }
