@@ -39,7 +39,7 @@ class Recursos extends Migration
             'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
             'id_profesores'=>'1',
             'descargable'=>'Marcasitiosmodeloarcoiris.pdf',
-            'Imagen'=>'1.png'
+            'Imagen'=>'Marcasitios.png'
         ]);
 
         DB::table("recursos")
@@ -50,7 +50,7 @@ class Recursos extends Migration
             'descripcion'=>'Plantilla de horario semanal (de lunes a viernes) distribuida en 5 sesiones diarias y descanso intermedio. Incluye columna para las horas.',
             'id_profesores'=>'3',
             'descargable'=>'Horario.pdf',
-            'Imagen'=>'1.png'
+            'Imagen'=>'Horario.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -59,8 +59,8 @@ class Recursos extends Migration
             'categoria'=>'Asamblea',
             'descripcion'=>'Tarjetas de los meses del año en las que añadir las fotos del alumnado según su mes de nacimiento.',
             'id_profesores'=>'2',
-            'descargable'=>'Tarjetadecumpleaños.pdf',
-            'Imagen'=>'2.png'
+            'descargable'=>'Tarjetasdecumpleaños.pdf',
+            'Imagen'=>'TarjetasCumpleaños.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -70,7 +70,7 @@ class Recursos extends Migration
             'descripcion'=>'18 carteles con distintas rutinas y momentos habituales del aula para estructurar la jornada. En letra mayúscula y con imagen asociada.',
             'id_profesores'=>'4',
             'descargable'=>'Rutinas.pdf',
-            'Imagen'=>'3.png'
+            'Imagen'=>'Rutinas.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -80,7 +80,7 @@ class Recursos extends Migration
             'descripcion'=>'Etiquetas en mayúscula, minúscula e imagen real de materiales y juguetes habituales.',
             'id_profesores'=>'1',
             'descargable'=>'Etiquetasdecajoneras.pdf',
-            'Imagen'=>'4.png'
+            'Imagen'=>'EtiquetasCajoneras.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -90,7 +90,7 @@ class Recursos extends Migration
             'descripcion'=>'Imprimible para trabajar la asociación por colores y grafía-cantidad desde el 1 hasta el 10, añadiendo tantos botones como nos indique su sombrero.',
             'id_profesores'=>'1',
             'descargable'=>'Muñecosdenieve.pdf',
-            'Imagen'=>'5.png'
+            'Imagen'=>'MuñecoNieve.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -100,7 +100,7 @@ class Recursos extends Migration
             'descripcion'=>'Imprimible con temática de dinosaurios para trabajar vocabulario y nociones de seriación. Incluye series de dos y tres elementos simples, y patrones combinados.',
             'id_profesores'=>'1',
             'descargable'=>'Seriesdinosaurios.pdf',
-            'Imagen'=>'6.png'
+            'Imagen'=>'DINO-SERIES.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -110,7 +110,7 @@ class Recursos extends Migration
             'descripcion'=>'Conjunto de 50 imágenes para trabajar vocabulario relativo al cuerpo humano (partes externas, articulaciones, huesos, músculos, órganos, material médico…). .',
             'id_profesores'=>'1',
             'descargable'=>'Partesdelcuerpo.pdf',
-            'Imagen'=>'7.png'
+            'Imagen'=>'Ruleta.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -120,7 +120,7 @@ class Recursos extends Migration
             'descripcion'=>'25 cartones de bingo y sus correspondientes imágenes a modo de bolas con vocabulario relativo al cuerpo humano (partes externas, articulaciones, huesos, músculos, órganos, material médico…).',
             'id_profesores'=>'1',
             'descargable'=>'Bingo.pdf',
-            'Imagen'=>'8.png'
+            'Imagen'=>'Bingo.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -130,7 +130,7 @@ class Recursos extends Migration
             'descripcion'=>'Cartel con los ingredientes necesarios y pasos a seguir para construir tu propio diplodocus saludable. ¡Para comérselo!',
             'id_profesores'=>'1',
             'descargable'=>'Dinoreceta.pdf',
-            'Imagen'=>'9.png'
+            'Imagen'=>'Dinoreceta.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -140,7 +140,7 @@ class Recursos extends Migration
             'descripcion'=>'Un recurso para iniciarse en la conciencia fonológica con los sonidos de las vocales a través de la clasificación de las imágenes presentes en los huevos en su correspondiente huevera.',
             'id_profesores'=>'1',
             'descargable'=>'HUEVERADEVOCALES.pdf',
-            'Imagen'=>'10.png'
+            'Imagen'=>'HueveraVocales.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -150,7 +150,7 @@ class Recursos extends Migration
             'descripcion'=>'Conjunto de 12 tarjetas con letras desordenadas para formar las palabras. Diferentes niveles de dificultad (directas, inversas y trabadas).',
             'id_profesores'=>'1',
             'descargable'=>'Ordenapalabras.pdf',
-            'Imagen'=>'11.png'
+            'Imagen'=>'Ordenapalabras.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -160,7 +160,7 @@ class Recursos extends Migration
             'descripcion'=>'Distintos patrones grafomotores bajo la temática del otoño que pueden imprimirse en distintos tamaños o proyectarse a gran escala en PDI.',
             'id_profesores'=>'1',
             'descargable'=>'Laberinto.pdf',
-            'Imagen'=>'12.png'
+            'Imagen'=>'Laberinto.png'
         ]);
         DB::table("recursos")
         ->insert([
@@ -173,16 +173,7 @@ class Recursos extends Migration
             'Imagen'=>'13.png'
 
         ]);
-        DB::table("recursos")
-        ->insert([
-            'nombre'=> 'Marcasitios modelo arcoíris.',
-            'autor' =>'Cristina ',
-            'categoria'=>'Lógico-matemática',
-            'descripcion'=>'Conjunto de 12 modelos diferentes de arcoíris para marcar los lugares en los que sentarse en la zona de asamblea.',
-            'id_profesores'=>'1',
-            'descargable'=>'descargable1.pdf',
-            'Imagen'=>'14.png'
-        ]);
+      
         DB::table("recursos")
         ->insert([
             'nombre'=> 'Mi casa.',
@@ -191,7 +182,7 @@ class Recursos extends Migration
             'descripcion'=>'Libro imprimible con una habitación diferente en cada página, e imágenes de objetos cotidianos para clasificar según la estancia en la que estén.',
             'id_profesores'=>'1',
             'descargable'=>'Lacasa.pdf',
-            'Imagen'=>'15.png'
+            'Imagen'=>'Lacasa.png'
         ]);
       
     

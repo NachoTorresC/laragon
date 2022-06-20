@@ -19671,3 +19671,25 @@
 127.0.0.1 - - [20/Jun/2022:19:30:52 +0200] "GET /favicons/android-icon-192x192.png HTTP/1.1" 404 3043
 127.0.0.1 - - [20/Jun/2022:19:31:47 +0200] "GET / HTTP/1.1" 200 4649
 127.0.0.1 - - [20/Jun/2022:19:32:47 +0200] "-" 408 -
+::1 - - [20/Jun/2022:19:38:36 +0200] "GET /phpmyadmin/index.php?route=/sql&server=1&db=educonet&table=recursos&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1655746716319657839&token=4369496534434d28466f644032733353 HTTP/1.1" 200 11771
+::1 - - [20/Jun/2022:19:38:37 +0200] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1655746717040392126&token=4369496534434d28466f644032733353 HTTP/1.1" 200 1671
+127.0.0.1 - - [20/Jun/2022:19:46:02 +0200] "GET /recursos/index HTTP/1.1" 403 4078
+127.0.0.1 - - [20/Jun/2022:19:46:09 +0200] "GET /home HTTP/1.1" 200 7006
+127.0.0.1 - - [20/Jun/2022:19:46:09 +0200] "GET /css/admin_custom.css HTTP/1.1" 404 3043
+127.0.0.1 - - [20/Jun/2022:19:46:11 +0200] "GET /admin/recursos HTTP/1.1" 200 23298
+127.0.0.1 - - [20/Jun/2022:19:46:39 +0200] "GET /admin/recursos?page=2 HTTP/1.1" 200 17542
+127.0.0.1 - - [20/Jun/2022:19:46:43 +0200] "GET /admin/recursos?page=1 HTTP/1.1" 200 23298
+127.0.0.1 - - [20/Jun/2022:19:47:39 +0200] "-" 408 -
+127.0.0.1 - - [20/Jun/2022:20:06:19 +0200] "POST /logout HTTP/1.1" 302 326
+127.0.0.1 - - [20/Jun/2022:20:06:19 +0200] "GET / HTTP/1.1" 200 3800
+127.0.0.1 - - [20/Jun/2022:20:06:21 +0200] "GET /login HTTP/1.1" 200 5492
+127.0.0.1 - - [20/Jun/2022:20:06:28 +0200] "POST /login HTTP/1.1" 302 346
+127.0.0.1 - - [20/Jun/2022:20:06:28 +0200] "GET /home HTTP/1.1" 200 4643
+127.0.0.1 - - [20/Jun/2022:20:06:30 +0200] "GET /recursos/index HTTP/1.1" 200 10016
+127.0.0.1 - - [20/Jun/2022:20:06:33 +0200] "GET /recursos/index?page=2 HTTP/1.1" 200 7806
+127.0.0.1 - - [20/Jun/2022:20:07:28 +0200] "-" 408 -
+127.0.0.1 - - [20/Jun/2022:20:08:26 +0200] "GET /recursos/index?page=1 HTTP/1.1" 200 10016
+127.0.0.1 - - [20/Jun/2022:20:09:26 +0200] "-" 408 -
+127.0.0.1 - - [20/Jun/2022:20:09:43 +0200] "GET /recursos/index?page=1 HTTP/1.1" 200 10016
+127.0.0.1 - - [20/Jun/2022:20:09:49 +0200] "GET /recursos/10 HTTP/1.1" 200 4077
+127.0.0.1 - - [20/Jun/2022:20:09:51 +0200] "GET /recursos/download/10 HTTP/1.1" 200 619374

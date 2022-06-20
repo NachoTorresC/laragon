@@ -6,7 +6,7 @@
     <div class="container self-center flex flex-wrap mt-20 p-8 ">
         <div class="grid col-12  gap-4 w-full" >
             <div class="flex justify-center flex-col">
-                <img class="self-center border-solid border-4 border-black " src="/images/{{$recurso->Imagen}}" >
+                <img style="max-width:200px" class="self-center border-solid border-4 border-black " src="/images/{{$recurso->Imagen}}" >
             </div>
             <div class="col-12 grid gap-y-9">
                 <div class="grid grid-col-12 mb-3">
