@@ -40,6 +40,7 @@ Route::get('admin',[AdminController::class,'index']);
 Route::resource('admin/users',UserController::class);
 Route::resource("admin/recursos",RecursoController::class); 
 Route::resource("admin/cursos",CursoController::class); 
+
 //Route::resource("admin/profesores",ProfesorController::class); 
 
 });
