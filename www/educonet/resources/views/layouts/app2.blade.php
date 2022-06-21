@@ -31,7 +31,7 @@
               </button>
         
               <div class="collapse navbar-collapse " id="navbarsExample03">
-                <ul class="navbar-nav me-auto mb-2 mb-sm-0 d-flex align-items-center gap-2 px-5" >
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0 d-flex align-items-center gap-4 px-5" >
                   <li class="nav-item">
                     <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         <img  src="{{asset('/images/Logo.png')}}"> 

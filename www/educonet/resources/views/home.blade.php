@@ -14,12 +14,26 @@
 
         
         
-          <div class="d-flex justify-content-center" >
-             <img src="/images/Portada.png" class="d-block w-65 p-3" alt="50">
+          <div class="d-flex justify-content-center pb-2 " >
+             <img style="max-width:800px" src="/images/Portada.png" class="img-fluid " >
                    
        
           </div>
-    
+          <div>
+            <div class="text-center  pb-5">
+              <p class="text-amber font-semibold text-4xl">¿Por qué registrarte? </p>
+              
+              <p class="text-amber"> Tendrás acceso a infinidad de recursos que podrás descargar<span class="text-xl font-bold"> gratuitamente.</span></p>
+
+              <p class="text-amber">También tendrás la posibilidad de hacerte premium y poder acceder a la descarga de archivos en formato pdf para tu formación.</p>
+          
+            </div>
+      
+          </div>
+
+
+
+         
          
 
 

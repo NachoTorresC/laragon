@@ -1,3 +1,23 @@
 .cabecera{
   background-color:   #E4D2AE;
 }
+
+html {
+  min-height: 100%;
+  position: relative;
+
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  width: 101.5%;
+
+}
