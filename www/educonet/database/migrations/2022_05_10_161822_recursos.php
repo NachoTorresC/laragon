@@ -75,7 +75,7 @@ class Recursos extends Migration
         DB::table("recursos")
         ->insert([
             'nombre'=> ' Etiquetas para cajoneras.',
-            'autor' =>'Cristina Rionda ',
+            'autor' =>'Cristina  ',
             'categoria'=>'Asamblea',
             'descripcion'=>'Etiquetas en mayúscula, minúscula e imagen real de materiales y juguetes habituales.',
             'id_profesores'=>'1',
@@ -85,7 +85,7 @@ class Recursos extends Migration
         DB::table("recursos")
         ->insert([
             'nombre'=> 'Cada muñeco con su sombrero.',
-            'autor' =>'Cristina Rionda ',
+            'autor' =>'Cristina  ',
             'categoria'=>'Lógico-matemática',
             'descripcion'=>'Imprimible para trabajar la asociación por colores y grafía-cantidad desde el 1 hasta el 10, añadiendo tantos botones como nos indique su sombrero.',
             'id_profesores'=>'1',
@@ -170,7 +170,7 @@ class Recursos extends Migration
             'descripcion'=>'Con esta lista de la compra podrás trabajar la atención y el conteo de frutas y verduras (hasta el 10). Incluye dos niveles de dificultad: acompañamiento de imágenes para prelectores y palabra escrita.',
             'id_profesores'=>'1',
             'descargable'=>'Alacompra.pdf',
-            'Imagen'=>'13.png'
+            'Imagen'=>'Alacompra.png'
 
         ]);
       

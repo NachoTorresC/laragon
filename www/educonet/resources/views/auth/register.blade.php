@@ -78,7 +78,7 @@
 
                         <p class="w-full text-xs text-center text-gray-700 my-6 sm:text-sm sm:my-8">
                             {{ __('¿Tienes una cuenta ?') }}
-                            <a class="text-blue-500 hover:text-blue-700 no-underline hover:underline" href="{{ route('login') }}">
+                            <a class="text-yellow-700 hover:text-yellow-500 font-semibold no-underline hover:underline" href="{{ route('login') }}">
                                 {{ __('Login') }}
                             </a>
                         </p>

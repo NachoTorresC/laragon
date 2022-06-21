@@ -11,7 +11,7 @@
  <div class="">
      <div class="row d-flex justify-content-center">
          @forelse ( $recursos as $recurso )
-         <a href="{{url('recursos', $recurso->id) }}"class="card recursos no-underline hover:zoom col-lg-3 col-md-4 col-sm-12 mx-3 mb-4 row p-0 text-center bg-light text-amber text-decoration:none">
+         <a href="{{url('recursos', $recurso->id) }}"class="card recursos no-underline hover:text-yellow-500 col-lg-3 col-md-4 col-sm-12 mx-3 mb-4 row p-0 text-center bg-light text-amber text-decoration:none">
          
           
 
