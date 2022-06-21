@@ -54,7 +54,8 @@ class RecursoController extends Controller
             "categoria"=>"required|max:140",
             "descripcion"=>"required|max:40",
             "id_profesores"=>"required",
-            "Imagen"=>"required" 
+            "descargable"=>"required|mimes:pdf",
+            "Imagen"=>"required|mimes:jpg,jpeg,png" 
           
         ]);   
 
@@ -117,8 +118,8 @@ class RecursoController extends Controller
             "categoria"=>"required|max:140",
             "descripcion"=>"required|max:340",
              "id_profesores"=>"required",
-             "descargable"=>"mimes:pdf",
-             "Imagen"=>"image|mimes:png,jpg,jpeg"
+             "descargable"=>"required|mimes:pdf",
+             "Imagen"=>"required|image|mimes:png,jpg,jpeg"
           
         ]);   
 

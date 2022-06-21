@@ -19,13 +19,13 @@
 						<label for="curso" class="form-label">Nombre del curso</label>
 						<input name="nombre" value="{{ $cursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="curso" >
 
-					{{-- 	<!-- Verificación-->
+					 	<!-- Verificación-->
 						@error('titulo')
 						<br>
 						<small class="text-danger">* Tiene que escribir un nombre</small>
 						<br>
 							
-						@enderror --}}
+						@enderror 
 					</div>
 				
                     <div class="mb-3">
@@ -68,6 +68,7 @@
 					<div class="mb-3">
 						<label for="Imagen" class="mr-3">Imagen</label> 
 						<input id="Imagen" type="file" name="Imagen" value="{{$cursos->imagen}}">
+						<label >{{$cursos->Imagen}}</label>
 						
 						@error('Imagen')
 						<br>
@@ -80,6 +81,7 @@
 					<div class="mb-3">
 						<label for="descargable" class="mr-3">descargable</label> 
 						<input id="descargable" type="file" name="descargable" value="{{$cursos->descargable}}">
+						<label >{{$cursos->descargable}}</label>
 						
 						@error('descargable')
 						<br>

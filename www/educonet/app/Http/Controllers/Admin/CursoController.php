@@ -52,8 +52,8 @@ class CursoController extends Controller
             "categoria"=>"required|max:20",
             "descripcion"=>"required|max:240",
             "id_profesores"=>"required|max:40",
-            "descargable"=>"required",
-            "Imagen"=>"required" 
+            "descargable"=>"required|mimes:pdf",
+            "Imagen"=>"required|mimes:jpg,jpeg,png" 
           
           
         ]);   
