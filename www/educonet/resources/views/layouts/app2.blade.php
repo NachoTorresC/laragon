@@ -24,58 +24,81 @@
 
         <!--header-->
 
-        <header class="bg-amber py-6">
-            <div class="container mx-auto flex justify-between items-center px-6">
-                <div class="menu d-flex align-items-center gap-3">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-amber" aria-label="Third navbar example">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse " id="navbarsExample03">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0 d-flex align-items-center gap-2 px-5" >
+                  <li class="nav-item">
                     <a href="{{ url('/home') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         <img  src="{{asset('/images/Logo.png')}}"> 
                     </a>
-                    @auth                    
+                  </li>
+
+                  @auth      
+                  <li class="nav-item">
+                               
                     <a href="{{ url('recursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Recursos') }}
-                    </a>      
-
-                    @if(Auth::user()->can('userPremium'))
+                    </a>    
+                  </li>
+                  @if(Auth::user()->can('userPremium'))
+                  <li class="nav-item">
+                   
                     <a href="{{ url('cursos/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Cursos') }}
-                    </a>      
-                    @endif
-
-                    @if(!Auth::user()->can('userPremium'))
+                    </a>     
+                  </li>
+                  @endif
+                  @if(!Auth::user()->can('userPremium'))
+                  <li class="nav-item">
                     <a href="{{ url('miembroPremium/index') }}" class="text-lg font-bold text-yellow-700 no-underline hover:bg-yellow-600  hover:text-white">
                         {{ ('Hazte Premium') }}
                     </a>
+                  </li>
+   
                     @endif
                
                     
                     @endauth
-             
-               {{--      <a href="{{ url('shop/products') }}" class="text-lg font-bold text-yellow-700 no-underline">
-                        {{ ('Tienda') }}
-                    </a> --}}
-                
-                </div>
-
-                <nav class="space-x-4 text-yellow-700 text-sm sm:text-base">
+                </ul>
+                <ul class="d-flex gap-2 p-3 align-items-center">
                     @guest
+                    <li class="nav-item">
                         <a class=" font-bold no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        @if (Route::has('register'))
-                            <a class="font-bold no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
-                        @endif
+                    </li>
+                    
+                    @if (Route::has('register'))
+                    <li class="nav-item">
+                        <a class="font-bold no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    </li>
+                        
+                    @endif
                     @else
-                        <span>{{ Auth::user()->name }}</span>
-
-                        <a href="{{ route('logout') }}"
-                           class="no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white"
-                           onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">{{ __('Cerrar sesión') }}</a>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
-                            {{ csrf_field() }}
-                        </form>
-                    @endguest
-                </nav>
+                    <li class="nav-item ">
+                           <span>{{ Auth::user()->name }}</span>
+                    </li>
+                 
+                    <li class="nav-item text-yellow-700 ">
+                                   <a href="{{ route('logout') }}"
+                       class="no-underline text-yellow-700  hover:bg-yellow-600  hover:text-white"
+                       onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">{{ __('Cerrar sesión') }}</a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
+                        {{ csrf_field() }}
+                    </form>
+                    </li>
+         
+                @endguest
+                </ul>
+           
+              </div>
             </div>
-        </header>
+          </nav>
+
 
         
 

@@ -14,36 +14,24 @@
 
         
         
-        <div class="d-flex justify-content-center" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/images/111.png" class="d-block w-100" alt="100">
-              </div>
-              <div class="carousel-item">
-                <img src="/images/222.png" class="d-block w-100" alt="100">
-              </div>
-              <div class="carousel-item">
-                <img src="/images/333.png" class="d-block w-100" alt="100">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="d-flex justify-content-center" >
+             <img src="/images/Portada.png" class="d-block w-65 p-3" alt="50">
+                   
+       
           </div>
+    
+         
+
+
     </div>
 
  
 </main>
 
    <!-- Footer -->
-   <footer class="  bg-dark text-center text-white">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright: Nacho Torres Claverie 
+   <footer class="  bg-amber text-center text-amber font-semibold">
+    <div class="text-center p-3" style="background-color: black);">
+      © 2022 Copyright: Nacho Torres Claverie <i class="bi bi-instagram"></i>
     </div>
   </footer>
 

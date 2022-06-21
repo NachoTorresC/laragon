@@ -447,3 +447,10 @@ php artisan migrate:fresh --seed
 php artisan migrate:fresh --seed
 php artisan storage:link
 php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan make:controller ProductoController
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed
+php artisan storage:link
+php artisan migrate:fresh --seed
