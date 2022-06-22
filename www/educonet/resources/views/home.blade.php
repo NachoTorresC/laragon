@@ -15,9 +15,7 @@
         
         
           <div class="d-flex justify-content-center pb-2 " >
-             <img style="max-width:800px" src="/images/Portada.png" class="img-fluid " >
-                   
-       
+             <img style="max-width:800px" src="/images/Portada.png" class="img-fluid " >  
           </div>
           <div>
             <div class="text-center  pb-5">

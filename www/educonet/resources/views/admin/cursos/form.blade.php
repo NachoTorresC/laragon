@@ -20,7 +20,7 @@
 						<input name="nombre" value="{{ $cursos->nombre}} {{old('nombre') }}" type="text" class="form-control" id="curso" >
 
 					 	<!-- Verificación-->
-						@error('titulo')
+						@error('nombre')
 						<br>
 						<small class="text-danger">* Tiene que escribir un nombre</small>
 						<br>
